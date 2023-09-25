@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/david/Desktop/code/Quartus_code/simulation/modelsim
+v_inv
+Z1 !s110 1694394098
+!i10b 1
+!s100 HEHOWNb0V@@Z<SW=I>o]G1
+I<DkG5_jhV7gZ;g[QLj]9E0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1694392589
+Z4 8C:/Users/david/Desktop/code/Quartus_code/gates.v
+Z5 FC:/Users/david/Desktop/code/Quartus_code/gates.v
+L0 11
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1694394098.000000
+Z8 !s107 C:/Users/david/Desktop/code/Quartus_code/gates.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/Quartus_code|C:/Users/david/Desktop/code/Quartus_code/gates.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/Quartus_code
+Z12 tCvgOpt 0
+n@_inv
+v_nand2
+R1
+!i10b 1
+!s100 ^zE91ZPT?>>2N@[E_iCU`0
+IzS@Gi>kog<JPj53kn;QTX2
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nand2
+vmx2
+R1
+!i10b 1
+!s100 ilX0h90N33RQNBFL]7kOI3
+IYXRf01:i6@D?bZ9gER5^52
+R2
+R0
+w1694392496
+8C:/Users/david/Desktop/code/Quartus_code/mx2.v
+FC:/Users/david/Desktop/code/Quartus_code/mx2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/code/Quartus_code/mx2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/Quartus_code|C:/Users/david/Desktop/code/Quartus_code/mx2.v|
+!i113 1
+R10
+R11
+R12
+vtb_mx2
+R1
+!i10b 1
+!s100 ThL^9L8dL0a:0_=cGNGJI0
+I;8e`aW0KC74RfedU5C]>92
+R2
+R0
+w1694394087
+8C:/Users/david/Desktop/code/Quartus_code/tb_mx2.v
+FC:/Users/david/Desktop/code/Quartus_code/tb_mx2.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/code/Quartus_code/tb_mx2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/Quartus_code|C:/Users/david/Desktop/code/Quartus_code/tb_mx2.v|
+!i113 1
+R10
+R11
+R12

@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/david/Desktop/code/Quartus_code/mx2.v
+source_file = 1, C:/Users/david/Desktop/code/Quartus_code/gates.v
+source_file = 1, C:/Users/david/Desktop/code/Quartus_code/db/mx2.cbx.xml
+design_name = mx2
+instance = comp, \y~output , y~output, mx2, 1
+instance = comp, \d1~input , d1~input, mx2, 1
+instance = comp, \s~input , s~input, mx2, 1
+instance = comp, \d0~input , d0~input, mx2, 1
+instance = comp, \nd22|y~0 , nd22|y~0, mx2, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, mx2, 1

@@ -1,0 +1,17 @@
+module _nand2(y, a, b);
+   input a, b;
+   output y;
+   
+   assign y = ~(a & b);
+
+endmodule
+
+
+
+module _inv(y, a);
+   input a;
+   output y;
+   
+   assign y = ~a;
+   
+endmodule
