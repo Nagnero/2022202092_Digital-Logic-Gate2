@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/rca/simulation/modelsim
 v_and2
-Z1 !s110 1695643063
+Z1 !s110 1695644766
 !i10b 1
 !s100 ^9:W_XOONHZ07Fz>XgWmT3
 ISDTke2ZRP9CGD<oi@omM>1
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1695643063.000000
+Z7 !s108 1695644766.000000
 Z8 !s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/rca/gates.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/rca|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/rca/gates.v|
 !i113 1

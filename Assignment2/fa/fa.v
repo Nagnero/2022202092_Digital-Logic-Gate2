@@ -1,16 +1,16 @@
-/*module fa(a, b, ci, s, co);
+module fa(a, b, ci, s, co); // full adder module
 	input a, b, ci;
 	output s, co;
 	wire c1, c2, sm;
 
-	ha U0_ha(.a(b), .b(ci), .s(sm), .co(c1));
+	ha U0_ha(.a(b), .b(ci), .s(sm), .co(c1)); // call half adder twice
 	ha U1_ha(.a(a), .b(sm), .s(s), .co(c2));
-	_or2 U2_or2(.a(c2), .b(c1), .y(co));
+	_or2 U2_or2(.a(c2), .b(c1), .y(co)); // or calculate for two outputs of half adder
 	
 endmodule
-*/
 
-module fa(a, b, ci, s, co);
+/*
+module fa(a, b, ci, s, co); // full adder without half adder
 	input a, b, ci;
 	output s, co;
 
@@ -22,3 +22,4 @@ module fa(a, b, ci, s, co);
 	_nand3 U5_nand3(.a(w1), .b(w2), .c(w3), .y(co));
 endmodule
 
+*/
