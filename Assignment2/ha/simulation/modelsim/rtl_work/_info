@@ -1,0 +1,192 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/simulation/modelsim
+v_and2
+Z1 !s110 1695636150
+!i10b 1
+!s100 ^9:W_XOONHZ07Fz>XgWmT3
+IHE`k;@G`PK5DI9g><9@;<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1694998848
+Z4 8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/gates.v
+Z5 FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/gates.v
+L0 10
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1695636150.000000
+Z8 !s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/gates.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/gates.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha
+Z12 tCvgOpt 0
+n@_and2
+v_inv
+R1
+!i10b 1
+!s100 iBGO58ezdA=aXLnH232l23
+IMAoFVY0:m;OKcc=cS;h<33
+R2
+R0
+R3
+R4
+R5
+L0 34
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv
+v_nand2
+R1
+!i10b 1
+!s100 ^zE91ZPT?>>2N@[E_iCU`0
+IRfaSOLIh;FjL^L`I8]5>M1
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nand2
+v_nor2
+R1
+!i10b 1
+!s100 `kbEKI=NYMglV7m2:bBU^3
+IREA`f2XM[<1f[V?Mzl>Ge1
+R2
+R0
+R3
+R4
+R5
+L0 18
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nor2
+v_or2
+R1
+!i10b 1
+!s100 YMH=7OdPWlhL3R>Y=]22@2
+I9X?USHgXNdW=`Fm`Cn:U=2
+R2
+R0
+R3
+R4
+R5
+L0 26
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or2
+v_xor2
+R1
+!i10b 1
+!s100 _^7k9g9U>n?7k>6GoAAXK3
+IcWPamocTBmR557iccVL_`0
+R2
+R0
+R3
+R4
+R5
+L0 43
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor2
+vha
+R1
+!i10b 1
+!s100 @;^YO:G^AM0RaA;zT8kfB3
+Im_WL@J[GG8l=1HC>d]ZzO2
+R2
+R0
+w1694997887
+8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/ha.v
+FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/ha.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/ha.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/ha.v|
+!i113 1
+R10
+R11
+R12
+vtb_ha
+R1
+!i10b 1
+!s100 `]g0W?Gc_YIQgeP5I3ohZ1
+Ib^In8[6oLcFQUL_SWWEn53
+R2
+R0
+w1695010679
+8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/tb_ha.v
+FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/tb_ha.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/tb_ha.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment2/ha/tb_ha.v|
+!i113 1
+R10
+R11
+R12

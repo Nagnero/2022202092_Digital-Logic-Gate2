@@ -1,0 +1,47 @@
+|ha
+a => a.IN2
+b => b.IN2
+s << _xor2:U0_xor2.y
+co << _and2:U1_and2.y
+
+
+|ha|_xor2:U0_xor2
+a => a.IN2
+b => b.IN2
+y <= _or2:U4_or2.y
+
+
+|ha|_xor2:U0_xor2|_inv:U0_inv
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+a => y.DATAIN
+
+
+|ha|_xor2:U0_xor2|_inv:U1_inv
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+a => y.DATAIN
+
+
+|ha|_xor2:U0_xor2|_and2:U2_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ha|_xor2:U0_xor2|_and2:U3_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ha|_xor2:U0_xor2|_or2:U4_or2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ha|_and2:U1_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

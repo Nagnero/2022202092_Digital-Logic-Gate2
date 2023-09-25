@@ -1,0 +1,8 @@
+module fa(a, b, ci, s, co);
+	input a, b, ci;
+	output s, co;
+	wire c1, c2, sm;
+
+	
+	
+endmodule
