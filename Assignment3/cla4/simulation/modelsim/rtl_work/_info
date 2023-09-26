@@ -1,0 +1,351 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/simulation/modelsim
+v_and2
+Z1 !s110 1695480645
+!i10b 1
+!s100 B5U:W4;I]g?2537BCNz113
+I5<[6PDKKjhWPnhGl_KF_I0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1695440373
+Z4 8C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/gates.v
+Z5 FC:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/gates.v
+L0 9
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1695480645.000000
+Z8 !s107 C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/gates.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4|C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/gates.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4
+Z12 tCvgOpt 0
+n@_and2
+v_and3
+R1
+!i10b 1
+!s100 2VQ6;CHzf>B_VA>fFQ:[B2
+I4BfDMCQKzW4>D>;J7Y]kX2
+R2
+R0
+R3
+R4
+R5
+L0 44
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and3
+v_and4
+R1
+!i10b 1
+!s100 @n<_=4H][T08gAAknj89?0
+IoVn1jTd1>:[jz34Za4K1h3
+R2
+R0
+R3
+R4
+R5
+L0 51
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and4
+v_and5
+R1
+!i10b 1
+!s100 =DW2EmT@JYZMk<U5=R`TU3
+I>PMCaG74EK7:1`IBzeJWC2
+R2
+R0
+R3
+R4
+R5
+L0 58
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and5
+v_inv
+R1
+!i10b 1
+!s100 @7Mh4Pnig_?7^o@U6FDHH3
+IGQY@OdTf>R@C3j@CFe?iP2
+R2
+R0
+R3
+R4
+R5
+L0 23
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv
+v_nand2
+R1
+!i10b 1
+!s100 ;8cD`YdIDaiO8gOek2Nh71
+IO9oZ4OH>BP:MmVYR3nZ[83
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nand2
+v_or2
+R1
+!i10b 1
+!s100 jRZ`o5@YD]:i6ZhEX`RoH1
+IWckd8NW3[@e0O?E6MF=ji2
+R2
+R0
+R3
+R4
+R5
+L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or2
+v_or3
+R1
+!i10b 1
+!s100 jBfnzoW?eQafV4SRaz6n^1
+Ie@YhoMmfO<JZlf2zZJ`Oo3
+R2
+R0
+R3
+R4
+R5
+L0 65
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or3
+v_or4
+R1
+!i10b 1
+!s100 `4ToJV177]_UO`kfTSVea1
+I<G33e6FbOY?9U9ZCM>B7a2
+R2
+R0
+R3
+R4
+R5
+L0 72
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or4
+v_or5
+R1
+!i10b 1
+!s100 ]YlY]HHLDPU4_2RE_S41_2
+I2A`oRnR?Z@mZ7UGPI9MMA1
+R2
+R0
+R3
+R4
+R5
+L0 79
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or5
+v_xor2
+R1
+!i10b 1
+!s100 4mQUKG5``zflnQ7CzXRS`3
+I;L3G6jXE5Ul64Tk@gdQ=g1
+R2
+R0
+R3
+R4
+R5
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor2
+vcla4
+R1
+!i10b 1
+!s100 e4HXhh9J=G<=SFki:QYlW1
+I1<@l_?Th:h1Y[m9@L<DMD2
+R2
+R0
+w1695471059
+8C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/cla4.v
+FC:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/cla4.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/cla4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4|C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/cla4.v|
+!i113 1
+R10
+R11
+R12
+vclb4
+R1
+!i10b 1
+!s100 M9iTU_LIKHc;BWk7VCkhN1
+I86:C97_GA]L:?[a_lRQn23
+R2
+R0
+w1695469670
+8C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/clb4.v
+FC:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/clb4.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/clb4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4|C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/clb4.v|
+!i113 1
+R10
+R11
+R12
+vfa_v2
+R1
+!i10b 1
+!s100 UnWkO^Yn@0X]ZY]D`5GXb3
+IL6fd[h;:QJjT:A64G[jb12
+R2
+R0
+w1695440186
+8C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/fa_v2.v
+FC:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/fa_v2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/fa_v2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4|C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/fa_v2.v|
+!i113 1
+R10
+R11
+R12
+vtb_cla4
+R1
+!i10b 1
+!s100 K6fLiIi_<oUKIPY^b7lB83
+I0WXXLbz43KQ1nffD[78]I2
+R2
+R0
+w1695480541
+8C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/tb_cla4.v
+FC:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/tb_cla4.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/tb_cla4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4|C:/Users/david/Desktop/codes/Quartus_code/Assignment3/cla4/tb_cla4.v|
+!i113 1
+R10
+R11
+R12
