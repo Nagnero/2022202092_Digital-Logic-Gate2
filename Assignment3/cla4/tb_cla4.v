@@ -13,19 +13,21 @@ module tb_cla4;
 	
 	initial
 	begin
-		tb_a = 4'b1010;
-		tb_b = 4'b0110;
-		tb_ci = 1;
+			 tb_a = 4'b0000;	tb_b = 4'b0000;	tb_ci = 0; // all inputs are 0
+		#10 tb_a = 4'b0101;	tb_b = 4'b1010;	tb_ci = 0; // a + b + cin is 1111
+			 
+		#10 tb_a = 4'b1111;	tb_b = 4'b0001;	tb_ci = 0; // a is 1111 and b or cin is 1
+		#10 tb_a = 4'b1111;	tb_b = 4'b0000;	tb_ci = 1;
 		
-		#10 tb_a = 4'b1111;
-		#10 tb_b = 4'b0001;
-		#10 tb_ci = 0;
+		#10 tb_a = 4'b0001;	tb_b = 4'b1111;	tb_ci = 0; // check same value but a and b is changed
+		#10 tb_a = 4'b0000;	tb_b = 4'b1111;	tb_ci = 1;
 		
-		#10 tb_a = 4'b0101;
-		#10 tb_b = 4'b1010;
-		#10 tb_ci = 1;
+		#10 tb_a = 4'b1111;	tb_b = 4'b1111;	tb_ci = 0; // a, b is 1111 and cin is 0 or 1
+		#10 tb_a = 4'b1111;	tb_b = 4'b1111;	tb_ci = 1;
 
-		#10 $finish;
+
+
+		#10 $stop;
 	end
 	
 endmodule

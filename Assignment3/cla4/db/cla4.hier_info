@@ -8,308 +8,308 @@ b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
 ci => ci.IN2
-s[0] << fa_v2:U0_fa.s
-s[1] << fa_v2:U1_fa.s
-s[2] << fa_v2:U2_fa.s
-s[3] << fa_v2:U3_fa.s
-co << clb4:U4_clb4.co
+s[0] <= fa_v2:U0_fa_v2.s
+s[1] <= fa_v2:U1_fa_v2.s
+s[2] <= fa_v2:U2_fa_v2.s
+s[3] <= fa_v2:U3_fa_v2.s
+co <= clb4:U4_clb4.co
 
 
-|cla4|fa_v2:U0_fa
+|cla4|fa_v2:U0_fa_v2
 a => a.IN1
 b => b.IN1
 ci => ci.IN1
 s <= _xor2:U1_xor2.y
 
 
-|cla4|fa_v2:U0_fa|_xor2:U0_xor2
+|cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2
 a => a.IN2
 b => b.IN2
 y <= _or2:U4_or2.y
 
 
-|cla4|fa_v2:U0_fa|_xor2:U0_xor2|_inv:U0_inv
+|cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U0_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U0_fa|_xor2:U0_xor2|_inv:U1_inv
+|cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U1_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U0_fa|_xor2:U0_xor2|_and2:U2_and2
+|cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U2_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U0_fa|_xor2:U0_xor2|_and2:U3_and2
+|cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U3_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U0_fa|_xor2:U0_xor2|_or2:U4_or2
+|cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_or2:U4_or2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U0_fa|_xor2:U1_xor2
+|cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2
 a => a.IN2
 b => b.IN2
 y <= _or2:U4_or2.y
 
 
-|cla4|fa_v2:U0_fa|_xor2:U1_xor2|_inv:U0_inv
+|cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U0_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U0_fa|_xor2:U1_xor2|_inv:U1_inv
+|cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U1_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U0_fa|_xor2:U1_xor2|_and2:U2_and2
+|cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U2_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U0_fa|_xor2:U1_xor2|_and2:U3_and2
+|cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U3_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U0_fa|_xor2:U1_xor2|_or2:U4_or2
+|cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_or2:U4_or2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U1_fa
+|cla4|fa_v2:U1_fa_v2
 a => a.IN1
 b => b.IN1
 ci => ci.IN1
 s <= _xor2:U1_xor2.y
 
 
-|cla4|fa_v2:U1_fa|_xor2:U0_xor2
+|cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2
 a => a.IN2
 b => b.IN2
 y <= _or2:U4_or2.y
 
 
-|cla4|fa_v2:U1_fa|_xor2:U0_xor2|_inv:U0_inv
+|cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U0_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U1_fa|_xor2:U0_xor2|_inv:U1_inv
+|cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U1_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U1_fa|_xor2:U0_xor2|_and2:U2_and2
+|cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U2_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U1_fa|_xor2:U0_xor2|_and2:U3_and2
+|cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U3_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U1_fa|_xor2:U0_xor2|_or2:U4_or2
+|cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_or2:U4_or2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U1_fa|_xor2:U1_xor2
+|cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2
 a => a.IN2
 b => b.IN2
 y <= _or2:U4_or2.y
 
 
-|cla4|fa_v2:U1_fa|_xor2:U1_xor2|_inv:U0_inv
+|cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U0_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U1_fa|_xor2:U1_xor2|_inv:U1_inv
+|cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U1_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U1_fa|_xor2:U1_xor2|_and2:U2_and2
+|cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U2_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U1_fa|_xor2:U1_xor2|_and2:U3_and2
+|cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U3_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U1_fa|_xor2:U1_xor2|_or2:U4_or2
+|cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_or2:U4_or2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U2_fa
+|cla4|fa_v2:U2_fa_v2
 a => a.IN1
 b => b.IN1
 ci => ci.IN1
 s <= _xor2:U1_xor2.y
 
 
-|cla4|fa_v2:U2_fa|_xor2:U0_xor2
+|cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2
 a => a.IN2
 b => b.IN2
 y <= _or2:U4_or2.y
 
 
-|cla4|fa_v2:U2_fa|_xor2:U0_xor2|_inv:U0_inv
+|cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U0_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U2_fa|_xor2:U0_xor2|_inv:U1_inv
+|cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U1_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U2_fa|_xor2:U0_xor2|_and2:U2_and2
+|cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U2_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U2_fa|_xor2:U0_xor2|_and2:U3_and2
+|cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U3_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U2_fa|_xor2:U0_xor2|_or2:U4_or2
+|cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_or2:U4_or2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U2_fa|_xor2:U1_xor2
+|cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2
 a => a.IN2
 b => b.IN2
 y <= _or2:U4_or2.y
 
 
-|cla4|fa_v2:U2_fa|_xor2:U1_xor2|_inv:U0_inv
+|cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U0_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U2_fa|_xor2:U1_xor2|_inv:U1_inv
+|cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U1_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U2_fa|_xor2:U1_xor2|_and2:U2_and2
+|cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U2_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U2_fa|_xor2:U1_xor2|_and2:U3_and2
+|cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U3_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U2_fa|_xor2:U1_xor2|_or2:U4_or2
+|cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_or2:U4_or2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U3_fa
+|cla4|fa_v2:U3_fa_v2
 a => a.IN1
 b => b.IN1
 ci => ci.IN1
 s <= _xor2:U1_xor2.y
 
 
-|cla4|fa_v2:U3_fa|_xor2:U0_xor2
+|cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2
 a => a.IN2
 b => b.IN2
 y <= _or2:U4_or2.y
 
 
-|cla4|fa_v2:U3_fa|_xor2:U0_xor2|_inv:U0_inv
+|cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U0_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U3_fa|_xor2:U0_xor2|_inv:U1_inv
+|cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U1_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U3_fa|_xor2:U0_xor2|_and2:U2_and2
+|cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U2_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U3_fa|_xor2:U0_xor2|_and2:U3_and2
+|cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U3_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U3_fa|_xor2:U0_xor2|_or2:U4_or2
+|cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_or2:U4_or2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U3_fa|_xor2:U1_xor2
+|cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2
 a => a.IN2
 b => b.IN2
 y <= _or2:U4_or2.y
 
 
-|cla4|fa_v2:U3_fa|_xor2:U1_xor2|_inv:U0_inv
+|cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U0_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U3_fa|_xor2:U1_xor2|_inv:U1_inv
+|cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U1_inv
 y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
 
 
-|cla4|fa_v2:U3_fa|_xor2:U1_xor2|_and2:U2_and2
+|cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U2_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U3_fa|_xor2:U1_xor2|_and2:U3_and2
+|cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U3_and2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|cla4|fa_v2:U3_fa|_xor2:U1_xor2|_or2:U4_or2
+|cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_or2:U4_or2
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
