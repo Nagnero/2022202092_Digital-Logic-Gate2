@@ -21,7 +21,8 @@ module tb_cla_clk;
 		#(STEP); 		tb_a = 32'hFFFF_FFFF; 	tb_b = 32'h0; 				tb_ci = 1'b1; // a is max and cin or b is 1
 		#(STEP);			tb_a = 32'hFFFF_FFFF; 	tb_b = 32'h1; 				tb_ci = 1'b0;
 		
-		#(STEP);			tb_a = 32'hffff_0000; 	tb_b = 32'h0000_ffff; 	tb_ci = 1'b0;
+		#(STEP);			tb_a = 32'hffff_0000; 	tb_b = 32'h0000_ffff; 	tb_ci = 1'b0; // result is ffff_ffff
+		#(STEP);			tb_a = 32'hffff_0000; 	tb_b = 32'h0000_ffff; 	tb_ci = 1'b1; // when overflow happens
 		
 		#(STEP); 		tb_a = 32'h135f_a562; 	tb_b = 32'h3561_4642; 	tb_ci = 1'b0;
 		#(STEP*2); 		$stop;

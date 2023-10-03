@@ -9,6 +9,8 @@ module clb4(a, b, ci, c1, c2, c3, co);
 	wire w0_c3, w1_c3, w2_c3;
 	wire w0_co, w1_co, w2_co, w3_co;
 	
+	
+	
 	// Generate
 	_and2 U0_and2(.a(a[0]), .b(b[0]), .y(g[0]));
 	_and2 U1_and2(.a(a[1]), .b(b[1]), .y(g[1]));
@@ -36,11 +38,27 @@ module clb4(a, b, ci, c1, c2, c3, co);
 	_and4 U15_and4(.a(p[0]), .b(p[1]), .c(p[2]), .d(ci), .y(w2_c3));
 	_or4 U16_or4(.a(g[2]), .b(w0_c3), .c(w1_c3), .d(w2_c3), .y(c3));
 	
+	/*
 	// co = g[3] | p[3]&g[2] | p[3]&p[2]&g[1] | p[3]&p[2]&p[1]&g[0] | p[3]&p[2]&p[1]&p[0]&ci
 	_and2 U17_and2(.a(p[3]), .b(g[2]), .y(w0_co));
 	_and3 U18_and3(.a(p[2]), .b(p[3]), .c(g[1]), .y(w1_co));
 	_and4 U19_and4(.a(p[1]), .b(p[2]), .c(p[3]), .d(g[0]), .y(w2_co));
 	_and5 U20_and5(.a(p[0]), .b(p[1]), .c(p[2]), .d(p[3]), .e(ci), .y(w3_co));
 	_or5 U21_or5(.a(g[3]), .b(w0_co), .c(w1_co), .d(w2_co), .e(w3_co), .y(co));
-
+	*/
+	
+	// modified cla start
+	_and2 U17_and2(.a(g[0]), .b(p[1]), .y(w0));
+	_or2 U18_or2(.a(w0), .b(g[1]), .y(w1));
+	_and2 U19_and2(.a(w1), .b(p[2]), .y(w2));
+	_or2 U20_or2(.a(w2), .b(g[2]), .y(w3));
+	_and2 U21_and2(.a(w3), .b(p[3]), .y(w4));
+	_or2 U22_or2(.a(w4), .b(g[3]), .y(w5));
+	
+	_and4 U23_and4(.a(p[0]), .b(p[1]), .c(p[2]), .d(p[3]), .y(w6));
+	_and2 U24_and2(.a(w6), .b(ci), .y(w7));
+	
+	_or2 U25_or2(.a(w5), .b(w7), .y(co));
+	// modified cla end
+	
 endmodule

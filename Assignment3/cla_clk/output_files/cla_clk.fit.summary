@@ -1,11 +1,11 @@
-Fitter Status : Successful - Mon Oct 02 00:17:05 2023
+Fitter Status : Successful - Tue Oct 03 12:51:46 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : cla_clk
 Top-level Entity Name : cla_clk
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 43 / 41,910 ( < 1 % )
+Logic utilization (in ALMs) : 42 / 41,910 ( < 1 % )
 Total registers : 98
 Total pins : 99 / 499 ( 20 % )
 Total virtual pins : 0
