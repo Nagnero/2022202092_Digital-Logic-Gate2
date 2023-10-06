@@ -4,8 +4,13 @@ module cal_flags32(op, result, co_add, co_prev_add, c, n, z, v);
 	input co_add, co_prev_add;
 	output c, n, z, v;
 	
+	// carry can occur when addition and subtraction (opcode 11_)
 	assign c = (op[2:1] != 2'b11) ? 1'b0 : co_add;
+	// n is defined by sign bit
 	assign n = result[31];
+	// z is defined if result is 0
 	assign z = (result == 32'b0) ? 1'b1 : 1'b0;
+	// overflow can occur only addition and subtraction
+	// and it is same with exclusive or of carry and its previous carry
 	assign v = (op[2:1] != 2'b11) ? 1'b0 : co_add ^ co_prev_add;
 endmodule

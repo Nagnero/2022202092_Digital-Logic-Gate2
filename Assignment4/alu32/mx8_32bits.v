@@ -4,7 +4,7 @@ module mx8_32bits(a, b, c, d, e, f, g, h, s2, s1, s0, y);
 	output [31:0] y;
 	
 	wire [31:0] w0, w1, w2, w3, w4, w5;
-	
+
 	mx2_32bits U0_mx2_32bits(.d0(a), .d1(b), .s(s0), .y(w0));
 	mx2_32bits U1_mx2_32bits(.d0(c), .d1(d), .s(s0),.y(w1));
 	mx2_32bits U2_mx2_32bits(.d0(e), .d1(f), .s(s0), .y(w2));

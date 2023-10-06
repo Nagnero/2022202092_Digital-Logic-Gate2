@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alu4
-Thu Oct 05 20:29:22 2023
+Fri Oct 06 13:36:45 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -14,16 +14,9 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and3:U11_and3"
- 10. Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and2:U10_and2"
- 11. Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_or2:U7_or2"
- 12. Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_or2:U6_or2"
- 13. Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and2:U3_and2"
- 14. Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and2:U2_and2"
- 15. Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and2:U1_and2"
- 16. Post-Synthesis Netlist Statistics for Top Partition
- 17. Elapsed Time Per Partition
- 18. Analysis & Synthesis Messages
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -49,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Oct 05 20:29:22 2023       ;
+; Analysis & Synthesis Status     ; Successful - Fri Oct 06 13:36:45 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; alu4                                        ;
 ; Top-level Entity Name           ; alu4                                        ;
@@ -161,8 +154,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 20          ;
-; Maximum allowed            ; 12          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -172,22 +165,22 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                            ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                              ; Library ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
-; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v      ;         ;
-; fa_v2.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/fa_v2.v      ;         ;
-; clb4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v       ;         ;
-; cla4_ov.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cla4_ov.v    ;         ;
-; mx2.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2.v        ;         ;
-; mx2_4bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2_4bits.v  ;         ;
-; mx8.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8.v        ;         ;
-; mx8_4bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8_4bits.v  ;         ;
-; cal_flags4.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cal_flags4.v ;         ;
-; alu4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v       ;         ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                             ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------+---------+
+; fa_v2.v                          ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/fa_v2.v      ;         ;
+; clb4.v                           ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v       ;         ;
+; gates.v                          ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v      ;         ;
+; mx2.v                            ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2.v        ;         ;
+; mx2_4bits.v                      ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2_4bits.v  ;         ;
+; mx8.v                            ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8.v        ;         ;
+; mx8_4bits.v                      ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8_4bits.v  ;         ;
+; cal_flags4.v                     ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cal_flags4.v ;         ;
+; alu4.v                           ; yes             ; User Verilog HDL File        ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v       ;         ;
+; cla4_ov.v                        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cla4_ov.v    ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -195,12 +188,12 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimate of Logic utilization (ALMs needed) ; 4           ;
+; Estimate of Logic utilization (ALMs needed) ; 9           ;
 ;                                             ;             ;
-; Combinational ALUT usage for logic          ; 6           ;
+; Combinational ALUT usage for logic          ; 12          ;
 ;     -- 7 input functions                    ; 0           ;
-;     -- 6 input functions                    ; 1           ;
-;     -- 5 input functions                    ; 3           ;
+;     -- 6 input functions                    ; 5           ;
+;     -- 5 input functions                    ; 5           ;
 ;     -- 4 input functions                    ; 1           ;
 ;     -- <=3 input functions                  ; 1           ;
 ;                                             ;             ;
@@ -211,9 +204,9 @@ refer to the applicable agreement for further details.
 ; Total DSP Blocks                            ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; op[0]~input ;
-; Maximum fan-out                             ; 5           ;
-; Total fan-out                               ; 53          ;
-; Average fan-out                             ; 1.20        ;
+; Maximum fan-out                             ; 9           ;
+; Total fan-out                               ; 89          ;
+; Average fan-out                             ; 1.78        ;
 +---------------------------------------------+-------------+
 
 
@@ -222,11 +215,13 @@ refer to the applicable agreement for further details.
 +-------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node    ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                ; Entity Name ; Library Name ;
 +-------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------+-------------+--------------+
-; |alu4                         ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 19   ; 0            ; |alu4                                                              ; alu4        ; work         ;
-;    |cal_flags4:U8_cal_flags4| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cal_flags4:U8_cal_flags4                                     ; cal_flags4  ; work         ;
-;    |cla4_ov:U7_adder|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder                                             ; cla4_ov     ; work         ;
-;       |clb4:U4_clb4|          ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4                                ; clb4        ; work         ;
+; |alu4                         ; 12 (0)              ; 0 (0)                     ; 0                 ; 0          ; 19   ; 0            ; |alu4                                                              ; alu4        ; work         ;
+;    |cal_flags4:U8_cal_flags4| ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cal_flags4:U8_cal_flags4                                     ; cal_flags4  ; work         ;
+;    |cla4_ov:U7_adder|         ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder                                             ; cla4_ov     ; work         ;
+;       |clb4:U4_clb4|          ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4                                ; clb4        ; work         ;
 ;          |_or2:U9_or2|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4|_or2:U9_or2                    ; _or2        ; work         ;
+;          |_or4:U16_or4|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4|_or4:U16_or4                   ; _or4        ; work         ;
+;          |_or5:U21_or5|       ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4|_or5:U21_or5                   ; _or5        ; work         ;
 ;    |mx8_4bits:U7_mx8_4bits|   ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|mx8_4bits:U7_mx8_4bits                                       ; mx8_4bits   ; work         ;
 ;       |mx8:U0_mx8|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8                            ; mx8         ; work         ;
 ;          |mx2:U6_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U6_mx2                 ; mx2         ; work         ;
@@ -259,85 +254,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and3:U11_and3"                                       ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and2:U10_and2"                                       ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_or2:U7_or2"                                          ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_or2:U6_or2"                                          ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and2:U3_and2"                                        ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and2:U2_and2"                                        ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cla4_ov:U7_adder|clb4:U4_clb4|_and2:U1_and2"                                        ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; y    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 7                           ;
-;     normal            ; 7                           ;
-;         0 data inputs ; 1                           ;
+; arriav_lcell_comb     ; 12                          ;
+;     normal            ; 12                          ;
 ;         3 data inputs ; 1                           ;
 ;         4 data inputs ; 1                           ;
-;         5 data inputs ; 3                           ;
-;         6 data inputs ; 1                           ;
+;         5 data inputs ; 5                           ;
+;         6 data inputs ; 5                           ;
 ; boundary_port         ; 19                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.22                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 2.96                        ;
 +-----------------------+-----------------------------+
 
 
@@ -356,85 +287,83 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Oct 05 20:29:14 2023
+    Info: Processing started: Fri Oct 06 13:36:23 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu4 -c alu4
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
-Info (12021): Found 16 design units, including 16 entities, in source file gates.v
-    Info (12023): Found entity 1: _nand2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 1
-    Info (12023): Found entity 2: _and2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 9
-    Info (12023): Found entity 3: _or2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 16
-    Info (12023): Found entity 4: _inv File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 23
-    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 30
-    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 44
-    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 51
-    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 58
-    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 65
-    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 72
-    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 79
-    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 86
-    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 93
-    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 100
-    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 107
-    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 118
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file fa_v2.v
-    Info (12023): Found entity 1: fa_v2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/fa_v2.v Line: 1
+    Info (12023): Found entity 1: fa_v2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/fa_v2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file clb4.v
-    Info (12023): Found entity 1: clb4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file cla4_ov.v
-    Info (12023): Found entity 1: cla4_ov File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cla4_ov.v Line: 1
+    Info (12023): Found entity 1: clb4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 1
+Info (12021): Found 16 design units, including 16 entities, in source file gates.v
+    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 1
+    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 9
+    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 17
+    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 25
+    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 34
+    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 49
+    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 57
+    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 65
+    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 73
+    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 81
+    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 89
+    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 97
+    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 105
+    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 113
+    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 121
+    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 132
 Info (12021): Found 1 design units, including 1 entities, in source file mx2.v
-    Info (12023): Found entity 1: mx2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2.v Line: 1
+    Info (12023): Found entity 1: mx2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mx2_4bits.v
-    Info (12023): Found entity 1: mx2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2_4bits.v Line: 1
+    Info (12023): Found entity 1: mx2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2_4bits.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mx8.v
-    Info (12023): Found entity 1: mx8 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8.v Line: 1
+    Info (12023): Found entity 1: mx8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mx8_4bits.v
-    Info (12023): Found entity 1: mx8_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8_4bits.v Line: 1
+    Info (12023): Found entity 1: mx8_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8_4bits.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file cal_flags4.v
-    Info (12023): Found entity 1: cal_flags4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cal_flags4.v Line: 1
+    Info (12023): Found entity 1: cal_flags4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cal_flags4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu4.v
-    Info (12023): Found entity 1: alu4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 1
+    Info (12023): Found entity 1: alu4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_alu4.v
-    Info (12023): Found entity 1: tb_alu4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/tb_alu4.v Line: 3
+    Info (12023): Found entity 1: tb_alu4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/tb_alu4.v Line: 2
 Info (12127): Elaborating entity "alu4" for the top level hierarchy
-Info (12128): Elaborating entity "_inv_4bits" for hierarchy "_inv_4bits:U0_inv_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 12
-Info (12128): Elaborating entity "_and2_4bits" for hierarchy "_and2_4bits:U2_and2_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 16
-Info (12128): Elaborating entity "_or2_4bits" for hierarchy "_or2_4bits:U3_or2_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 17
-Info (12128): Elaborating entity "_xor2_4bits" for hierarchy "_xor2_4bits:U4_xor2_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 18
-Info (12128): Elaborating entity "_xor2" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 111
-Info (12128): Elaborating entity "_inv" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 36
-Info (12128): Elaborating entity "_and2" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 38
-Info (12128): Elaborating entity "_or2" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_or2:U4_or2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 40
-Info (12128): Elaborating entity "_xnor2_4bits" for hierarchy "_xnor2_4bits:U5_xnor2_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 19
-Info (12128): Elaborating entity "mx2_4bits" for hierarchy "mx2_4bits:U6_mux_b" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 22
-Info (12128): Elaborating entity "mx2" for hierarchy "mx2_4bits:U6_mux_b|mx2:U0_mx2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2_4bits.v Line: 7
-Info (12128): Elaborating entity "_nand2" for hierarchy "mx2_4bits:U6_mux_b|mx2:U0_mx2|_nand2:U1_nand2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2.v Line: 10
-Info (12128): Elaborating entity "cla4_ov" for hierarchy "cla4_ov:U7_adder" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 23
-Info (12128): Elaborating entity "fa_v2" for hierarchy "cla4_ov:U7_adder|fa_v2:U0_fa" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cla4_ov.v Line: 10
-Info (12128): Elaborating entity "clb4" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cla4_ov.v Line: 14
-Warning (10034): Output port "c2" at clb4.v(4) has no driver File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 4
-Warning (10034): Output port "c3" at clb4.v(4) has no driver File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 4
-Warning (10034): Output port "co" at clb4.v(4) has no driver File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 4
-Info (12128): Elaborating entity "_and3" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_and3:U11_and3" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 29
-Info (12128): Elaborating entity "_or3" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_or3:U12_or3" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 30
-Info (12128): Elaborating entity "mx8_4bits" for hierarchy "mx8_4bits:U7_mx8_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 25
-Info (12128): Elaborating entity "mx8" for hierarchy "mx8_4bits:U7_mx8_4bits|mx8:U0_mx8" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8_4bits.v Line: 8
-Info (12128): Elaborating entity "cal_flags4" for hierarchy "cal_flags4:U8_cal_flags4" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 27
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "c" is stuck at GND File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 5
-    Warning (13410): Pin "v" is stuck at GND File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 5
+Info (12128): Elaborating entity "_inv_4bits" for hierarchy "_inv_4bits:U0_inv_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 12
+Info (12128): Elaborating entity "_and2_4bits" for hierarchy "_and2_4bits:U2_and2_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 16
+Info (12128): Elaborating entity "_or2_4bits" for hierarchy "_or2_4bits:U3_or2_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 17
+Info (12128): Elaborating entity "_xor2_4bits" for hierarchy "_xor2_4bits:U4_xor2_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 18
+Info (12128): Elaborating entity "_xor2" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 125
+Info (12128): Elaborating entity "_inv" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 41
+Info (12128): Elaborating entity "_and2" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 43
+Info (12128): Elaborating entity "_or2" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_or2:U4_or2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/gates.v Line: 45
+Info (12128): Elaborating entity "_xnor2_4bits" for hierarchy "_xnor2_4bits:U5_xnor2_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 19
+Info (12128): Elaborating entity "mx2_4bits" for hierarchy "mx2_4bits:U6_mux_b" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 22
+Info (12128): Elaborating entity "mx2" for hierarchy "mx2_4bits:U6_mux_b|mx2:U0_mx2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2_4bits.v Line: 7
+Info (12128): Elaborating entity "_nand2" for hierarchy "mx2_4bits:U6_mux_b|mx2:U0_mx2|_nand2:U1_nand2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx2.v Line: 10
+Warning (12125): Using design file cla4_ov.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: cla4_ov File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cla4_ov.v Line: 1
+Info (12128): Elaborating entity "cla4_ov" for hierarchy "cla4_ov:U7_adder" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 23
+Info (12128): Elaborating entity "fa_v2" for hierarchy "cla4_ov:U7_adder|fa_v2:U0_fa" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cla4_ov.v Line: 10
+Info (12128): Elaborating entity "clb4" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/cla4_ov.v Line: 14
+Info (12128): Elaborating entity "_and3" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_and3:U11_and3" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 30
+Info (12128): Elaborating entity "_or3" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_or3:U12_or3" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 31
+Info (12128): Elaborating entity "_and4" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_and4:U15_and4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 36
+Info (12128): Elaborating entity "_or4" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_or4:U16_or4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 37
+Info (12128): Elaborating entity "_and5" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_and5:U20_and5" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 43
+Info (12128): Elaborating entity "_or5" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_or5:U21_or5" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/clb4.v Line: 44
+Info (12128): Elaborating entity "mx8_4bits" for hierarchy "mx8_4bits:U7_mx8_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 25
+Info (12128): Elaborating entity "mx8" for hierarchy "mx8_4bits:U7_mx8_4bits|mx8:U0_mx8" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/mx8_4bits.v Line: 8
+Info (12128): Elaborating entity "cal_flags4" for hierarchy "cal_flags4:U8_cal_flags4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu4/alu4.v Line: 27
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 25 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 31 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 11 input pins
     Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 6 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4837 megabytes
-    Info: Processing ended: Thu Oct 05 20:29:22 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:15
+    Info (21061): Implemented 12 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4817 megabytes
+    Info: Processing ended: Fri Oct 06 13:36:45 2023
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:09
 
 

@@ -8,11 +8,11 @@ b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
 ci => ci.IN2
-s[0] <= fa_v2:U0_fa_v2.s
-s[1] <= fa_v2:U1_fa_v2.s
-s[2] <= fa_v2:U2_fa_v2.s
-s[3] <= fa_v2:U3_fa_v2.s
-co <= clb4:U4_clb4.co
+s[0] << fa_v2:U0_fa_v2.s
+s[1] << fa_v2:U1_fa_v2.s
+s[2] << fa_v2:U2_fa_v2.s
+s[3] << fa_v2:U3_fa_v2.s
+co << clb4:U4_clb4.co
 
 
 |cla4|fa_v2:U0_fa_v2

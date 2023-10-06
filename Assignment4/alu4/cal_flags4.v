@@ -1,12 +1,17 @@
 module cal_flags4(op, result, co_add, c3_add, c, n, z, v);
 	input [2:0] op;
 	input [3:0] result;
-	input c3_add, co_add;
+	input co_add, c3_add;
 	output c, n, z, v;
 	
-	// op[2:1] != 2'b11 means addtion or subtraction due to self-define
-	assign c = (op[2:1] != 2'b11) ? 1'b0 : co_add; // carry is generated whenever addition or subtraction
+	// carry can occur when addition and subtraction (opcode 11_)
+	assign c = (op[2:1] != 2'b11) ? 1'b0 : co_add;
+	// n is defined by sign bit
 	assign n = result[3];
+	// z is defined if result is 0
 	assign z = (result == 4'b0) ? 1'b1 : 1'b0;
-	assign v = (op[2:1] != 2'b11) ? 1'b0 : co_add ^ c3_add; //overflow happens whenever addition or subtraction
+	// overflow can occur only addition and subtraction
+	// and it is same with exclusive or of carry and its previous carry
+	assign v = (op[2:1] != 2'b11) ? 1'b0 : co_add ^ c3_add;
 endmodule
+

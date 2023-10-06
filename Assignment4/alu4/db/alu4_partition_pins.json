@@ -20,11 +20,19 @@
 					"strict" : false
 				},
 				{
+					"name" : "c",
+					"strict" : false
+				},
+				{
 					"name" : "n",
 					"strict" : false
 				},
 				{
 					"name" : "z",
+					"strict" : false
+				},
+				{
+					"name" : "v",
 					"strict" : false
 				},
 				{

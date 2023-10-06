@@ -66,42 +66,42 @@ b[31] => b[31].IN6
 op[0] => op[0].IN4
 op[1] => op[1].IN2
 op[2] => op[2].IN2
-result[0] << result[0].DB_MAX_OUTPUT_PORT_TYPE
-result[1] << result[1].DB_MAX_OUTPUT_PORT_TYPE
-result[2] << result[2].DB_MAX_OUTPUT_PORT_TYPE
-result[3] << result[3].DB_MAX_OUTPUT_PORT_TYPE
-result[4] << result[4].DB_MAX_OUTPUT_PORT_TYPE
-result[5] << result[5].DB_MAX_OUTPUT_PORT_TYPE
-result[6] << result[6].DB_MAX_OUTPUT_PORT_TYPE
-result[7] << result[7].DB_MAX_OUTPUT_PORT_TYPE
-result[8] << result[8].DB_MAX_OUTPUT_PORT_TYPE
-result[9] << result[9].DB_MAX_OUTPUT_PORT_TYPE
-result[10] << result[10].DB_MAX_OUTPUT_PORT_TYPE
-result[11] << result[11].DB_MAX_OUTPUT_PORT_TYPE
-result[12] << result[12].DB_MAX_OUTPUT_PORT_TYPE
-result[13] << result[13].DB_MAX_OUTPUT_PORT_TYPE
-result[14] << result[14].DB_MAX_OUTPUT_PORT_TYPE
-result[15] << result[15].DB_MAX_OUTPUT_PORT_TYPE
-result[16] << result[16].DB_MAX_OUTPUT_PORT_TYPE
-result[17] << result[17].DB_MAX_OUTPUT_PORT_TYPE
-result[18] << result[18].DB_MAX_OUTPUT_PORT_TYPE
-result[19] << result[19].DB_MAX_OUTPUT_PORT_TYPE
-result[20] << result[20].DB_MAX_OUTPUT_PORT_TYPE
-result[21] << result[21].DB_MAX_OUTPUT_PORT_TYPE
-result[22] << result[22].DB_MAX_OUTPUT_PORT_TYPE
-result[23] << result[23].DB_MAX_OUTPUT_PORT_TYPE
-result[24] << result[24].DB_MAX_OUTPUT_PORT_TYPE
-result[25] << result[25].DB_MAX_OUTPUT_PORT_TYPE
-result[26] << result[26].DB_MAX_OUTPUT_PORT_TYPE
-result[27] << result[27].DB_MAX_OUTPUT_PORT_TYPE
-result[28] << result[28].DB_MAX_OUTPUT_PORT_TYPE
-result[29] << result[29].DB_MAX_OUTPUT_PORT_TYPE
-result[30] << result[30].DB_MAX_OUTPUT_PORT_TYPE
-result[31] << result[31].DB_MAX_OUTPUT_PORT_TYPE
-c << cal_flags32:U8_cal_flags32.c
-n << cal_flags32:U8_cal_flags32.n
-z << cal_flags32:U8_cal_flags32.z
-v << cal_flags32:U8_cal_flags32.v
+result[0] <= result[0].DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result[2].DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result[3].DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= result[4].DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= result[5].DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= result[6].DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= result[7].DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= result[8].DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= result[9].DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= result[10].DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= result[11].DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= result[12].DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= result[13].DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= result[14].DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= result[15].DB_MAX_OUTPUT_PORT_TYPE
+result[16] <= result[16].DB_MAX_OUTPUT_PORT_TYPE
+result[17] <= result[17].DB_MAX_OUTPUT_PORT_TYPE
+result[18] <= result[18].DB_MAX_OUTPUT_PORT_TYPE
+result[19] <= result[19].DB_MAX_OUTPUT_PORT_TYPE
+result[20] <= result[20].DB_MAX_OUTPUT_PORT_TYPE
+result[21] <= result[21].DB_MAX_OUTPUT_PORT_TYPE
+result[22] <= result[22].DB_MAX_OUTPUT_PORT_TYPE
+result[23] <= result[23].DB_MAX_OUTPUT_PORT_TYPE
+result[24] <= result[24].DB_MAX_OUTPUT_PORT_TYPE
+result[25] <= result[25].DB_MAX_OUTPUT_PORT_TYPE
+result[26] <= result[26].DB_MAX_OUTPUT_PORT_TYPE
+result[27] <= result[27].DB_MAX_OUTPUT_PORT_TYPE
+result[28] <= result[28].DB_MAX_OUTPUT_PORT_TYPE
+result[29] <= result[29].DB_MAX_OUTPUT_PORT_TYPE
+result[30] <= result[30].DB_MAX_OUTPUT_PORT_TYPE
+result[31] <= result[31].DB_MAX_OUTPUT_PORT_TYPE
+c <= cal_flags32:U8_cal_flags32.c
+n <= cal_flags32:U8_cal_flags32.n
+z <= cal_flags32:U8_cal_flags32.z
+v <= cal_flags32:U8_cal_flags32.v
 
 
 |alu32|_inv_32bits:U0_inv_32bits
@@ -557,13 +557,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -591,13 +591,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -625,13 +625,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -659,13 +659,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -708,13 +708,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -742,13 +742,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -776,13 +776,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -810,13 +810,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U1_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -859,13 +859,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -893,13 +893,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -927,13 +927,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -961,13 +961,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U2_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -1010,13 +1010,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -1044,13 +1044,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -1078,13 +1078,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -1112,13 +1112,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U3_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -1161,13 +1161,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -1195,13 +1195,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -1229,13 +1229,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -1263,13 +1263,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U4_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -1312,13 +1312,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -1346,13 +1346,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -1380,13 +1380,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -1414,13 +1414,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U5_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -1463,13 +1463,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -1497,13 +1497,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -1531,13 +1531,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -1565,13 +1565,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U6_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -1614,13 +1614,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -1648,13 +1648,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -1682,13 +1682,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -1716,13 +1716,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U7_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -1879,13 +1879,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -1913,13 +1913,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -1947,13 +1947,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -1981,13 +1981,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -2056,13 +2056,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -2090,13 +2090,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -2124,13 +2124,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -2158,13 +2158,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U1_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -2233,13 +2233,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -2267,13 +2267,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -2301,13 +2301,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -2335,13 +2335,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U2_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -2410,13 +2410,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -2444,13 +2444,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -2478,13 +2478,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -2512,13 +2512,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U3_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -2587,13 +2587,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -2621,13 +2621,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -2655,13 +2655,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -2689,13 +2689,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U4_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -2764,13 +2764,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -2798,13 +2798,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -2832,13 +2832,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -2866,13 +2866,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -2941,13 +2941,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -2975,13 +2975,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -3009,13 +3009,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -3043,13 +3043,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U6_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -3118,13 +3118,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -3152,13 +3152,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -3186,13 +3186,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -3220,13 +3220,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U7_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -3522,13 +3522,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -3556,13 +3556,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -3597,13 +3597,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -3631,13 +3631,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -3672,13 +3672,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -3706,13 +3706,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -3747,13 +3747,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -3781,13 +3781,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -3817,11 +3817,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and2:U0_and2
@@ -3904,6 +3904,74 @@ c => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4
 a[0] => a[0].IN2
 a[1] => a[1].IN2
@@ -3935,13 +4003,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -3969,13 +4037,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4010,13 +4078,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4044,13 +4112,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4085,13 +4153,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4119,13 +4187,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4160,13 +4228,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4194,13 +4262,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4230,11 +4298,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_and2:U0_and2
@@ -4317,6 +4385,74 @@ c => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U1_cla4|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4
 a[0] => a[0].IN2
 a[1] => a[1].IN2
@@ -4348,13 +4484,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4382,13 +4518,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4423,13 +4559,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4457,13 +4593,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4498,13 +4634,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4532,13 +4668,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4573,13 +4709,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4607,13 +4743,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4643,11 +4779,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_and2:U0_and2
@@ -4730,6 +4866,74 @@ c => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U2_cla4|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4
 a[0] => a[0].IN2
 a[1] => a[1].IN2
@@ -4761,13 +4965,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4795,13 +4999,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4836,13 +5040,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4870,13 +5074,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4911,13 +5115,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -4945,13 +5149,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -4986,13 +5190,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5020,13 +5224,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5056,11 +5260,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_and2:U0_and2
@@ -5143,6 +5347,74 @@ c => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U3_cla4|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4
 a[0] => a[0].IN2
 a[1] => a[1].IN2
@@ -5174,13 +5446,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5208,13 +5480,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5249,13 +5521,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5283,13 +5555,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5324,13 +5596,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5358,13 +5630,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5399,13 +5671,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5433,13 +5705,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5469,11 +5741,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_and2:U0_and2
@@ -5556,6 +5828,74 @@ c => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U4_cla4|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4
 a[0] => a[0].IN2
 a[1] => a[1].IN2
@@ -5587,13 +5927,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5621,13 +5961,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5662,13 +6002,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5696,13 +6036,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5737,13 +6077,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5771,13 +6111,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5812,13 +6152,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -5846,13 +6186,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -5882,11 +6222,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_and2:U0_and2
@@ -5969,6 +6309,74 @@ c => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U5_cla4|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4
 a[0] => a[0].IN2
 a[1] => a[1].IN2
@@ -6000,13 +6408,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U0_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -6034,13 +6442,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U0_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -6075,13 +6483,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U1_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -6109,13 +6517,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U1_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -6150,13 +6558,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U2_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -6184,13 +6592,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U2_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -6225,13 +6633,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U3_fa_v2|_xor2:U0_xor2|_and2:U2_and2
@@ -6259,13 +6667,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_and2:U2_and2
@@ -6295,11 +6703,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_and2:U0_and2
@@ -6382,6 +6790,74 @@ c => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4:U6_cla4|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov
 a[0] => a[0].IN2
 a[1] => a[1].IN2
@@ -6414,13 +6890,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U0_fa|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U0_fa|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U0_fa|_xor2:U0_xor2|_and2:U2_and2
@@ -6448,13 +6924,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U0_fa|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U0_fa|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U0_fa|_xor2:U1_xor2|_and2:U2_and2
@@ -6489,13 +6965,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U1_fa|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U1_fa|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U1_fa|_xor2:U0_xor2|_and2:U2_and2
@@ -6523,13 +6999,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U1_fa|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U1_fa|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U1_fa|_xor2:U1_xor2|_and2:U2_and2
@@ -6564,13 +7040,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U2_fa|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U2_fa|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U2_fa|_xor2:U0_xor2|_and2:U2_and2
@@ -6598,13 +7074,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U2_fa|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U2_fa|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U2_fa|_xor2:U1_xor2|_and2:U2_and2
@@ -6639,13 +7115,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U3_fa|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U3_fa|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U3_fa|_xor2:U0_xor2|_and2:U2_and2
@@ -6673,13 +7149,13 @@ y <= _or2:U4_or2.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U3_fa|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U3_fa|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|fa_v2:U3_fa|_xor2:U1_xor2|_and2:U2_and2
@@ -6709,11 +7185,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and2:U0_and2
@@ -6793,6 +7269,74 @@ y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
 c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu32|cla32_ov:U7_adder|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -94,13 +94,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -128,13 +128,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -162,13 +162,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -196,13 +196,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xor2_4bits:U4_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -260,13 +260,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2
@@ -294,13 +294,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U1_xor2|_and2:U2_and2
@@ -328,13 +328,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U2_xor2|_and2:U2_and2
@@ -362,13 +362,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|_xnor2_4bits:U5_xnor2_4bits|_xor2_4bits:U0_xor2_4bits|_xor2:U3_xor2|_and2:U2_and2
@@ -424,26 +424,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U0_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U0_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U0_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U0_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U1_mx2
@@ -454,26 +454,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U1_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U1_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U1_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U1_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U2_mx2
@@ -484,26 +484,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U2_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U2_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U2_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U2_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U3_mx2
@@ -514,26 +514,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U3_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U3_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U3_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx2_4bits:U6_mux_b|mx2:U3_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder
@@ -568,13 +568,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U0_fa|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U0_fa|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U0_fa|_xor2:U0_xor2|_and2:U2_and2
@@ -602,13 +602,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U0_fa|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U0_fa|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U0_fa|_xor2:U1_xor2|_and2:U2_and2
@@ -643,13 +643,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U1_fa|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U1_fa|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U1_fa|_xor2:U0_xor2|_and2:U2_and2
@@ -677,13 +677,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U1_fa|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U1_fa|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U1_fa|_xor2:U1_xor2|_and2:U2_and2
@@ -718,13 +718,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U2_fa|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U2_fa|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U2_fa|_xor2:U0_xor2|_and2:U2_and2
@@ -752,13 +752,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U2_fa|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U2_fa|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U2_fa|_xor2:U1_xor2|_and2:U2_and2
@@ -793,13 +793,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U3_fa|_xor2:U0_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U3_fa|_xor2:U0_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U3_fa|_xor2:U0_xor2|_and2:U2_and2
@@ -827,13 +827,13 @@ y <= _or2:U4_or2.y
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U3_fa|_xor2:U1_xor2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U3_fa|_xor2:U1_xor2|_inv:U1_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cla4_ov:U7_adder|fa_v2:U3_fa|_xor2:U1_xor2|_and2:U2_and2
@@ -863,11 +863,11 @@ b[0] => b[0].IN2
 b[1] => b[1].IN2
 b[2] => b[2].IN2
 b[3] => b[3].IN2
-ci => ci.IN2
+ci => ci.IN4
 c1 <= _or2:U9_or2.y
-c2 <= <GND>
-c3 <= <GND>
-co <= <GND>
+c2 <= _or3:U12_or3.y
+c3 <= _or4:U16_or4.y
+co <= _or5:U21_or5.y
 
 
 |alu4|cla4_ov:U7_adder|clb4:U4_clb4|_and2:U0_and2
@@ -950,6 +950,74 @@ c => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_and2:U13_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_and3:U14_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_and4:U15_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_or4:U16_or4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_and2:U17_and2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_and3:U18_and3
+a => y.IN0
+b => y.IN1
+c => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_and4:U19_and4
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_and5:U20_and5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu4|cla4_ov:U7_adder|clb4:U4_clb4|_or5:U21_or5
+a => y.IN0
+b => y.IN1
+c => y.IN1
+d => y.IN1
+e => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |alu4|mx8_4bits:U7_mx8_4bits
 y[0] <= mx8:U0_mx8.y
 y[1] <= mx8:U1_mx8.y
@@ -1015,26 +1083,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U0_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U0_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U0_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U0_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U1_mx2
@@ -1045,26 +1113,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U1_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U1_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U1_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U1_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U2_mx2
@@ -1075,26 +1143,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U2_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U2_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U2_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U2_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U3_mx2
@@ -1105,26 +1173,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U3_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U3_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U3_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U3_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U4_mx2
@@ -1135,26 +1203,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U4_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U4_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U4_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U4_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U5_mx2
@@ -1165,26 +1233,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U5_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U5_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U5_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U5_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U6_mx2
@@ -1195,26 +1263,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U6_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U6_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U6_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U6_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8
@@ -1240,26 +1308,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U0_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U0_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U0_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U0_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U1_mx2
@@ -1270,26 +1338,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U1_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U1_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U1_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U1_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U2_mx2
@@ -1300,26 +1368,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U2_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U2_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U2_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U2_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U3_mx2
@@ -1330,26 +1398,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U3_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U3_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U3_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U3_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U4_mx2
@@ -1360,26 +1428,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U4_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U4_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U4_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U4_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U5_mx2
@@ -1390,26 +1458,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U5_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U5_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U5_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U5_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U6_mx2
@@ -1420,26 +1488,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U6_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U6_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U6_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U1_mx8|mx2:U6_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8
@@ -1465,26 +1533,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U0_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U0_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U0_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U0_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U1_mx2
@@ -1495,26 +1563,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U1_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U1_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U1_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U1_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U2_mx2
@@ -1525,26 +1593,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U2_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U2_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U2_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U2_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U3_mx2
@@ -1555,26 +1623,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U3_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U3_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U3_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U3_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U4_mx2
@@ -1585,26 +1653,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U4_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U4_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U4_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U4_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U5_mx2
@@ -1615,26 +1683,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U5_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U5_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U5_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U5_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U6_mx2
@@ -1645,26 +1713,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U6_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U6_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U6_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U2_mx8|mx2:U6_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8
@@ -1690,26 +1758,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U0_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U0_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U0_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U0_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U1_mx2
@@ -1720,26 +1788,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U1_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U1_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U1_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U1_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U2_mx2
@@ -1750,26 +1818,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U2_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U2_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U2_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U2_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U3_mx2
@@ -1780,26 +1848,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U3_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U3_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U3_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U3_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U4_mx2
@@ -1810,26 +1878,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U4_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U4_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U4_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U4_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U5_mx2
@@ -1840,26 +1908,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U5_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U5_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U5_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U5_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U6_mx2
@@ -1870,26 +1938,26 @@ y <= _nand2:U3_nand2.y
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U6_mx2|_inv:U0_inv
-y <= a.DB_MAX_OUTPUT_PORT_TYPE
 a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U6_mx2|_nand2:U1_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U6_mx2|_nand2:U2_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|mx8_4bits:U7_mx8_4bits|mx8:U3_mx8|mx2:U6_mx2|_nand2:U3_nand2
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu4|cal_flags4:U8_cal_flags4

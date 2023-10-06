@@ -1,8 +1,9 @@
 module clb4(a, b, ci, c1, c2, c3, co);
-	input[3:0] a, b;
+	input [3:0] a, b;
 	input ci;
 	output c1, c2, c3, co;
-	wire[3:0] g, p;
+	
+	wire [3:0] g, p;
 	wire w0_c1;
 	wire w0_c2, w1_c2;
 	wire w0_c3, w1_c3, w2_c3;
@@ -25,8 +26,21 @@ module clb4(a, b, ci, c1, c2, c3, co);
 	_or2 U9_or2(.a(w0_c1), .b(g[0]), .y(c1));
 	
 	// c2 = g[1] | p[1]&g[0] | p[0]&p[1]&ci
-	_and2 U10_and2(.a(p[1]), .b(p[0]), .y(w0_c2));
+	_and2 U10_and2(.a(p[1]), .b(g[0]), .y(w0_c2));
 	_and3 U11_and3(.a(p[0]), .b(p[1]), .c(ci), .y(w1_c2));
-	_or3 U12_or3(.a(), .b(), .c(), .y());
+	_or3 U12_or3(.a(g[1]), .b(w0_c2), .c(w1_c2), .y(c2));
+	
+	// c3 = g[2] | p[2]&g[1] | p[2]&p[1]&g[0] | p[2]&p[1]&p[0]&ci
+	_and2 U13_and2(.a(p[2]), .b(g[1]), .y(w0_c3));
+	_and3 U14_and3(.a(p[1]), .b(p[2]), .c(g[0]), .y(w1_c3));
+	_and4 U15_and4(.a(p[0]), .b(p[1]), .c(p[2]), .d(ci), .y(w2_c3));
+	_or4 U16_or4(.a(g[2]), .b(w0_c3), .c(w1_c3), .d(w2_c3), .y(c3));
+	
+	// co = g[3] | p[3]&g[2] | p[3]&p[2]&g[1] | p[3]&p[2]&p[1]&g[0] | p[3]&p[2]&p[1]&p[0]&ci
+	_and2 U17_and2(.a(p[3]), .b(g[2]), .y(w0_co));
+	_and3 U18_and3(.a(p[2]), .b(p[3]), .c(g[1]), .y(w1_co));
+	_and4 U19_and4(.a(p[1]), .b(p[2]), .c(p[3]), .d(g[0]), .y(w2_co));
+	_and5 U20_and5(.a(p[0]), .b(p[1]), .c(p[2]), .d(p[3]), .e(ci), .y(w3_co));
+	_or5 U21_or5(.a(g[3]), .b(w0_co), .c(w1_co), .d(w2_co), .e(w3_co), .y(co));
 
 endmodule
