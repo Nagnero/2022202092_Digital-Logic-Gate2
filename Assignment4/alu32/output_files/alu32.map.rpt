@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alu32
-Fri Oct 06 14:15:47 2023
+Sun Oct 08 15:40:58 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -17,6 +17,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   9. Post-Synthesis Netlist Statistics for Top Partition
  10. Elapsed Time Per Partition
  11. Analysis & Synthesis Messages
+ 12. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -42,7 +43,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Oct 06 14:15:47 2023       ;
+; Analysis & Synthesis Status     ; Successful - Sun Oct 08 15:40:58 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; alu32                                       ;
 ; Top-level Entity Name           ; alu32                                       ;
@@ -154,8 +155,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 20          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -165,22 +166,22 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                             ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                               ; Library ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
-; cla4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4.v        ;         ;
-; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v       ;         ;
-; fa_v2.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/fa_v2.v       ;         ;
-; clb4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v        ;         ;
-; cla4_ov.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4_ov.v     ;         ;
-; cla32_ov.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla32_ov.v    ;         ;
-; mx2_32bits.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/mx2_32bits.v  ;         ;
-; mx8_32bits.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/mx8_32bits.v  ;         ;
-; cal_flags32.v                    ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cal_flags32.v ;         ;
-; alu32.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v       ;         ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                              ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
+; cla4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4.v        ;         ;
+; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v       ;         ;
+; fa_v2.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/fa_v2.v       ;         ;
+; clb4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v        ;         ;
+; cla4_ov.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4_ov.v     ;         ;
+; cla32_ov.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla32_ov.v    ;         ;
+; mx2_32bits.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/mx2_32bits.v  ;         ;
+; mx8_32bits.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/mx8_32bits.v  ;         ;
+; cal_flags32.v                    ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cal_flags32.v ;         ;
+; alu32.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v       ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -346,78 +347,81 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Oct 06 14:15:35 2023
+    Info: Processing started: Sun Oct 08 15:40:49 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu32 -c alu32
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file cla4.v
-    Info (12023): Found entity 1: cla4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4.v Line: 1
+    Info (12023): Found entity 1: cla4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4.v Line: 1
 Info (12021): Found 21 design units, including 21 entities, in source file gates.v
-    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 1
-    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 9
-    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 17
-    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 25
-    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 34
-    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 49
-    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 57
-    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 65
-    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 73
-    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 81
-    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 89
-    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 97
-    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 105
-    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 113
-    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 121
-    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 132
-    Info (12023): Found entity 17: _inv_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 143
-    Info (12023): Found entity 18: _and2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 151
-    Info (12023): Found entity 19: _or2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 159
-    Info (12023): Found entity 20: _xor2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 167
-    Info (12023): Found entity 21: _xnor2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 182
+    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 1
+    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 9
+    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 17
+    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 25
+    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 34
+    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 49
+    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 57
+    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 65
+    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 73
+    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 81
+    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 89
+    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 97
+    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 105
+    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 113
+    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 121
+    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 132
+    Info (12023): Found entity 17: _inv_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 143
+    Info (12023): Found entity 18: _and2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 151
+    Info (12023): Found entity 19: _or2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 159
+    Info (12023): Found entity 20: _xor2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 167
+    Info (12023): Found entity 21: _xnor2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 182
 Info (12021): Found 1 design units, including 1 entities, in source file fa_v2.v
-    Info (12023): Found entity 1: fa_v2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/fa_v2.v Line: 1
+    Info (12023): Found entity 1: fa_v2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/fa_v2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file clb4.v
-    Info (12023): Found entity 1: clb4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 1
+    Info (12023): Found entity 1: clb4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file cla4_ov.v
-    Info (12023): Found entity 1: cla4_ov File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4_ov.v Line: 1
+    Info (12023): Found entity 1: cla4_ov File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4_ov.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file cla32_ov.v
-    Info (12023): Found entity 1: cla32_ov File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla32_ov.v Line: 1
+    Info (12023): Found entity 1: cla32_ov File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla32_ov.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mx2_32bits.v
-    Info (12023): Found entity 1: mx2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/mx2_32bits.v Line: 1
+    Info (12023): Found entity 1: mx2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/mx2_32bits.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mx8_32bits.v
-    Info (12023): Found entity 1: mx8_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/mx8_32bits.v Line: 1
+    Info (12023): Found entity 1: mx8_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/mx8_32bits.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file cal_flags32.v
-    Info (12023): Found entity 1: cal_flags32 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cal_flags32.v Line: 1
+    Info (12023): Found entity 1: cal_flags32 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cal_flags32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu32.v
-    Info (12023): Found entity 1: alu32 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 1
+    Info (12023): Found entity 1: alu32 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_alu32.v
+    Info (12023): Found entity 1: tb_alu32 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/tb_alu32.v Line: 1
 Info (12127): Elaborating entity "alu32" for the top level hierarchy
-Info (12128): Elaborating entity "_inv_32bits" for hierarchy "_inv_32bits:U0_inv_32bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 12
-Info (12128): Elaborating entity "_and2_32bits" for hierarchy "_and2_32bits:U2_and2_32bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 16
-Info (12128): Elaborating entity "_or2_32bits" for hierarchy "_or2_32bits:U3_or2_32bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 17
-Info (12128): Elaborating entity "_xor2_32bits" for hierarchy "_xor2_32bits:U4_xor2_32bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 18
-Info (12128): Elaborating entity "_xor2_4bits" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 171
-Info (12128): Elaborating entity "_xor2" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 125
-Info (12128): Elaborating entity "_inv" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 41
-Info (12128): Elaborating entity "_and2" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 43
-Info (12128): Elaborating entity "_or2" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_or2:U4_or2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 45
-Info (12128): Elaborating entity "_xnor2_32bits" for hierarchy "_xnor2_32bits:U5_xnor2_32bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 19
-Info (12128): Elaborating entity "_xnor2_4bits" for hierarchy "_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 186
-Info (12128): Elaborating entity "_inv_4bits" for hierarchy "_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_inv_4bits:U1_inv_4bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 139
-Info (12128): Elaborating entity "mx2_32bits" for hierarchy "mx2_32bits:U6_mux_b" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 21
-Info (12128): Elaborating entity "cla32_ov" for hierarchy "cla32_ov:U7_adder" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 23
-Info (12128): Elaborating entity "cla4" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla32_ov.v Line: 11
-Info (12128): Elaborating entity "fa_v2" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U0_fa_v2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4.v Line: 9
-Info (12128): Elaborating entity "clb4" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4.v Line: 13
-Info (12128): Elaborating entity "_and3" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and3:U11_and3" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 30
-Info (12128): Elaborating entity "_or3" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_or3:U12_or3" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 31
-Info (12128): Elaborating entity "_and4" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and4:U15_and4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 36
-Info (12128): Elaborating entity "_or4" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_or4:U16_or4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 37
-Info (12128): Elaborating entity "_and5" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and5:U20_and5" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 43
-Info (12128): Elaborating entity "_or5" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_or5:U21_or5" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 44
-Info (12128): Elaborating entity "cla4_ov" for hierarchy "cla32_ov:U7_adder|cla4_ov:U7_cla4_ov" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla32_ov.v Line: 20
-Info (12128): Elaborating entity "mx8_32bits" for hierarchy "mx8_32bits:U7_mx8_32bits" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 25
-Info (12128): Elaborating entity "cal_flags32" for hierarchy "cal_flags32:U8_cal_flags32" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 27
+Info (12128): Elaborating entity "_inv_32bits" for hierarchy "_inv_32bits:U0_inv_32bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 12
+Info (12128): Elaborating entity "_and2_32bits" for hierarchy "_and2_32bits:U2_and2_32bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 16
+Info (12128): Elaborating entity "_or2_32bits" for hierarchy "_or2_32bits:U3_or2_32bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 17
+Info (12128): Elaborating entity "_xor2_32bits" for hierarchy "_xor2_32bits:U4_xor2_32bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 18
+Info (12128): Elaborating entity "_xor2_4bits" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 171
+Info (12128): Elaborating entity "_xor2" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 125
+Info (12128): Elaborating entity "_inv" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_inv:U0_inv" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 41
+Info (12128): Elaborating entity "_and2" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 43
+Info (12128): Elaborating entity "_or2" for hierarchy "_xor2_32bits:U4_xor2_32bits|_xor2_4bits:U0_xor2_4bits|_xor2:U0_xor2|_or2:U4_or2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 45
+Info (12128): Elaborating entity "_xnor2_32bits" for hierarchy "_xnor2_32bits:U5_xnor2_32bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 19
+Info (12128): Elaborating entity "_xnor2_4bits" for hierarchy "_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 186
+Info (12128): Elaborating entity "_inv_4bits" for hierarchy "_xnor2_32bits:U5_xnor2_32bits|_xnor2_4bits:U0_xnor2_4bits|_inv_4bits:U1_inv_4bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/gates.v Line: 139
+Info (12128): Elaborating entity "mx2_32bits" for hierarchy "mx2_32bits:U6_mux_b" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 21
+Info (12128): Elaborating entity "cla32_ov" for hierarchy "cla32_ov:U7_adder" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 23
+Info (12128): Elaborating entity "cla4" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla32_ov.v Line: 11
+Info (12128): Elaborating entity "fa_v2" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|fa_v2:U0_fa_v2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4.v Line: 9
+Info (12128): Elaborating entity "clb4" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla4.v Line: 13
+Info (12128): Elaborating entity "_and3" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and3:U11_and3" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 30
+Info (12128): Elaborating entity "_or3" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_or3:U12_or3" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 31
+Info (12128): Elaborating entity "_and4" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and4:U15_and4" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 36
+Info (12128): Elaborating entity "_or4" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_or4:U16_or4" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 37
+Info (12128): Elaborating entity "_and5" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_and5:U20_and5" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 43
+Info (12128): Elaborating entity "_or5" for hierarchy "cla32_ov:U7_adder|cla4:U0_cla4|clb4:U4_clb4|_or5:U21_or5" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/clb4.v Line: 44
+Info (12128): Elaborating entity "cla4_ov" for hierarchy "cla32_ov:U7_adder|cla4_ov:U7_cla4_ov" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/cla32_ov.v Line: 20
+Info (12128): Elaborating entity "mx8_32bits" for hierarchy "mx8_32bits:U7_mx8_32bits" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 25
+Info (12128): Elaborating entity "cal_flags32" for hierarchy "cal_flags32:U8_cal_flags32" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/alu32.v Line: 27
 Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/output_files/alu32.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 245 device resources after synthesis - the final resource count might be different
@@ -425,9 +429,15 @@ Info (21057): Implemented 245 device resources after synthesis - the final resou
     Info (21059): Implemented 36 output pins
     Info (21061): Implemented 142 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4822 megabytes
-    Info: Processing ended: Fri Oct 06 14:15:47 2023
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Peak virtual memory: 4846 megabytes
+    Info: Processing ended: Sun Oct 08 15:40:58 2023
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:16
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment4/alu32/output_files/alu32.map.smsg.
 
 

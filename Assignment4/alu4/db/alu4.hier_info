@@ -10,14 +10,14 @@ b[3] => b[3].IN6
 op[0] => op[0].IN4
 op[1] => op[1].IN2
 op[2] => op[2].IN2
-result[0] <= result[0].DB_MAX_OUTPUT_PORT_TYPE
-result[1] <= result[1].DB_MAX_OUTPUT_PORT_TYPE
-result[2] <= result[2].DB_MAX_OUTPUT_PORT_TYPE
-result[3] <= result[3].DB_MAX_OUTPUT_PORT_TYPE
-c <= cal_flags4:U8_cal_flags4.c
-n <= cal_flags4:U8_cal_flags4.n
-z <= cal_flags4:U8_cal_flags4.z
-v <= cal_flags4:U8_cal_flags4.v
+result[0] << result[0].DB_MAX_OUTPUT_PORT_TYPE
+result[1] << result[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] << result[2].DB_MAX_OUTPUT_PORT_TYPE
+result[3] << result[3].DB_MAX_OUTPUT_PORT_TYPE
+c << cal_flags4:U8_cal_flags4.c
+n << cal_flags4:U8_cal_flags4.n
+z << cal_flags4:U8_cal_flags4.z
+v << cal_flags4:U8_cal_flags4.v
 
 
 |alu4|_inv_4bits:U0_inv_4bits
