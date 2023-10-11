@@ -40,10 +40,10 @@ module tb_alu4();
 	always @(negedge clk)
 		if (~reset) // skip during reset
 		begin 
-			if (tb_result !== result_expected) 
+			if (tb_result !== result_expected || ({c, n, z, v} !== {tb_c, tb_n, tb_z, tb_v})) 
 			begin
 				$display("Error: inputs = %b_%b", tb_a, tb_b);
-				$display("	outputs = %b (%b expected)", tb_result, result_expected);
+				$display("	outputs = %b (%b expected), CNZV = %b (%b expected)", tb_result, result_expected, {tb_c, tb_n, tb_z, tb_v}, {c, n, z, v});
 				errors = errors + 1;
 			end
  
@@ -52,6 +52,7 @@ module tb_alu4();
 			// end program when unexpected input
 			if (testvectors[vectornum] === 19'bx) 
 			begin
+				#5;
 				$display("%d tests completed with %d errors", vectornum, errors);
 				$finish;
 			end
