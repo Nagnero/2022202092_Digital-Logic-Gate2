@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dlatch {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dlatch/_dlatch.v}
+
