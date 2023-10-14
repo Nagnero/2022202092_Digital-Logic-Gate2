@@ -10,20 +10,20 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:00:12 on Oct 09,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v 
+# Start time: 20:29:44 on Oct 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v 
 # -- Compiling module _dlatch
 # 
 # Top level modules:
 # 	_dlatch
-# End time: 10:00:12 on Oct 09,2023, Elapsed time: 0:00:00
+# End time: 20:29:44 on Oct 14,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:00:12 on Oct 09,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v 
+# Start time: 20:29:44 on Oct 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v 
 # -- Compiling module _inv
 # -- Compiling module _nand2
 # -- Compiling module _and2
@@ -61,40 +61,40 @@
 # 	_or2_32bits
 # 	_xor2_32bits
 # 	_xnor2_32bits
-# End time: 10:00:12 on Oct 09,2023, Elapsed time: 0:00:00
+# End time: 20:29:44 on Oct 14,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:00:12 on Oct 09,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v 
+# Start time: 20:29:44 on Oct 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v 
 # -- Compiling module _dff
 # 
 # Top level modules:
 # 	_dff
-# End time: 10:00:12 on Oct 09,2023, Elapsed time: 0:00:00
+# End time: 20:29:45 on Oct 14,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:00:12 on Oct 09,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v 
+# Start time: 20:29:45 on Oct 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v 
 # -- Compiling module tb_dff
 # 
 # Top level modules:
 # 	tb_dff
-# End time: 10:00:13 on Oct 09,2023, Elapsed time: 0:00:01
+# End time: 20:29:45 on Oct 14,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_dff
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_dff 
-# Start time: 10:00:13 on Oct 09,2023
+# Start time: 20:29:45 on Oct 14,2023
 # Loading work.tb_dff
 # Loading work._dff
 # Loading work._inv
 # Loading work._dlatch
-# ** Warning: (vsim-3017) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_dff/U0_dff/U1_dlatch File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v
-# ** Warning: (vsim-3722) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v(8): [TFMPC] - Missing connection for port 'q_bar'.
+# ** Warning: (vsim-3017) C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_dff/U0_dff/U1_dlatch File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v
+# ** Warning: (vsim-3722) C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v(8): [TFMPC] - Missing connection for port 'q_bar'.
 # 
 # add wave *
 # view structure
@@ -102,8 +102,8 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $stop    : C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v(24)
+# ** Note: $stop    : C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v(24)
 #    Time: 50 ns  Iteration: 0  Instance: /tb_dff
-# Break in Module tb_dff at C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v line 24
-# End time: 10:01:32 on Oct 09,2023, Elapsed time: 0:01:19
+# Break in Module tb_dff at C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v line 24
+# End time: 20:30:19 on Oct 14,2023, Elapsed time: 0:00:34
 # Errors: 0, Warnings: 2

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for _dff
-Mon Oct 09 10:04:27 2023
+Sat Oct 14 20:29:26 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,7 +10,15 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Port Connectivity Checks: "_dlatch:U1_dlatch"
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -33,22 +41,27 @@ refer to the applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                              ;
-+-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Mon Oct 09 10:04:27 2023           ;
-; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name               ; _dff                                        ;
-; Top-level Entity Name       ; _dff                                        ;
-; Family                      ; Cyclone V                                   ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sat Oct 14 20:29:26 2023       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; _dff                                        ;
+; Top-level Entity Name           ; _dff                                        ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 4                                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -143,15 +156,127 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 20          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processors 2-12        ;   0.0%      ;
 +----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                         ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                           ; Library ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------+---------+
+; _dlatch.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v ;         ;
+; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v   ;         ;
+; _dff.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v    ;         ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                       ;
++---------------------------------------------+---------------------+
+; Resource                                    ; Usage               ;
++---------------------------------------------+---------------------+
+; Estimate of Logic utilization (ALMs needed) ; 1                   ;
+;                                             ;                     ;
+; Combinational ALUT usage for logic          ; 2                   ;
+;     -- 7 input functions                    ; 0                   ;
+;     -- 6 input functions                    ; 0                   ;
+;     -- 5 input functions                    ; 0                   ;
+;     -- 4 input functions                    ; 0                   ;
+;     -- <=3 input functions                  ; 2                   ;
+;                                             ;                     ;
+; Dedicated logic registers                   ; 0                   ;
+;                                             ;                     ;
+; I/O pins                                    ; 4                   ;
+;                                             ;                     ;
+; Total DSP Blocks                            ; 0                   ;
+;                                             ;                     ;
+; Maximum fan-out node                        ; _dlatch:U2_dlatch|q ;
+; Maximum fan-out                             ; 3                   ;
+; Total fan-out                               ; 12                  ;
+; Average fan-out                             ; 1.20                ;
++---------------------------------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                        ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name     ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------+-------------+--------------+
+; |_dff                      ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 4    ; 0            ; |_dff                   ; _dff        ; work         ;
+;    |_dlatch:U1_dlatch|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |_dff|_dlatch:U1_dlatch ; _dlatch     ; work         ;
+;    |_dlatch:U2_dlatch|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |_dff|_dlatch:U2_dlatch ; _dlatch     ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                               ;
++----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
++----------------------------------------------------+---------------------+------------------------+
+; _dlatch:U2_dlatch|q                                ; clk                 ; yes                    ;
+; _dlatch:U1_dlatch|q                                ; clk                 ; yes                    ;
+; Number of user-specified and inferred latches = 2  ;                     ;                        ;
++----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "_dlatch:U1_dlatch"                                                                                        ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                                                  ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q_bar ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 3                           ;
+;     normal            ; 3                           ;
+;         1 data inputs ; 1                           ;
+;         3 data inputs ; 2                           ;
+; boundary_port         ; 4                           ;
+;                       ;                             ;
+; Max LUT depth         ; 1.00                        ;
+; Average LUT depth     ; 1.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
 
 
 +-------------------------------+
@@ -160,44 +285,55 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Oct 09 10:04:16 2023
+    Info: Processing started: Sat Oct 14 20:29:17 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off _dff -c _dff
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file _dlatch.v
-    Info (12023): Found entity 1: _dlatch File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v Line: 1
+    Info (12023): Found entity 1: _dlatch File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v Line: 1
 Info (12021): Found 21 design units, including 21 entities, in source file gates.v
-    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 1
-    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 9
-    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 17
-    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 25
-    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 34
-    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 49
-    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 57
-    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 65
-    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 73
-    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 81
-    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 89
-    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 97
-    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 105
-    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 113
-    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 121
-    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 132
-    Info (12023): Found entity 17: _inv_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 143
-    Info (12023): Found entity 18: _and2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 151
-    Info (12023): Found entity 19: _or2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 159
-    Info (12023): Found entity 20: _xor2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 167
-    Info (12023): Found entity 21: _xnor2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 182
+    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 1
+    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 9
+    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 17
+    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 25
+    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 34
+    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 49
+    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 57
+    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 65
+    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 73
+    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 81
+    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 89
+    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 97
+    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 105
+    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 113
+    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 121
+    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 132
+    Info (12023): Found entity 17: _inv_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 143
+    Info (12023): Found entity 18: _and2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 151
+    Info (12023): Found entity 19: _or2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 159
+    Info (12023): Found entity 20: _xor2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 167
+    Info (12023): Found entity 21: _xnor2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/gates.v Line: 182
 Info (12021): Found 1 design units, including 1 entities, in source file _dff.v
-    Info (12023): Found entity 1: _dff File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v Line: 1
+    Info (12023): Found entity 1: _dff File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_dff.v
-    Info (12023): Found entity 1: tb_dff File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v Line: 3
-Error (10137): Verilog HDL Procedural Assignment error at tb_dff.v(16): object "tb_q" on left-hand side of assignment must have a variable data type File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v Line: 16
-Error (10137): Verilog HDL Procedural Assignment error at tb_dff.v(17): object "tb_q_bar" on left-hand side of assignment must have a variable data type File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v Line: 17
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 1 warning
-    Error: Peak virtual memory: 4766 megabytes
-    Error: Processing ended: Mon Oct 09 10:04:28 2023
-    Error: Elapsed time: 00:00:12
-    Error: Total CPU time (on all processors): 00:00:08
+    Info (12023): Found entity 1: tb_dff File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/tb_dff.v Line: 3
+Info (12127): Elaborating entity "_dff" for the top level hierarchy
+Info (12128): Elaborating entity "_inv" for hierarchy "_inv:U0_inv" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v Line: 7
+Info (12128): Elaborating entity "_dlatch" for hierarchy "_dlatch:U1_dlatch" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dff.v Line: 8
+Warning (10240): Verilog HDL Always Construct warning at _dlatch.v(8): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v Line: 8
+Info (10041): Inferred latch for "q" at _dlatch.v(8) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment5/_dff/_dlatch.v Line: 8
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 6 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 2 output pins
+    Info (21061): Implemented 2 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4886 megabytes
+    Info: Processing ended: Sat Oct 14 20:29:26 2023
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:15
 
 
