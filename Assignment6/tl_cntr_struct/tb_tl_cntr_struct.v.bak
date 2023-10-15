@@ -1,0 +1,41 @@
+`timescale 1ns/100ps				//timescale
+
+module tb_tl_cntr;
+
+	reg tb_clk,tb_reset_n,tb_Ta,tb_Tb;
+	wire[1:0] tb_La,tb_Lb;
+	
+	tl_cntr test(.clk(tb_clk),.reset_n(tb_reset_n),.Ta(tb_Ta),.Tb(tb_Tb),.La(tb_La),.Lb(tb_Lb));
+	
+	always
+		begin
+			tb_clk = 1; #5;		//clk cycle
+			tb_clk = 0;  #5;
+		end
+		
+	initial begin
+	tb_reset_n = 0; #5;
+	tb_Ta = 1; #5;
+	tb_Tb = 0; #5;
+	end
+	
+	always
+		begin
+			tb_reset_n = 1; #200;		//reset cycle
+			tb_reset_n=0;  #50;
+		end
+	
+	always
+		begin
+			tb_Ta = 0; #50;		//Ta cycle
+			tb_Ta = 1;  #50;
+		end
+	
+	always
+		begin
+			tb_Tb = 1; #50;		//Tb cycle
+			tb_Tb = 0;  #50;
+		end
+	
+	
+endmodule

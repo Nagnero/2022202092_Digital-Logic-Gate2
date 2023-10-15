@@ -1,0 +1,5 @@
+module tl_cntr_struct(clk, reset_n, Ta, Tb, La, Lb);
+	input clk, reset_n, Ta, Tb;
+	output La, Lb;
+	
+endmodule

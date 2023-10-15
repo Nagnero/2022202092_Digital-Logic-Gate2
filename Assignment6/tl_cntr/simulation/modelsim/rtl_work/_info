@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/simulation/modelsim
+vtb_tl_cntr
+Z1 !s110 1697366810
+!i10b 1
+!s100 KizlPHJi7dDf_PhBb4jSN2
+I_@hQF8VVCn@k1GImj8o0n2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1697366788
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/tb_tl_cntr.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/tb_tl_cntr.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1697366810.000000
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/tb_tl_cntr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/tb_tl_cntr.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr
+Z7 tCvgOpt 0
+vtl_cntr
+R1
+!i10b 1
+!s100 GUG5W_B5PH^O]S;me[Yg=1
+ID=OX]`f7ZcF`9b_Q7T=zh0
+R2
+R0
+w1697366466
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/tl_cntr.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/tl_cntr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/tl_cntr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr/tl_cntr.v|
+!i113 1
+R5
+R6
+R7
