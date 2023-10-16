@@ -1,0 +1,11 @@
+module read_operation (Addr, Data, from_reg0, from_reg1, from_reg2, from_reg3, 
+		from_reg4, from_reg5, from_reg6, from_reg7);
+	input [31:0] from_reg0, from_reg1, from_reg2, from_reg3,	from_reg4, 
+			from_reg5, from_reg6, from_reg7; // input port
+	input [2:0] rAddr; // input port
+	output [31:0] rData; // output port
+	
+	// instantiate mux
+	_8_to_1_MUX U0_(.a(from_reg7), .b(from_reg7), .c(from_reg7), .d(from_reg7), .e(from_reg7), 
+			.f(from_reg7), .g(from_reg7), .h(from_reg7), .sel(rAddr), .d_out(rData));
+endmodule

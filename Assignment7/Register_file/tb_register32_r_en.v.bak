@@ -1,0 +1,31 @@
+`timescale 1ns/100ps
+
+module tb_register32_r_en;			//module declear
+
+	reg tb_clk,tb_reset_n,tb_en;		//clk,reset,enable
+	reg [31:0] tb_d;				//input
+	wire [31:0] tb_q;			//output
+
+	register32_r_en test(.clk(tb_clk), .reset_n(tb_reset_n), .en(tb_en), .d(tb_d), .q(tb_q));
+
+	always
+		begin
+			tb_clk = 1; #10;		//clk cycle
+			tb_clk = 0;  #10;
+		end
+		
+	initial begin																					
+		#50; tb_reset_n = 0; tb_en = 1;
+		#10; tb_reset_n = 1;
+		#20; tb_d = 32'h0000_0000;
+		#20; tb_d = 32'h0001_0001;
+		#20; tb_d = 32'h0010_0010;
+		#10; tb_en = 0;
+		#20; tb_d = 32'h0111_0111;
+		#20; tb_d = 32'h1110_1110;
+		#10;
+		
+		
+	end	
+	
+endmodule
