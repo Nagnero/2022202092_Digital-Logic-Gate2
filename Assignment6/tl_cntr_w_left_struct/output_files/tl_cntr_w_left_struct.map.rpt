@@ -1,5 +1,5 @@
 Analysis & Synthesis report for tl_cntr_w_left_struct
-Tue Oct 17 01:03:12 2023
+Tue Oct 17 14:14:46 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -45,7 +45,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Oct 17 01:03:12 2023       ;
+; Analysis & Synthesis Status     ; Successful - Tue Oct 17 14:14:46 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; tl_cntr_w_left_struct                       ;
 ; Top-level Entity Name           ; tl_cntr_w_left_struct                       ;
@@ -157,32 +157,32 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 20          ;
-; Maximum allowed            ; 12          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 12          ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-12        ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                        ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                          ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
-; _dlatch.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v               ;         ;
-; _dff_r_async.v                   ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v          ;         ;
-; _dff.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v                  ;         ;
-; ns_logic.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v              ;         ;
-; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v                 ;         ;
-; tl_cntr_w_left_struct.v          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v ;         ;
-; o_logic.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v               ;         ;
-; _register3_r.v                   ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_register3_r.v          ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                       ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                         ; Library ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------------------+---------+
+; _dlatch.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v               ;         ;
+; _dff_r_async.v                   ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v          ;         ;
+; _dff.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v                  ;         ;
+; ns_logic.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v              ;         ;
+; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v                 ;         ;
+; tl_cntr_w_left_struct.v          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v ;         ;
+; o_logic.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v               ;         ;
+; _register3_r.v                   ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_register3_r.v          ;         ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------+
@@ -325,80 +325,80 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Oct 17 01:03:04 2023
+    Info: Processing started: Tue Oct 17 14:14:33 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tl_cntr_w_left_struct -c tl_cntr_w_left_struct
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file _dlatch.v
-    Info (12023): Found entity 1: _dlatch File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v Line: 1
+    Info (12023): Found entity 1: _dlatch File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _dff_r_async.v
-    Info (12023): Found entity 1: _dff_r_async File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v Line: 1
+    Info (12023): Found entity 1: _dff_r_async File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _dff.v
-    Info (12023): Found entity 1: _dff File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v Line: 1
+    Info (12023): Found entity 1: _dff File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file ns_logic.v
-    Info (12023): Found entity 1: ns_logic File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 1
+    Info (12023): Found entity 1: ns_logic File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 1
 Info (12021): Found 21 design units, including 21 entities, in source file gates.v
-    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 1
-    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 9
-    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 17
-    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 25
-    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 34
-    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 49
-    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 57
-    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 65
-    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 73
-    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 81
-    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 89
-    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 97
-    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 105
-    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 113
-    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 121
-    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 132
-    Info (12023): Found entity 17: _inv_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 143
-    Info (12023): Found entity 18: _and2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 151
-    Info (12023): Found entity 19: _or2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 159
-    Info (12023): Found entity 20: _xor2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 167
-    Info (12023): Found entity 21: _xnor2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 182
+    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 1
+    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 9
+    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 17
+    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 25
+    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 34
+    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 49
+    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 57
+    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 65
+    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 73
+    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 81
+    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 89
+    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 97
+    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 105
+    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 113
+    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 121
+    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 132
+    Info (12023): Found entity 17: _inv_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 143
+    Info (12023): Found entity 18: _and2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 151
+    Info (12023): Found entity 19: _or2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 159
+    Info (12023): Found entity 20: _xor2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 167
+    Info (12023): Found entity 21: _xnor2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 182
 Info (12021): Found 1 design units, including 1 entities, in source file tl_cntr_w_left_struct.v
-    Info (12023): Found entity 1: tl_cntr_w_left_struct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v Line: 1
+    Info (12023): Found entity 1: tl_cntr_w_left_struct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file o_logic.v
-    Info (12023): Found entity 1: o_logic File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 1
+    Info (12023): Found entity 1: o_logic File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _register3_r.v
-    Info (12023): Found entity 1: _register3_r File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_register3_r.v Line: 1
+    Info (12023): Found entity 1: _register3_r File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_register3_r.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_tl_cntr_w_left_struct.v
-    Info (12023): Found entity 1: tb_tl_cntr_w_left_struct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v Line: 3
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(12): created implicit net for "n_Tal" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 12
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(14): created implicit net for "n_Tbl" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 14
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(17): created implicit net for "w0_d2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 17
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(18): created implicit net for "w1_d2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 18
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(19): created implicit net for "w2_d2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 19
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(26): created implicit net for "w0_d0" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(27): created implicit net for "w1_d0" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 27
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(28): created implicit net for "w2_d0" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 28
-Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(29): created implicit net for "w3_d0" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 29
-Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(5): created implicit net for "n_Q2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 5
-Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(6): created implicit net for "n_Q0" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 6
-Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(9): created implicit net for "w0_La1" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 9
-Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(11): created implicit net for "w0_La0" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 11
-Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(15): created implicit net for "w0_Lb1" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 15
-Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(17): created implicit net for "w0_Lb0" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 17
+    Info (12023): Found entity 1: tb_tl_cntr_w_left_struct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v Line: 3
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(12): created implicit net for "n_Tal" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 12
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(14): created implicit net for "n_Tbl" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 14
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(17): created implicit net for "w0_d2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 17
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(18): created implicit net for "w1_d2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(19): created implicit net for "w2_d2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 19
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(26): created implicit net for "w0_d0" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 26
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(27): created implicit net for "w1_d0" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(28): created implicit net for "w2_d0" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 28
+Warning (10236): Verilog HDL Implicit Net warning at ns_logic.v(29): created implicit net for "w3_d0" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(5): created implicit net for "n_Q2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 5
+Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(6): created implicit net for "n_Q0" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 6
+Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(9): created implicit net for "w0_La1" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 9
+Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(11): created implicit net for "w0_La0" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 11
+Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(15): created implicit net for "w0_Lb1" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 15
+Warning (10236): Verilog HDL Implicit Net warning at o_logic.v(17): created implicit net for "w0_Lb0" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v Line: 17
 Info (12127): Elaborating entity "tl_cntr_w_left_struct" for the top level hierarchy
-Info (12128): Elaborating entity "ns_logic" for hierarchy "ns_logic:U0_ns_logic" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v Line: 8
-Info (12128): Elaborating entity "_inv" for hierarchy "ns_logic:U0_ns_logic|_inv:U0_inv" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 8
-Info (12128): Elaborating entity "_and3" for hierarchy "ns_logic:U0_ns_logic|_and3:U7_and3" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 17
-Info (12128): Elaborating entity "_and2" for hierarchy "ns_logic:U0_ns_logic|_and2:U8_and2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 18
-Info (12128): Elaborating entity "_or3" for hierarchy "ns_logic:U0_ns_logic|_or3:U10_or3" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 20
-Info (12128): Elaborating entity "_xor2" for hierarchy "ns_logic:U0_ns_logic|_xor2:U11_xor2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 23
-Info (12128): Elaborating entity "_or2" for hierarchy "ns_logic:U0_ns_logic|_xor2:U11_xor2|_or2:U4_or2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 45
-Info (12128): Elaborating entity "_and4" for hierarchy "ns_logic:U0_ns_logic|_and4:U12_and4" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 26
-Info (12128): Elaborating entity "_or4" for hierarchy "ns_logic:U0_ns_logic|_or4:U16_or4" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 30
-Info (12128): Elaborating entity "_register3_r" for hierarchy "_register3_r:U1_register" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v Line: 11
-Info (12128): Elaborating entity "_dff_r_async" for hierarchy "_register3_r:U1_register|_dff_r_async:U0_dff_r_async" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_register3_r.v Line: 6
-Info (12128): Elaborating entity "_dff" for hierarchy "_register3_r:U1_register|_dff_r_async:U0_dff_r_async|_dff:U1_dff" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v Line: 8
-Info (12128): Elaborating entity "_dlatch" for hierarchy "_register3_r:U1_register|_dff_r_async:U0_dff_r_async|_dff:U1_dff|_dlatch:U1_dlatch" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v Line: 8
-Warning (10240): Verilog HDL Always Construct warning at _dlatch.v(8): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v Line: 8
-Info (10041): Inferred latch for "q" at _dlatch.v(8) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v Line: 8
-Info (12128): Elaborating entity "o_logic" for hierarchy "o_logic:U2_o_logic" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v Line: 14
+Info (12128): Elaborating entity "ns_logic" for hierarchy "ns_logic:U0_ns_logic" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v Line: 8
+Info (12128): Elaborating entity "_inv" for hierarchy "ns_logic:U0_ns_logic|_inv:U0_inv" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 8
+Info (12128): Elaborating entity "_and3" for hierarchy "ns_logic:U0_ns_logic|_and3:U7_and3" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 17
+Info (12128): Elaborating entity "_and2" for hierarchy "ns_logic:U0_ns_logic|_and2:U8_and2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 18
+Info (12128): Elaborating entity "_or3" for hierarchy "ns_logic:U0_ns_logic|_or3:U10_or3" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 20
+Info (12128): Elaborating entity "_xor2" for hierarchy "ns_logic:U0_ns_logic|_xor2:U11_xor2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 23
+Info (12128): Elaborating entity "_or2" for hierarchy "ns_logic:U0_ns_logic|_xor2:U11_xor2|_or2:U4_or2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v Line: 45
+Info (12128): Elaborating entity "_and4" for hierarchy "ns_logic:U0_ns_logic|_and4:U12_and4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 26
+Info (12128): Elaborating entity "_or4" for hierarchy "ns_logic:U0_ns_logic|_or4:U16_or4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v Line: 30
+Info (12128): Elaborating entity "_register3_r" for hierarchy "_register3_r:U1_register" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v Line: 11
+Info (12128): Elaborating entity "_dff_r_async" for hierarchy "_register3_r:U1_register|_dff_r_async:U0_dff_r_async" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_register3_r.v Line: 6
+Info (12128): Elaborating entity "_dff" for hierarchy "_register3_r:U1_register|_dff_r_async:U0_dff_r_async|_dff:U1_dff" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v Line: 8
+Info (12128): Elaborating entity "_dlatch" for hierarchy "_register3_r:U1_register|_dff_r_async:U0_dff_r_async|_dff:U1_dff|_dlatch:U1_dlatch" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v Line: 8
+Warning (10240): Verilog HDL Always Construct warning at _dlatch.v(8): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v Line: 8
+Info (10041): Inferred latch for "q" at _dlatch.v(8) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v Line: 8
+Info (12128): Elaborating entity "o_logic" for hierarchy "o_logic:U2_o_logic" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v Line: 14
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -408,9 +408,9 @@ Info (21057): Implemented 24 device resources after synthesis - the final resour
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 14 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 18 warnings
-    Info: Peak virtual memory: 4876 megabytes
-    Info: Processing ended: Tue Oct 17 01:03:12 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:14
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Tue Oct 17 14:14:46 2023
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:06
 
 

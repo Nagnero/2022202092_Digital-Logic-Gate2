@@ -1,5 +1,5 @@
 Flow report for tl_cntr_w_left_struct
-Tue Oct 17 01:03:12 2023
+Tue Oct 17 14:14:46 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Oct 17 01:03:12 2023       ;
+; Flow Status                     ; Successful - Tue Oct 17 14:14:46 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; tl_cntr_w_left_struct                       ;
 ; Top-level Entity Name           ; tl_cntr_w_left_struct                       ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+-----------------------+
 ; Option            ; Setting               ;
 +-------------------+-----------------------+
-; Start date & time ; 10/17/2023 01:03:05   ;
+; Start date & time ; 10/17/2023 14:14:34   ;
 ; Main task         ; Compilation           ;
 ; Revision Name     ; tl_cntr_w_left_struct ;
 +-------------------+-----------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+--------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id               ;
 +--------------------------------------+----------------------------------------+---------------+-------------+--------------------------+
-; COMPILER_SIGNATURE_ID                ; 91757454549.169747218433084            ; --            ; --          ; --                       ;
+; COMPILER_SIGNATURE_ID                ; 194052598491342.169751967419960        ; --            ; --          ; --                       ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_tl_cntr_w_left_struct ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_tl_cntr_w_left_struct               ; --            ; --          ; eda_simulation           ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation           ;
@@ -104,8 +104,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4876 MB             ; 00:00:14                           ;
-; Total                ; 00:00:08     ; --                      ; --                  ; 00:00:14                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4827 MB             ; 00:00:06                           ;
+; Total                ; 00:00:12     ; --                      ; --                  ; 00:00:06                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,7 +114,7 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-N7P01HF  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; SunLap           ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

@@ -1,27 +1,60 @@
-`timescale 1ns/100ps				//timescale
+`timescale 1ns/100ps
 
 module tb_tl_cntr_w_left_struct;
+	reg clk, reset_n, Ta, Tal, Tb, Tbl;
+	wire [1:0] La, Lb;
+  
+	// Instantiate the module
+	tl_cntr_w_left_struct DUT(.clk(clk), .reset_n(reset_n), .Ta(Ta), .Tal(Tal), .Tb(Tb), .Tbl(Tbl), .La(La), .Lb(Lb));
 
-	reg tb_clk,tb_reset_n,tb_Ta,tb_Tb,tb_Tal,tb_Tbl;
-	wire[1:0] tb_La,tb_Lb;
-	
-	tl_cntr_w_left_struct DUT(.clk(tb_clk),.reset_n(tb_reset_n),.Ta(tb_Ta),.Tal(tb_Tal),.Tb(tb_Tb),.Tbl(tb_Tbl),.La(tb_La),.Lb(tb_Lb));
-	
-	always
-		begin
-			tb_clk = 1; #5;		//clk cycle
-			tb_clk = 0;  #5;
-		end
+	// Clock generation
+	always begin
+		#5 clk = ~clk;
+	end
+  
+	// Stimulus generation
+	initial 
+	begin
+		#0; // Initialize inputs
+		clk = 0;
+		reset_n = 0;
+		Ta = 0; Tal = 0;
+		Tb = 0; Tbl = 0;
+		#10 reset_n = 1;
+
+		// Test case 1
+		#10 Ta = 1;
+		#10 Tb = 1;
+
+		// Test case 2
+		#10 Ta = 1;
+		#10 Tb = 0;
+
+		// Test case 3
+		#10 Ta = 0;
+		#10 Tb = 1;
+
+		// Test case 4
+		#10 Ta = 0;
+		#10 Tb = 0;
 		
-	initial begin
-		#0;	tb_clk = 1; tb_reset_n = 0;
-				tb_Ta = 0; tb_Tal = 0; tb_Tb = 0; tb_Tbl = 0;
-		
-		#20;	tb_reset_n = 1;
-		#20;	tb_Ta = 0;
-		#20;	tb_Ta = 0;
-		#20;	tb_Tal = 1;
-		#20;	tb_Tal = 0;
-		#20;	$stop;
+		// Test case 5
+		#10 Ta = 1; Tal = 1;
+		#10 Tb = 1; Tbl = 1;
+
+		// Test case 6
+		#10 Ta = 1;
+		#10 Tb = 0;
+
+		// Test case 7
+		#10 Ta = 0;
+		#10 Tb = 1;
+
+		// Test case 8
+		#10 Ta = 0;
+		#10 Tb = 0;
+
+		// Finish simulation
+		$stop;
 	end
 endmodule
