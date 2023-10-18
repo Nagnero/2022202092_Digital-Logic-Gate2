@@ -36,7 +36,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "d_in[0]",
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
 					"strict" : false
 				},
 				{
@@ -57,6 +61,22 @@
 				},
 				{
 					"name" : "d_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "op[1]",
+					"strict" : false
+				},
+				{
+					"name" : "op[2]",
+					"strict" : false
+				},
+				{
+					"name" : "op[0]",
+					"strict" : false
+				},
+				{
+					"name" : "d_in[0]",
 					"strict" : false
 				},
 				{

@@ -3,9 +3,10 @@ module LSL8(d_in, shamt, d_out);
 	input [1:0] shamt;
 	output [7:0] d_out;
 	
-	mx4 U0_mx4(.d0(d_in[0]), .d1(0), .d2(0), .d3(0), .s(shamt), .y(d_out[0]));
-	mx4 U1_mx4(.d0(d_in[1]), .d1(d_in[0]), .d2(0), .d3(0), .s(shamt), .y(d_out[1]));
-	mx4 U2_mx4(.d0(d_in[2]), .d1(d_in[1]), .d2(d_in[0]), .d3(0), .s(shamt), .y(d_out[2]));
+	// instanitate mux4
+	mx4 U0_mx4(.d0(d_in[0]), .d1(1'b0), .d2(1'b0), .d3(1'b0), .s(shamt), .y(d_out[0]));
+	mx4 U1_mx4(.d0(d_in[1]), .d1(d_in[0]), .d2(1'b0), .d3(1'b0), .s(shamt), .y(d_out[1]));
+	mx4 U2_mx4(.d0(d_in[2]), .d1(d_in[1]), .d2(d_in[0]), .d3(1'b0), .s(shamt), .y(d_out[2]));
 	mx4 U3_mx4(.d0(d_in[3]), .d1(d_in[2]), .d2(d_in[1]), .d3(d_in[0]), .s(shamt), .y(d_out[3]));
 	mx4 U4_mx4(.d0(d_in[4]), .d1(d_in[3]), .d2(d_in[2]), .d3(d_in[1]), .s(shamt), .y(d_out[4]));
 	mx4 U5_mx4(.d0(d_in[5]), .d1(d_in[4]), .d2(d_in[3]), .d3(d_in[2]), .s(shamt), .y(d_out[5]));

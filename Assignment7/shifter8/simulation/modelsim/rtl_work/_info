@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/simulation/modelsim
 v_and2
-Z1 !s110 1697421614
+Z1 !s110 1697532956
 !i10b 1
 !s100 2jUcfV=0AD[C4<W65L<DL0
 IJjX><lc>9HRTD:PzZ7VoD1
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1697421614.000000
+Z7 !s108 1697532956.000000
 Z8 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/gates.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/gates.v|
 !i113 1
@@ -146,6 +146,29 @@ R10
 R11
 R12
 n@_and5
+v_dff_r
+R1
+!i10b 1
+!s100 HojY?I]ol?J6m3A]_G@e`2
+If^10gzHjH@lTk9ogPWW[70
+R2
+R0
+w1697526121
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_dff_r.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_dff_r.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_dff_r.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_dff_r.v|
+!i113 1
+R10
+R11
+R12
+n@_dff_r
 v_inv
 R1
 !i10b 1
@@ -376,6 +399,29 @@ R10
 R11
 R12
 n@_or5
+v_register8_r
+R1
+!i10b 1
+!s100 d5:j__WOgEH<Gb>f<FY5>0
+IMMW?PCbjbKP5CojUHj4hK2
+R2
+R0
+w1697527538
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_register8_r.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_register8_r.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_register8_r.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_register8_r.v|
+!i113 1
+R10
+R11
+R12
+n@_register8_r
 v_xnor2_32bits
 R1
 !i10b 1
@@ -491,14 +537,59 @@ R10
 R11
 R12
 n@_xor2_4bits
+vASR8
+R1
+!i10b 1
+!s100 ^I]9bSUjkK??nbP:6K:I42
+IHfY>H<M7<6Pz1WilcmacV2
+R2
+R0
+w1697523456
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/ASR8.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/ASR8.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/ASR8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/ASR8.v|
+!i113 1
+R10
+R11
+R12
+n@a@s@r8
+vcc_logic
+Z13 !s110 1697532957
+!i10b 1
+!s100 [;fiUBTTbc<zI<5<FdVeJ3
+ILfV@TON8YammI`JD0FR>60
+R2
+R0
+w1697529601
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v|
+!i113 1
+R10
+R11
+R12
 vLSL8
 R1
 !i10b 1
-!s100 [jJWY^g6VIP?:^R=<aOc[0
-I]gV`Ce_Fh46VS8UH=hIJz0
+!s100 oY_mU6n<WPeDW[[N^2M172
+I`SG;3NlEDSH12MKn]^mze3
 R2
 R0
-w1697421071
+w1697522554
 8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSL8.v
 FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSL8.v
 L0 1
@@ -514,6 +605,29 @@ R10
 R11
 R12
 n@l@s@l8
+vLSR8
+R1
+!i10b 1
+!s100 c?80F>T4b:BUQlKcL<hA53
+I[oNe5A5kSJZ?9d1;lc?bc2
+R2
+R0
+w1697522584
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSR8.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSR8.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSR8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSR8.v|
+!i113 1
+R10
+R11
+R12
+n@l@s@r8
 vmx2
 R1
 !i10b 1
@@ -558,26 +672,47 @@ R7
 R10
 R11
 R12
-vtb_LSL8
+vshifter8
 R1
 !i10b 1
-!s100 Vo=Lnb?MTeNX9]C46[2iL3
-I>[LQ<omm1o4FX`Lih7bd80
+!s100 ^C[`h011e;4CK;jI7A4IK2
+I4Z]b1WPC73CJdja3JnbhA3
 R2
 R0
-w1697421491
-8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_LSL8.v
-FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_LSL8.v
-L0 2
+w1697530690
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v
+L0 1
 R6
 r1
 !s85 0
 31
 R7
-!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_LSL8.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_LSL8.v|
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v|
 !i113 1
 R10
 R11
 R12
-ntb_@l@s@l8
+vtb_cc_logic
+R13
+!i10b 1
+!s100 f9b^HIi=@gz=Ei9jJg9]B2
+I=XN=C0lQm[5f0TX79AW4B1
+R2
+R0
+w1697532934
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_cc_logic.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_cc_logic.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1697532957.000000
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_cc_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_cc_logic.v|
+!i113 1
+R10
+R11
+R12

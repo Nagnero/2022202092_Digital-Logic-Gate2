@@ -1,5 +1,5 @@
 Analysis & Synthesis report for shifter8
-Mon Oct 16 10:59:37 2023
+Tue Oct 17 18:04:01 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -13,14 +13,19 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Multiplexer Restructuring Statistics (Restructuring Performed)
- 10. Port Connectivity Checks: "mx4:U2_mx4"
- 11. Port Connectivity Checks: "mx4:U1_mx4"
- 12. Port Connectivity Checks: "mx4:U0_mx4"
- 13. Post-Synthesis Netlist Statistics for Top Partition
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: cc_logic:U1_cc_logic
+ 12. Port Connectivity Checks: "cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U7_mx4"
+ 13. Port Connectivity Checks: "cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U6_mx4"
+ 14. Port Connectivity Checks: "cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U5_mx4"
+ 15. Port Connectivity Checks: "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U2_mx4"
+ 16. Port Connectivity Checks: "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U1_mx4"
+ 17. Port Connectivity Checks: "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U0_mx4"
+ 18. Post-Synthesis Netlist Statistics for Top Partition
+ 19. Elapsed Time Per Partition
+ 20. Analysis & Synthesis Messages
 
 
 
@@ -46,14 +51,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct 16 10:59:37 2023       ;
+; Analysis & Synthesis Status     ; Successful - Tue Oct 17 18:04:01 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; shifter8                                    ;
-; Top-level Entity Name           ; LSL8                                        ;
+; Top-level Entity Name           ; shifter8                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 18                                          ;
+; Total registers                 ; 8                                           ;
+; Total pins                      ; 23                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -72,7 +77,7 @@ refer to the applicable agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
-; Top-level entity name                                                           ; LSL8               ; shifter8           ;
+; Top-level entity name                                                           ; shifter8           ; shifter8           ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -162,23 +167,30 @@ refer to the applicable agreement for further details.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                          ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                            ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------+---------+
-; mx2.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx2.v   ;         ;
-; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/gates.v ;         ;
-; mx4.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx4.v   ;         ;
-; LSL8.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSL8.v  ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                   ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
+; _register8_r.v                   ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_register8_r.v ;         ;
+; _dff_r.v                         ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_dff_r.v       ;         ;
+; mx2.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx2.v          ;         ;
+; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/gates.v        ;         ;
+; mx4.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx4.v          ;         ;
+; LSL8.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSL8.v         ;         ;
+; shifter8.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v     ;         ;
+; LSR8.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSR8.v         ;         ;
+; ASR8.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/ASR8.v         ;         ;
+; cc_logic.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v     ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------+
@@ -186,60 +198,81 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimate of Logic utilization (ALMs needed) ; 7              ;
+; Estimate of Logic utilization (ALMs needed) ; 35             ;
 ;                                             ;                ;
-; Combinational ALUT usage for logic          ; 8              ;
-;     -- 7 input functions                    ; 0              ;
-;     -- 6 input functions                    ; 5              ;
-;     -- 5 input functions                    ; 1              ;
-;     -- 4 input functions                    ; 1              ;
-;     -- <=3 input functions                  ; 1              ;
+; Combinational ALUT usage for logic          ; 50             ;
+;     -- 7 input functions                    ; 4              ;
+;     -- 6 input functions                    ; 16             ;
+;     -- 5 input functions                    ; 8              ;
+;     -- 4 input functions                    ; 7              ;
+;     -- <=3 input functions                  ; 15             ;
 ;                                             ;                ;
-; Dedicated logic registers                   ; 0              ;
+; Dedicated logic registers                   ; 8              ;
 ;                                             ;                ;
-; I/O pins                                    ; 18             ;
+; I/O pins                                    ; 23             ;
 ;                                             ;                ;
 ; Total DSP Blocks                            ; 0              ;
 ;                                             ;                ;
-; Maximum fan-out node                        ; shamt[0]~input ;
-; Maximum fan-out                             ; 8              ;
-; Total fan-out                               ; 68             ;
-; Average fan-out                             ; 1.55           ;
+; Maximum fan-out node                        ; shamt[1]~input ;
+; Maximum fan-out                             ; 23             ;
+; Total fan-out                               ; 291            ;
+; Average fan-out                             ; 2.80           ;
 +---------------------------------------------+----------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                            ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                         ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------+-------------+--------------+
-; |LSL8                      ; 8 (0)               ; 0 (0)                     ; 0                 ; 0          ; 18   ; 0            ; |LSL8                                       ; LSL8        ; work         ;
-;    |mx4:U0_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U0_mx4                            ; mx4         ; work         ;
-;       |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U0_mx4|mx2:U2_mx2                 ; mx2         ; work         ;
-;          |_nand2:U1_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U0_mx4|mx2:U2_mx2|_nand2:U1_nand2 ; _nand2      ; work         ;
-;    |mx4:U1_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U1_mx4                            ; mx4         ; work         ;
-;       |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U1_mx4|mx2:U2_mx2                 ; mx2         ; work         ;
-;          |_nand2:U1_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U1_mx4|mx2:U2_mx2|_nand2:U1_nand2 ; _nand2      ; work         ;
-;    |mx4:U2_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U2_mx4                            ; mx4         ; work         ;
-;       |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U2_mx4|mx2:U2_mx2                 ; mx2         ; work         ;
-;          |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U2_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2      ; work         ;
-;    |mx4:U3_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U3_mx4                            ; mx4         ; work         ;
-;       |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U3_mx4|mx2:U2_mx2                 ; mx2         ; work         ;
-;          |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U3_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2      ; work         ;
-;    |mx4:U4_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U4_mx4                            ; mx4         ; work         ;
-;       |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U4_mx4|mx2:U2_mx2                 ; mx2         ; work         ;
-;          |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U4_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2      ; work         ;
-;    |mx4:U5_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U5_mx4                            ; mx4         ; work         ;
-;       |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U5_mx4|mx2:U2_mx2                 ; mx2         ; work         ;
-;          |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U5_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2      ; work         ;
-;    |mx4:U6_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U6_mx4                            ; mx4         ; work         ;
-;       |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U6_mx4|mx2:U2_mx2                 ; mx2         ; work         ;
-;          |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U6_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2      ; work         ;
-;    |mx4:U7_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U7_mx4                            ; mx4         ; work         ;
-;       |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U7_mx4|mx2:U2_mx2                 ; mx2         ; work         ;
-;          |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |LSL8|mx4:U7_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2      ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------+-------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                         ;
++----------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------+--------------+--------------+
+; Compilation Hierarchy Node       ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                               ; Entity Name  ; Library Name ;
++----------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------+--------------+--------------+
+; |shifter8                        ; 50 (0)              ; 8 (0)                     ; 0                 ; 0          ; 23   ; 0            ; |shifter8                                                                         ; shifter8     ; work         ;
+;    |_register8_r:U0_register8_r| ; 0 (0)               ; 8 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r                                             ; _register8_r ; work         ;
+;       |_dff_r:U0_dff_r|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r|_dff_r:U0_dff_r                             ; _dff_r       ; work         ;
+;       |_dff_r:U1_dff_r|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r|_dff_r:U1_dff_r                             ; _dff_r       ; work         ;
+;       |_dff_r:U2_dff_r|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r|_dff_r:U2_dff_r                             ; _dff_r       ; work         ;
+;       |_dff_r:U3_dff_r|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r|_dff_r:U3_dff_r                             ; _dff_r       ; work         ;
+;       |_dff_r:U4_dff_r|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r|_dff_r:U4_dff_r                             ; _dff_r       ; work         ;
+;       |_dff_r:U5_dff_r|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r|_dff_r:U5_dff_r                             ; _dff_r       ; work         ;
+;       |_dff_r:U6_dff_r|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r|_dff_r:U6_dff_r                             ; _dff_r       ; work         ;
+;       |_dff_r:U7_dff_r|          ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|_register8_r:U0_register8_r|_dff_r:U7_dff_r                             ; _dff_r       ; work         ;
+;    |cc_logic:U1_cc_logic|        ; 50 (45)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic                                                    ; cc_logic     ; work         ;
+;       |LSL8:U0_LSL8|             ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSL8:U0_LSL8                                       ; LSL8         ; work         ;
+;          |mx4:U5_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U5_mx4                            ; mx4          ; work         ;
+;             |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U5_mx4|mx2:U2_mx2                 ; mx2          ; work         ;
+;                |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U5_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2       ; work         ;
+;          |mx4:U7_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U7_mx4                            ; mx4          ; work         ;
+;             |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U7_mx4|mx2:U2_mx2                 ; mx2          ; work         ;
+;                |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U7_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2       ; work         ;
+;       |LSR8:U1_LSR8|             ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8                                       ; LSR8         ; work         ;
+;          |mx4:U0_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U0_mx4                            ; mx4          ; work         ;
+;             |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U0_mx4|mx2:U2_mx2                 ; mx2          ; work         ;
+;                |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U0_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2       ; work         ;
+;          |mx4:U2_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U2_mx4                            ; mx4          ; work         ;
+;             |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U2_mx4|mx2:U2_mx2                 ; mx2          ; work         ;
+;                |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U2_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2       ; work         ;
+;          |mx4:U5_mx4|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U5_mx4                            ; mx4          ; work         ;
+;             |mx2:U2_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U5_mx4|mx2:U2_mx2                 ; mx2          ; work         ;
+;                |_nand2:U3_nand2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |shifter8|cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U5_mx4|mx2:U2_mx2|_nand2:U3_nand2 ; _nand2       ; work         ;
++----------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------+--------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                     ;
++----------------------------------------------------+---------------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal       ; Free of Timing Hazards ;
++----------------------------------------------------+---------------------------+------------------------+
+; cc_logic:U1_cc_logic|d_next[0]                     ; cc_logic:U1_cc_logic|Mux8 ; yes                    ;
+; cc_logic:U1_cc_logic|d_next[1]                     ; cc_logic:U1_cc_logic|Mux8 ; yes                    ;
+; cc_logic:U1_cc_logic|d_next[2]                     ; cc_logic:U1_cc_logic|Mux8 ; yes                    ;
+; cc_logic:U1_cc_logic|d_next[3]                     ; cc_logic:U1_cc_logic|Mux8 ; yes                    ;
+; cc_logic:U1_cc_logic|d_next[4]                     ; cc_logic:U1_cc_logic|Mux8 ; yes                    ;
+; cc_logic:U1_cc_logic|d_next[5]                     ; cc_logic:U1_cc_logic|Mux8 ; yes                    ;
+; cc_logic:U1_cc_logic|d_next[6]                     ; cc_logic:U1_cc_logic|Mux8 ; yes                    ;
+; cc_logic:U1_cc_logic|d_next[7]                     ; cc_logic:U1_cc_logic|Mux8 ; yes                    ;
+; Number of user-specified and inferred latches = 8  ;                           ;                        ;
++----------------------------------------------------+---------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -247,59 +280,98 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 8     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 8     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                              ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
-; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |LSL8|mx4:U3_mx4|mx2:U2_mx2|_nand2:U3_nand2|y ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |shifter8|cc_logic:U1_cc_logic|Mux0 ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |shifter8|cc_logic:U1_cc_logic|Mux3 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "mx4:U2_mx4"                                                                                                                                                                         ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; d3     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; d3[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: cc_logic:U1_cc_logic ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; NOP            ; 000   ; Unsigned Binary                          ;
+; LOAD           ; 111   ; Unsigned Binary                          ;
+; LSL            ; 001   ; Unsigned Binary                          ;
+; LSR            ; 010   ; Unsigned Binary                          ;
+; ASR            ; 100   ; Unsigned Binary                          ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "mx4:U1_mx4"                                                                                                                                                                         ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; d2     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; d2[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-; d3     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; d3[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+; Port Connectivity Checks: "cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U7_mx4" ;
++------+-------+----------+------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                        ;
++------+-------+----------+------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                   ;
+; d2   ; Input ; Info     ; Stuck at GND                                   ;
+; d3   ; Input ; Info     ; Stuck at GND                                   ;
++------+-------+----------+------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "mx4:U0_mx4"                                                                                                                                                                         ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; d1     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; d1[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-; d2     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; d2[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-; d3     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; d3[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+; Port Connectivity Checks: "cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U6_mx4" ;
++------+-------+----------+------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                        ;
++------+-------+----------+------------------------------------------------+
+; d2   ; Input ; Info     ; Stuck at GND                                   ;
+; d3   ; Input ; Info     ; Stuck at GND                                   ;
++------+-------+----------+------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Port Connectivity Checks: "cc_logic:U1_cc_logic|LSR8:U1_LSR8|mx4:U5_mx4" ;
++------+-------+----------+------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                        ;
++------+-------+----------+------------------------------------------------+
+; d3   ; Input ; Info     ; Stuck at GND                                   ;
++------+-------+----------+------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Port Connectivity Checks: "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U2_mx4" ;
++------+-------+----------+------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                        ;
++------+-------+----------+------------------------------------------------+
+; d3   ; Input ; Info     ; Stuck at GND                                   ;
++------+-------+----------+------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Port Connectivity Checks: "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U1_mx4" ;
++------+-------+----------+------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                        ;
++------+-------+----------+------------------------------------------------+
+; d2   ; Input ; Info     ; Stuck at GND                                   ;
+; d3   ; Input ; Info     ; Stuck at GND                                   ;
++------+-------+----------+------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Port Connectivity Checks: "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U0_mx4" ;
++------+-------+----------+------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                        ;
++------+-------+----------+------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                   ;
+; d2   ; Input ; Info     ; Stuck at GND                                   ;
+; d3   ; Input ; Info     ; Stuck at GND                                   ;
++------+-------+----------+------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -307,17 +379,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 9                           ;
-;     normal            ; 9                           ;
-;         1 data inputs ; 1                           ;
-;         3 data inputs ; 1                           ;
-;         4 data inputs ; 1                           ;
-;         5 data inputs ; 1                           ;
-;         6 data inputs ; 5                           ;
-; boundary_port         ; 18                          ;
+; arriav_ff             ; 8                           ;
+;     CLR               ; 8                           ;
+; arriav_lcell_comb     ; 50                          ;
+;     extend            ; 4                           ;
+;         7 data inputs ; 4                           ;
+;     normal            ; 46                          ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 14                          ;
+;         4 data inputs ; 7                           ;
+;         5 data inputs ; 8                           ;
+;         6 data inputs ; 16                          ;
+; boundary_port         ; 23                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.32                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 3.21                        ;
 +-----------------------+-----------------------------+
 
 
@@ -336,10 +412,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Oct 16 10:59:26 2023
+    Info: Processing started: Tue Oct 17 18:03:49 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off shifter8 -c shifter8
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file _register8_r.v
+    Info (12023): Found entity 1: _register8_r File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_register8_r.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file _dff_r.v
+    Info (12023): Found entity 1: _dff_r File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_dff_r.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mx2.v
     Info (12023): Found entity 1: mx2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx2.v Line: 1
 Info (12021): Found 21 design units, including 21 entities, in source file gates.v
@@ -371,26 +451,77 @@ Info (12021): Found 1 design units, including 1 entities, in source file tb_mx4.
 Info (12021): Found 1 design units, including 1 entities, in source file lsl8.v
     Info (12023): Found entity 1: LSL8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSL8.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_lsl8.v
-    Info (12023): Found entity 1: tb_LSL8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_LSL8.v Line: 2
+    Info (12023): Found entity 1: tb_LSL8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_LSL8.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file shifter8.v
+    Info (12023): Found entity 1: shifter8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file lsr8.v
+    Info (12023): Found entity 1: LSR8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSR8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_lsr8.v
+    Info (12023): Found entity 1: tb_LSR8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_LSR8.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file asr8.v
+    Info (12023): Found entity 1: ASR8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/ASR8.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_asr8.v
+    Info (12023): Found entity 1: tb_ASR8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_ASR8.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file tb_dff_r.v
+    Info (12023): Found entity 1: tb_dff_r File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_dff_r.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file tb_register8_r.v
+    Info (12023): Found entity 1: tb_register8_r File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_register8_r.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file cc_logic.v
+    Info (12023): Found entity 1: cc_logic File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_cc_logic.v
+    Info (12023): Found entity 1: tb_cc_logic File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_cc_logic.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file tb_shifter8.v
+    Info (12023): Found entity 1: tb_shifter8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/tb_shifter8.v Line: 3
 Warning (10236): Verilog HDL Implicit Net warning at mx4.v(6): created implicit net for "w_y0" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx4.v Line: 6
 Warning (10236): Verilog HDL Implicit Net warning at mx4.v(7): created implicit net for "w_y1" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx4.v Line: 7
-Info (12127): Elaborating entity "LSL8" for the top level hierarchy
-Info (12128): Elaborating entity "mx4" for hierarchy "mx4:U0_mx4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSL8.v Line: 6
-Info (12128): Elaborating entity "mx2" for hierarchy "mx4:U0_mx4|mx2:U0_mx2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx4.v Line: 6
-Info (12128): Elaborating entity "_inv" for hierarchy "mx4:U0_mx4|mx2:U0_mx2|_inv:U0_inv" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx2.v Line: 9
-Info (12128): Elaborating entity "_nand2" for hierarchy "mx4:U0_mx4|mx2:U0_mx2|_nand2:U1_nand2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx2.v Line: 10
-Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (12127): Elaborating entity "shifter8" for the top level hierarchy
+Info (12128): Elaborating entity "_register8_r" for hierarchy "_register8_r:U0_register8_r" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 11
+Info (12128): Elaborating entity "_dff_r" for hierarchy "_register8_r:U0_register8_r|_dff_r:U0_dff_r" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/_register8_r.v Line: 7
+Info (12128): Elaborating entity "cc_logic" for hierarchy "cc_logic:U1_cc_logic" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 13
+Warning (10270): Verilog HDL Case Statement warning at cc_logic.v(21): incomplete case statement has no default case item File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 21
+Warning (10240): Verilog HDL Always Construct warning at cc_logic.v(19): inferring latch(es) for variable "d_next", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (10041): Inferred latch for "d_next[0]" at cc_logic.v(19) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (10041): Inferred latch for "d_next[1]" at cc_logic.v(19) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (10041): Inferred latch for "d_next[2]" at cc_logic.v(19) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (10041): Inferred latch for "d_next[3]" at cc_logic.v(19) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (10041): Inferred latch for "d_next[4]" at cc_logic.v(19) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (10041): Inferred latch for "d_next[5]" at cc_logic.v(19) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (10041): Inferred latch for "d_next[6]" at cc_logic.v(19) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (10041): Inferred latch for "d_next[7]" at cc_logic.v(19) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+Info (12128): Elaborating entity "LSL8" for hierarchy "cc_logic:U1_cc_logic|LSL8:U0_LSL8" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 30
+Info (12128): Elaborating entity "mx4" for hierarchy "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U0_mx4" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/LSL8.v Line: 7
+Info (12128): Elaborating entity "mx2" for hierarchy "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U0_mx4|mx2:U0_mx2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx4.v Line: 6
+Info (12128): Elaborating entity "_inv" for hierarchy "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U0_mx4|mx2:U0_mx2|_inv:U0_inv" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx2.v Line: 9
+Info (12128): Elaborating entity "_nand2" for hierarchy "cc_logic:U1_cc_logic|LSL8:U0_LSL8|mx4:U0_mx4|mx2:U0_mx2|_nand2:U1_nand2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/mx2.v Line: 10
+Info (12128): Elaborating entity "LSR8" for hierarchy "cc_logic:U1_cc_logic|LSR8:U1_LSR8" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 31
+Info (12128): Elaborating entity "ASR8" for hierarchy "cc_logic:U1_cc_logic|ASR8:U2_ASR8" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 32
+Warning (13012): Latch cc_logic:U1_cc_logic|d_next[0] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal op[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 3
+Warning (13012): Latch cc_logic:U1_cc_logic|d_next[1] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal op[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 3
+Warning (13012): Latch cc_logic:U1_cc_logic|d_next[2] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal op[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 3
+Warning (13012): Latch cc_logic:U1_cc_logic|d_next[3] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal op[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 3
+Warning (13012): Latch cc_logic:U1_cc_logic|d_next[4] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal op[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 3
+Warning (13012): Latch cc_logic:U1_cc_logic|d_next[5] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal op[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 3
+Warning (13012): Latch cc_logic:U1_cc_logic|d_next[6] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal op[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 3
+Warning (13012): Latch cc_logic:U1_cc_logic|d_next[7] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/cc_logic.v Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal op[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment7/shifter8/shifter8.v Line: 3
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 26 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 10 input pins
+Info (21057): Implemented 81 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
     Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 8 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4814 megabytes
-    Info: Processing ended: Mon Oct 16 10:59:37 2023
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:07
+    Info (21061): Implemented 58 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
+    Info: Peak virtual memory: 4828 megabytes
+    Info: Processing ended: Tue Oct 17 18:04:01 2023
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:08
 
 

@@ -1,0 +1,26 @@
+`timescale 1ns/100ps
+
+module tb_cc_logic;	
+	reg [2:0] tb_op; //opcode
+	reg [1:0] tb_shamt; //sign
+	reg [7:0] tb_d_in; //input
+	reg [7:0] tb_d_out; //output
+	
+	wire [7:0] tb_d_next; //wire
+	
+	//reg[7:0] tb_LSL,tb_LSR,tb_ASR;
+	
+	cc_logic DUT(.op(tb_op), .shamt(tb_shamt), .d_in(tb_d_in), .d_out(tb_d_out), .d_next(tb_d_next));		//declear module
+	
+	initial
+		begin	
+			#10;  op = 3'b010; shamt = 2'b01; d_in = 8'b10110001;	d_out=8'b10110001;
+			#10;  op = 3'b100;
+			#10;  op = 3'b011; 
+			#10;  op = 3'b100; shamt = 2'b10; d_in = 8'b11000000;	d_out=8'b11000000;
+			#10;  op = 3'b011; 
+			#10;  op = 3'b010;
+			#10;
+			
+	end
+endmodule

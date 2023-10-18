@@ -1,0 +1,46 @@
+`timescale 1ns/100ps
+
+module tb_shifter8;	
+	reg tb_clk, tb_reset_n; //clk, reset
+	reg [2:0] tb_op; // op
+	reg [1:0] tb_shamt; // shamt
+	reg [7:0] tb_d_in; // d_in
+	wire [7:0] tb_d_out; //output 
+
+	shifter8 DUT(.clk(tb_clk), .reset_n(tb_reset_n), .op(tb_op), .shamt(tb_shamt), .d_in(tb_d_in), .d_out(tb_d_out));
+
+	always 
+	begin // clock cycle
+		#5; tb_clk = ~tb_clk;
+	end
+	
+	initial
+		begin	
+			#10;  tb_reset_n = 0;
+			#10;  tb_reset_n = 1; 					//reset
+			#10;  tb_d_in = 8'b00100111;			//input 00100111
+					tb_op = 3'b001;					//LOAD
+					tb_shamt=2'b10;					//sign 01
+			#10;  tb_op = 3'b000; 					//NOP 
+			#10;  tb_op=3'b010;						//LSL
+			#10;  tb_op=3'b011; 						//LSR
+			#10;  tb_op=3'b100; 						//ASR
+			#10;
+			#10;  tb_reset_n = 0;
+			#10;  tb_reset_n = 1; 					//reset			
+
+			
+			#10;  tb_d_in=8'b11100101;				 //input 11100101	
+					tb_op = 3'b001;					//LOAD
+					tb_shamt=2'b10;					 //sign 11
+			#10;  tb_op = 3'b000; 					//NOP
+			#10;  tb_op=3'b100; 						 //ASR
+			#10;  tb_op=3'b010;						 //LSL
+			#10;  tb_op=3'b011; 						 //LSR
+			#10;
+			#10;  tb_reset_n = 0;
+
+			
+		end																	
+		
+endmodule
