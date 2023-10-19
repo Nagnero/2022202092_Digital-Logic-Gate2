@@ -12,47 +12,47 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
+# Start time: 19:50:12 on Oct 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v 
 # -- Compiling module _dlatch
 # 
 # Top level modules:
 # 	_dlatch
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# End time: 19:50:12 on Oct 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
+# Start time: 19:50:12 on Oct 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v 
 # -- Compiling module _dff_r_async
 # 
 # Top level modules:
 # 	_dff_r_async
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# End time: 19:50:12 on Oct 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
+# Start time: 19:50:12 on Oct 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v 
 # -- Compiling module _dff
 # 
 # Top level modules:
 # 	_dff
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# End time: 19:50:12 on Oct 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
+# Start time: 19:50:12 on Oct 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/ns_logic.v 
 # -- Compiling module ns_logic
 # 
 # Top level modules:
 # 	ns_logic
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# End time: 19:50:12 on Oct 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
+# Start time: 19:50:12 on Oct 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v 
 # -- Compiling module _inv
 # -- Compiling module _nand2
@@ -91,87 +91,58 @@
 # 	_or2_32bits
 # 	_xor2_32bits
 # 	_xnor2_32bits
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# End time: 19:50:12 on Oct 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
+# Start time: 19:50:12 on Oct 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tl_cntr_w_left_struct.v 
 # -- Compiling module tl_cntr_w_left_struct
 # 
 # Top level modules:
 # 	tl_cntr_w_left_struct
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# End time: 19:50:12 on Oct 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
+# Start time: 19:50:12 on Oct 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v 
 # -- Compiling module o_logic
 # 
 # Top level modules:
 # 	o_logic
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# End time: 19:50:12 on Oct 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_register3_r.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
+# Start time: 19:50:12 on Oct 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_register3_r.v 
 # -- Compiling module _register3_r
 # 
 # Top level modules:
 # 	_register3_r
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# End time: 19:50:13 on Oct 19,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_o_logic.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:14:54 on Oct 17,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v 
-# -- Compiling module tb_tl_cntr_w_left_struct
+# Start time: 19:50:13 on Oct 19,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_o_logic.v 
+# -- Compiling module tb_o_logic
 # 
 # Top level modules:
-# 	tb_tl_cntr_w_left_struct
-# End time: 14:14:54 on Oct 17,2023, Elapsed time: 0:00:00
+# 	tb_o_logic
+# End time: 19:50:13 on Oct 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_tl_cntr_w_left_struct
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_tl_cntr_w_left_struct 
-# Start time: 14:14:55 on Oct 17,2023
-# Loading work.tb_tl_cntr_w_left_struct
-# Loading work.tl_cntr_w_left_struct
-# Loading work.ns_logic
-# Loading work._inv
-# Loading work._and3
-# Loading work._and2
-# Loading work._or3
-# Loading work._xor2
-# Loading work._or2
-# Loading work._and4
-# Loading work._or4
-# Loading work._register3_r
-# Loading work._dff_r_async
-# Loading work._dff
-# Loading work._dlatch
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_o_logic
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_o_logic 
+# Start time: 19:50:13 on Oct 19,2023
+# Loading work.tb_o_logic
 # Loading work.o_logic
-# ** Warning: (vsim-3017) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_tl_cntr_w_left_struct/DUT/U1_register/U0_dff_r_async/U1_dff File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v
-# ** Warning: (vsim-3722) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v(8): [TFMPC] - Missing connection for port 'q_bar'.
-# ** Warning: (vsim-3017) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_tl_cntr_w_left_struct/DUT/U1_register/U0_dff_r_async/U1_dff/U1_dlatch File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v
-# ** Warning: (vsim-3722) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v(8): [TFMPC] - Missing connection for port 'q_bar'.
-# ** Warning: (vsim-3017) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_tl_cntr_w_left_struct/DUT/U1_register/U1_dff_r_async/U1_dff File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v
-# ** Warning: (vsim-3722) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v(8): [TFMPC] - Missing connection for port 'q_bar'.
-# ** Warning: (vsim-3017) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_tl_cntr_w_left_struct/DUT/U1_register/U1_dff_r_async/U1_dff/U1_dlatch File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v
-# ** Warning: (vsim-3722) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v(8): [TFMPC] - Missing connection for port 'q_bar'.
-# ** Warning: (vsim-3017) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_tl_cntr_w_left_struct/DUT/U1_register/U2_dff_r_async/U1_dff File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v
-# ** Warning: (vsim-3722) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff_r_async.v(8): [TFMPC] - Missing connection for port 'q_bar'.
-# ** Warning: (vsim-3017) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_tl_cntr_w_left_struct/DUT/U1_register/U2_dff_r_async/U1_dff/U1_dlatch File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dlatch.v
-# ** Warning: (vsim-3722) C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/_dff.v(8): [TFMPC] - Missing connection for port 'q_bar'.
+# Loading work._inv
+# Loading work._and2
+# Loading work._or2
 # 
 # add wave *
 # view structure
@@ -179,8 +150,8 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $stop    : C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v(58)
-#    Time: 170 ns  Iteration: 0  Instance: /tb_tl_cntr_w_left_struct
-# Break in Module tb_tl_cntr_w_left_struct at C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v line 58
-# End time: 14:16:27 on Oct 17,2023, Elapsed time: 0:01:32
-# Errors: 0, Warnings: 12
+# ** Note: $stop    : C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_o_logic.v(22)
+#    Time: 80 ns  Iteration: 0  Instance: /tb_o_logic
+# Break in Module tb_o_logic at C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_o_logic.v line 22
+# End time: 19:55:35 on Oct 19,2023, Elapsed time: 0:05:22
+# Errors: 0, Warnings: 0

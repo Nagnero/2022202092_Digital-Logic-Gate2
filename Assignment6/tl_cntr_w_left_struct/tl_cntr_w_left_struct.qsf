@@ -64,9 +64,19 @@ set_global_assignment -name VERILOG_FILE tb_tl_cntr_w_left_struct.v
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_tl_cntr_w_left_struct -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_o_logic -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_tl_cntr_w_left_struct -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_tl_cntr_w_left_struct
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_tl_cntr_w_left_struct -section_id tb_tl_cntr_w_left_struct
+set_global_assignment -name VERILOG_FILE tb_ns_logic.v
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_ns_logic -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_ns_logic
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_ns_logic -section_id tb_ns_logic
+set_global_assignment -name VERILOG_FILE tb_o_logic.v
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_o_logic -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_o_logic
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_o_logic -section_id tb_o_logic
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_tl_cntr_w_left_struct.v -section_id tb_tl_cntr_w_left_struct
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_ns_logic.v -section_id tb_ns_logic
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_o_logic.v -section_id tb_o_logic
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

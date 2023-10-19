@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/simulation/modelsim
 v_and2
-Z1 !s110 1697369485
+Z1 !s110 1697701344
 !i10b 1
 !s100 2jUcfV=0AD[C4<W65L<DL0
 IBTmoZ?2`gPh;@o5@RS:1D3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1697369485.000000
+Z7 !s108 1697701343.000000
 Z8 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/gates.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/gates.v|
 !i113 1
@@ -147,7 +147,7 @@ R11
 R12
 n@_and5
 v_dff
-R1
+Z13 !s110 1697701345
 !i10b 1
 !s100 nLdiEeoV?Vik21lHi<NN<2
 InQk1aB^3:CTBnbBbCi6MF0
@@ -161,7 +161,7 @@ R6
 r1
 !s85 0
 31
-R7
+Z14 !s108 1697701345.000000
 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/_dff.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/_dff.v|
 !i113 1
@@ -170,7 +170,7 @@ R11
 R12
 n@_dff
 v_dff_r_async
-R1
+R13
 !i10b 1
 !s100 0VJ^QKa7KIOB<[LMB;]eJ2
 I43BEOZ11>PPcMD6^9@K510
@@ -184,7 +184,7 @@ R6
 r1
 !s85 0
 31
-R7
+R14
 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/_dff_r_async.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/_dff_r_async.v|
 !i113 1
@@ -193,7 +193,7 @@ R11
 R12
 n@_dff_r_async
 v_dlatch
-Z13 !s110 1697369486
+R13
 !i10b 1
 !s100 >Nog_28zEOI2f6Y3[2A0L1
 IC3R^_0Vc4lBlKSbb3<I@e2
@@ -207,7 +207,7 @@ R6
 r1
 !s85 0
 31
-R7
+R14
 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/_dlatch.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/_dlatch.v|
 !i113 1
@@ -460,7 +460,7 @@ R6
 r1
 !s85 0
 31
-Z14 !s108 1697369486.000000
+R14
 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/_register2_r_async.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/_register2_r_async.v|
 !i113 1
@@ -598,7 +598,7 @@ R6
 r1
 !s85 0
 31
-R7
+Z15 !s108 1697701344.000000
 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/ns_logic.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/ns_logic.v|
 !i113 1
@@ -620,7 +620,7 @@ R6
 r1
 !s85 0
 31
-R7
+R15
 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/o_logic.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/o_logic.v|
 !i113 1
@@ -630,11 +630,11 @@ R12
 vtb_tl_cntr_struct
 R13
 !i10b 1
-!s100 =SkRm>lYZSNUgLF`G5AS?2
-IQ_SXlB`YlKiJH8A?^RCLX2
+!s100 Uc4IgId7QKSbDUP^bSUdh0
+IS0Y7dQ9acZ0<NzD3`EQ?I3
 R2
 R0
-w1697369154
+w1697699780
 8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/tb_tl_cntr_struct.v
 FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/tb_tl_cntr_struct.v
 L0 3
@@ -664,7 +664,7 @@ R6
 r1
 !s85 0
 31
-R7
+R15
 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/tl_cntr_struct.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_struct/tl_cntr_struct.v|
 !i113 1

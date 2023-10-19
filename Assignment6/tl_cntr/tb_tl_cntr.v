@@ -4,14 +4,7 @@ module tb_tl_cntr;
   wire [1:0] La, Lb;
   
   // Instantiate the module
-  tl_cntr uut (
-    .clk(clk),
-    .reset_n(reset_n),
-    .Ta(Ta),
-    .Tb(Tb),
-    .La(La),
-    .Lb(Lb)
-  );
+  tl_cntr DUT (.clk(clk), .reset_n(reset_n), .Ta(Ta), .Tb(Tb), .La(La), .Lb(Lb));
   
   // Clock generation
   always begin

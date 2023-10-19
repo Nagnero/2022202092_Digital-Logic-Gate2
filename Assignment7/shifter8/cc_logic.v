@@ -16,7 +16,7 @@ module cc_logic(op, shamt, d_in, d_out, d_next);
 	parameter LSR = 3'b010;
 	parameter ASR = 3'b100;
 	
-	always@ (op, shamt, d_in, d_out,	d_lsl, d_lsr, d_asr)
+	always@ (op, shamt, d_in, d_out, d_lsl, d_lsr, d_asr)
 	begin
 		case(op)
 			NOP : d_next = d_out;

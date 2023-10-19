@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/simulation/modelsim
 v_and2
-Z1 !s110 1697519694
+Z1 !s110 1697712612
 !i10b 1
 !s100 2jUcfV=0AD[C4<W65L<DL0
 IBd?Bjzie]iKcROBD17j2X2
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1697519694.000000
+Z7 !s108 1697712612.000000
 Z8 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/gates.v|
 !i113 1
@@ -446,7 +446,7 @@ R11
 R12
 n@_or5
 v_register3_r
-R1
+Z14 !s110 1697712613
 !i10b 1
 !s100 i0l1HFh;BdCc12fb7nBMX2
 IBVAXbzN1RKNIXHeez]e711
@@ -608,11 +608,11 @@ R12
 vo_logic
 R1
 !i10b 1
-!s100 AHGU2We:2X55ZNX>WJ8D=2
-I`M0J28HZG=dHaodld?OdE3
+!s100 U4]=?XD@J=6XhkW^QdDjV0
+I5@7:dME1I>]cGbzNkRHgG3
 R2
 R0
-R3
+w1697711798
 8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v
 FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/o_logic.v
 L0 1
@@ -627,24 +627,24 @@ R7
 R10
 R11
 R12
-vtb_tl_cntr_w_left_struct
-R1
+vtb_o_logic
+R14
 !i10b 1
-!s100 7PgY`Mlm=K0oREG0U>zQb0
-IOd>i>V0Z7H<@YIM:dF`<_2
+!s100 I`18J770WeifQGId4U@6d3
+Ijc?MedjzFSA7_nA3ZTHa;2
 R2
 R0
-w1697519671
-8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v
-FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v
+w1697709757
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_o_logic.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_o_logic.v
 L0 3
 R6
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_tl_cntr_w_left_struct.v|
+!s108 1697712613.000000
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_o_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left_struct/tb_o_logic.v|
 !i113 1
 R10
 R11

@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left/simulation/modelsim
 vtb_tl_cntr_w_left
-Z1 !s110 1697519380
+Z1 !s110 1697713200
 !i10b 1
-!s100 caD;@iT@3<9_]d<`J5nAd0
-IEm>4oj8OD7hDZN>ho5T=c2
+!s100 Z_cL=`n[XYHmzPJ7CmKP>1
+IK]L=JS7`M^>CN=Uz4hh]:3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1697519358
+w1697519809
 8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left/tb_tl_cntr_w_left.v
 FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left/tb_tl_cntr_w_left.v
 L0 3
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1697519380.000000
+Z4 !s108 1697713200.000000
 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left/tb_tl_cntr_w_left.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment6/tl_cntr_w_left/tb_tl_cntr_w_left.v|
 !i113 1

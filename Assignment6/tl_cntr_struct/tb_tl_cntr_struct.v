@@ -1,7 +1,6 @@
-`timescale 1ns/100ps				//timescale
+`timescale 1ns/100ps
 
 module tb_tl_cntr_struct;
-
 	reg tb_clk,tb_reset_n,tb_Ta,tb_Tb;
 	wire[1:0] tb_La,tb_Lb;
 	
@@ -14,7 +13,8 @@ module tb_tl_cntr_struct;
 		end
 	
 	// Stimulus generation
-  initial begin
+  initial 
+  begin
     // Initialize inputs
     tb_clk = 0;
     tb_reset_n = 0;
@@ -23,25 +23,25 @@ module tb_tl_cntr_struct;
     
     // Apply reset
     tb_reset_n = 0;
-    #10 tb_reset_n = 1;
+    #10;	tb_reset_n = 1;
     
     // Test case 1
-    #10 tb_Ta = 1;
-    #10 tb_Tb = 1;
+    #10;	tb_Ta = 1;
+    #10;	tb_Tb = 1;
     
     // Test case 2
-    #10 tb_Ta = 1;
-    #10 tb_Tb = 0;
+    #10;	tb_Ta = 1;
+    #10;	tb_Tb = 0;
     
     // Test case 3
-    #10 tb_Ta = 0;
-    #10 tb_Tb = 1;
+    #10;	tb_Ta = 0;
+    #10;	tb_Tb = 1;
     
     // Test case 4
-    #10 tb_Ta = 0;
-    #10 tb_Tb = 0;
+    #10;	tb_Ta = 0;
+    #10;	tb_Tb = 0;
     
     // Finish simulation
-    $stop;
+    #10;	$stop;
   end
 endmodule

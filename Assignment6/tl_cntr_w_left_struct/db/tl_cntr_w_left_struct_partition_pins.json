@@ -28,7 +28,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "Ta",
+					"name" : "Tal",
+					"strict" : false
+				},
+				{
+					"name" : "Tbl",
 					"strict" : false
 				},
 				{
@@ -36,11 +40,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "Tal",
-					"strict" : false
-				},
-				{
-					"name" : "Tbl",
+					"name" : "Ta",
 					"strict" : false
 				}
 			]
