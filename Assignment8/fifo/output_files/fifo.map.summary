@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Wed Nov 01 20:03:46 2023
+Analysis & Synthesis Status : Successful - Wed Nov 01 22:04:42 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : fifo
-Top-level Entity Name : fifo_cal_addr
+Top-level Entity Name : fifo
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 0
-Total pins : 25
+Total registers : 301
+Total pins : 78
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

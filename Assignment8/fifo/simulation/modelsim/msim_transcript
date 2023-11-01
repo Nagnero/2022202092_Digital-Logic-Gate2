@@ -10,33 +10,231 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:48 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v 
+# -- Compiling module _8_to_1_MUX
+# 
+# Top level modules:
+# 	_8_to_1_MUX
+# End time: 22:04:48 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:48 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v 
+# -- Compiling module _3_to_8_decoder
+# 
+# Top level modules:
+# 	_3_to_8_decoder
+# End time: 22:04:48 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:48 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v 
+# -- Compiling module register32_8
+# 
+# Top level modules:
+# 	register32_8
+# End time: 22:04:48 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:48 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v 
+# -- Compiling module _inv
+# -- Compiling module _nand2
+# -- Compiling module _and2
+# -- Compiling module _or2
+# -- Compiling module _xor2
+# -- Compiling module _and3
+# -- Compiling module _and4
+# -- Compiling module _and5
+# -- Compiling module _or3
+# -- Compiling module _or4
+# -- Compiling module _or5
+# -- Compiling module _inv_4bits
+# -- Compiling module _and2_4bits
+# -- Compiling module _or2_4bits
+# -- Compiling module _xor2_4bits
+# -- Compiling module _xnor2_4bits
+# -- Compiling module _inv_32bits
+# -- Compiling module _and2_32bits
+# -- Compiling module _or2_32bits
+# -- Compiling module _xor2_32bits
+# -- Compiling module _xnor2_32bits
+# 
+# Top level modules:
+# 	_nand2
+# 	_and3
+# 	_and4
+# 	_and5
+# 	_or3
+# 	_or4
+# 	_or5
+# 	_and2_4bits
+# 	_or2_4bits
+# 	_inv_32bits
+# 	_and2_32bits
+# 	_or2_32bits
+# 	_xor2_32bits
+# 	_xnor2_32bits
+# End time: 22:04:48 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:48 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v 
+# -- Compiling module write_operation
+# 
+# Top level modules:
+# 	write_operation
+# End time: 22:04:48 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:48 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v 
+# -- Compiling module Register_file
+# 
+# Top level modules:
+# 	Register_file
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v 
+# -- Compiling module register32_r_en
+# 
+# Top level modules:
+# 	register32_r_en
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v 
+# -- Compiling module read_operation
+# 
+# Top level modules:
+# 	read_operation
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v 
+# -- Compiling module fifo
+# 
+# Top level modules:
+# 	fifo
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v 
+# -- Compiling module fifo_ns
+# 
+# Top level modules:
+# 	fifo_ns
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:03:51 on Nov 01,2023
+# Start time: 22:04:49 on Nov 01,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v 
 # -- Compiling module fifo_cal_addr
 # 
 # Top level modules:
 # 	fifo_cal_addr
-# End time: 20:03:51 on Nov 01,2023, Elapsed time: 0:00:00
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo_cal_addr.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:03:51 on Nov 01,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo_cal_addr.v 
-# -- Compiling module tb_fifo_cal_addr
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v 
+# -- Compiling module _dff_r_3
 # 
 # Top level modules:
-# 	tb_fifo_cal_addr
-# End time: 20:03:51 on Nov 01,2023, Elapsed time: 0:00:00
+# 	_dff_r_3
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v 
+# -- Compiling module _dff_r_4
+# 
+# Top level modules:
+# 	_dff_r_4
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v 
+# -- Compiling module _dff_r_32
+# 
+# Top level modules:
+# 	_dff_r_32
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v 
+# -- Compiling module mux_32
+# 
+# Top level modules:
+# 	mux_32
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v 
+# -- Compiling module fifo_out
+# 
+# Top level modules:
+# 	fifo_out
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_fifo_cal_addr
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_fifo_cal_addr 
-# Start time: 20:03:51 on Nov 01,2023
-# Loading work.tb_fifo_cal_addr
+# vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo {C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:49 on Nov 01,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo" C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v 
+# -- Compiling module tb_fifo
+# 
+# Top level modules:
+# 	tb_fifo
+# End time: 22:04:49 on Nov 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_fifo
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_fifo 
+# Start time: 22:04:49 on Nov 01,2023
+# Loading work.tb_fifo
+# Loading work.fifo
+# Loading work.fifo_ns
 # Loading work.fifo_cal_addr
+# Loading work.fifo_out
+# Loading work.Register_file
+# Loading work.register32_8
+# Loading work.register32_r_en
+# Loading work.write_operation
+# Loading work._3_to_8_decoder
+# Loading work._and2
+# Loading work.read_operation
+# Loading work._8_to_1_MUX
+# Loading work._dff_r_3
+# Loading work._dff_r_4
+# Loading work.mux_32
+# Loading work._dff_r_32
 # 
 # add wave *
 # view structure
@@ -44,5 +242,8 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 20:26:21 on Nov 01,2023, Elapsed time: 0:22:30
+# ** Note: $stop    : C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v(28)
+#    Time: 52 ns  Iteration: 0  Instance: /tb_fifo
+# Break in Module tb_fifo at C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v line 28
+# End time: 22:05:02 on Nov 01,2023, Elapsed time: 0:00:13
 # Errors: 0, Warnings: 0

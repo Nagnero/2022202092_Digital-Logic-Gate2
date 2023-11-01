@@ -13,76 +13,70 @@ module fifo_ns(wr_en, rd_en, state, data_count, next_state);
 	
 	always@(state, wr_en, rd_en, data_count)
 	begin
-		if (wr_en === 1 && rd_en === 1) // if read and write both 1
-			next_state = NO_OP; 
-		else if ((wr_en === 0 && rd_en === 0) && state !== INIT) 
-			next_state = NO_OP; // set IDLE no operation operates
-		else begin
-			case(state)
-				INIT: begin
-					if (wr_en === 0 && rd_en === 0)
-						next_state = INIT;
-					else if(wr_en === 1) begin
-						if (data_count < 4'b1000) next_state = WRITE;
-						else next_state = WR_ERROR;
-					end
-					else begin
-						if (data_count > 4'b0000) next_state = READ;
-						else next_state = RD_ERROR;
-					end
+		case(state)
+			INIT: begin
+				if (wr_en === 0 && rd_en === 0)
+					next_state = INIT;
+				else if(wr_en === 1) begin
+					if (data_count < 4'b1000) next_state = WRITE;
+					else next_state = WR_ERROR;
 				end
-				WRITE: begin
-					if(wr_en === 1) begin
-						if (data_count < 4'b1000) next_state = WRITE;
-						else next_state = WR_ERROR;
-					end
-					else begin
-						if (data_count > 4'b0000) next_state = READ;
-						else next_state = RD_ERROR;
-					end
+				else begin
+					if (data_count > 4'b0000) next_state = READ;
+					else next_state = RD_ERROR;
 				end
-				READ: begin
-					if(wr_en === 1) begin
-						if (data_count < 4'b1000) next_state = WRITE;
-						else next_state = WR_ERROR;
-					end
-					else begin
-						if (data_count > 4'b0000) next_state = READ;
-						else next_state = RD_ERROR;
-					end
+			end
+			WRITE: begin
+				if(wr_en === 1) begin
+					if (data_count < 4'b1000) next_state = WRITE;
+					else next_state = WR_ERROR;
 				end
-				WR_ERROR: begin
-					if(wr_en === 1) begin
-						if (data_count < 4'b1000) next_state = WRITE;
-						else next_state = WR_ERROR;
-					end
-					else begin
-						if (data_count > 4'b0000) next_state = READ;
-						else next_state = RD_ERROR;
-					end
+				else begin
+					if (data_count > 4'b0000) next_state = READ;
+					else next_state = RD_ERROR;
 				end
-				RD_ERROR: begin
-					if(wr_en === 1) begin
-						if (data_count < 4'b1000) next_state = WRITE;
-						else next_state = WR_ERROR;
-					end
-					else begin
-						if (data_count > 4'b0000) next_state = READ;
-						else next_state = RD_ERROR;
-					end
+			end
+			READ: begin
+				if(wr_en === 1) begin
+					if (data_count < 4'b1000) next_state = WRITE;
+					else next_state = WR_ERROR;
 				end
-				NO_OP: begin
-					if(wr_en === 1) begin
-						if (data_count < 4'b1000) next_state = WRITE;
-						else next_state = WR_ERROR;
-					end
-					else begin
-						if (data_count > 4'b0000) next_state = READ;
-						else next_state = RD_ERROR;
-					end
+				else begin
+					if (data_count > 4'b0000) next_state = READ;
+					else next_state = RD_ERROR;
 				end
-			endcase
-		end
+			end
+			WR_ERROR: begin
+				if(wr_en === 1) begin
+					if (data_count < 4'b1000) next_state = WRITE;
+					else next_state = WR_ERROR;
+				end
+				else begin
+					if (data_count > 4'b0000) next_state = READ;
+					else next_state = RD_ERROR;
+				end
+			end
+			RD_ERROR: begin
+				if(wr_en === 1) begin
+					if (data_count < 4'b1000) next_state = WRITE;
+					else next_state = WR_ERROR;
+				end
+				else begin
+					if (data_count > 4'b0000) next_state = READ;
+					else next_state = RD_ERROR;
+				end
+			end
+			NO_OP: begin
+				if(wr_en === 1) begin
+					if (data_count < 4'b1000) next_state = WRITE;
+					else next_state = WR_ERROR;
+				end
+				else begin
+					if (data_count > 4'b0000) next_state = READ;
+					else next_state = RD_ERROR;
+				end
+			end
+		endcase
 	end
 endmodule
 	

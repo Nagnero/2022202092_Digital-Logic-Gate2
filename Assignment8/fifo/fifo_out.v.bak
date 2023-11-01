@@ -1,0 +1,10 @@
+module fifo_out(state, data_count, full, empty, wr_ack, wr_err, rd_ack, rd_err);
+	input [2:0] state;
+	input [3:0] data_count;
+	output reg full, empty, wr_ack, wr_err, rd_ack, rd_err;
+	
+	always@(state, data_count)
+	begin
+		
+	end
+endmodule
