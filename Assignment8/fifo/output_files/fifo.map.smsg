@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at fifo_cal_addr.v(41): extended using "x" or "z" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 41
+Warning (10273): Verilog HDL warning at fifo_cal_addr.v(57): extended using "x" or "z" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 57

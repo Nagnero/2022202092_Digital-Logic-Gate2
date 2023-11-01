@@ -1,0 +1,7 @@
+module fifo_cal_addr(state, head, tail, data_count, we, re, next_head, next_tail, next_data_count);
+	input [2:0] state;
+	input [2:0] head;
+	input [2:0] tail;
+	input [3:0] date_count;
+	output we, re;
+	

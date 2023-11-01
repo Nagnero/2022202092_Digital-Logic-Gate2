@@ -4,27 +4,51 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "next_state[0]",
+					"name" : "we",
 					"strict" : false
 				},
 				{
-					"name" : "next_state[1]",
+					"name" : "re",
 					"strict" : false
 				},
 				{
-					"name" : "next_state[2]",
+					"name" : "next_head[0]",
 					"strict" : false
 				},
 				{
-					"name" : "wr_en",
+					"name" : "next_head[1]",
 					"strict" : false
 				},
 				{
-					"name" : "state[2]",
+					"name" : "next_head[2]",
 					"strict" : false
 				},
 				{
-					"name" : "rd_en",
+					"name" : "next_tail[0]",
+					"strict" : false
+				},
+				{
+					"name" : "next_tail[1]",
+					"strict" : false
+				},
+				{
+					"name" : "next_tail[2]",
+					"strict" : false
+				},
+				{
+					"name" : "next_data_count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "next_data_count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "next_data_count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "next_data_count[3]",
 					"strict" : false
 				},
 				{
@@ -32,11 +56,35 @@
 					"strict" : false
 				},
 				{
+					"name" : "state[2]",
+					"strict" : false
+				},
+				{
 					"name" : "state[1]",
 					"strict" : false
 				},
 				{
-					"name" : "data_count[3]",
+					"name" : "head[0]",
+					"strict" : false
+				},
+				{
+					"name" : "head[1]",
+					"strict" : false
+				},
+				{
+					"name" : "head[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tail[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tail[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tail[2]",
 					"strict" : false
 				},
 				{
@@ -49,6 +97,10 @@
 				},
 				{
 					"name" : "data_count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_count[3]",
 					"strict" : false
 				}
 			]
