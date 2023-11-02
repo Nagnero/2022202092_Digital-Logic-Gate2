@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fifo
-Wed Nov 01 22:04:42 2023
+Thu Nov 02 13:53:46 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -49,7 +49,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Nov 01 22:04:42 2023       ;
+; Analysis & Synthesis Status     ; Successful - Thu Nov 02 13:53:45 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; fifo                                        ;
 ; Top-level Entity Name           ; fifo                                        ;
@@ -161,40 +161,41 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 20          ;
-; Maximum allowed            ; 12          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 12          ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-12        ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                   ; Library ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
-; _8_to_1_MUX.v                    ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v     ;         ;
-; _3_to_8_decoder.v                ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v ;         ;
-; register32_8.v                   ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v    ;         ;
-; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v           ;         ;
-; write_operation.v                ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v ;         ;
-; Register_file.v                  ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v   ;         ;
-; register32_r_en.v                ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v ;         ;
-; read_operation.v                 ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v  ;         ;
-; fifo.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v            ;         ;
-; fifo_ns.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v         ;         ;
-; fifo_cal_addr.v                  ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v   ;         ;
-; _dff_r_3.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v        ;         ;
-; _dff_r_4.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v        ;         ;
-; _dff_r_32.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v       ;         ;
-; mux_32.v                         ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v          ;         ;
-; fifo_out.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v        ;         ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                  ; Library ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------+---------+
+; _8_to_1_MUX.v                    ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v     ;         ;
+; _3_to_8_decoder.v                ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v ;         ;
+; register32_8.v                   ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v    ;         ;
+; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v           ;         ;
+; write_operation.v                ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v ;         ;
+; Register_file.v                  ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v   ;         ;
+; register32_r_en.v                ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v ;         ;
+; read_operation.v                 ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v  ;         ;
+; fifo.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v            ;         ;
+; fifo_ns.v                        ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v         ;         ;
+; fifo_cal_addr.v                  ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v   ;         ;
+; _dff_r_3.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v        ;         ;
+; _dff_r_4.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v        ;         ;
+; _dff_r_32.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v       ;         ;
+; mux_32.v                         ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v          ;         ;
+; fifo_out.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v        ;         ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -202,14 +203,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 191       ;
+; Estimate of Logic utilization (ALMs needed) ; 192       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 144       ;
+; Combinational ALUT usage for logic          ; 150       ;
 ;     -- 7 input functions                    ; 0         ;
 ;     -- 6 input functions                    ; 67        ;
-;     -- 5 input functions                    ; 4         ;
-;     -- 4 input functions                    ; 14        ;
-;     -- <=3 input functions                  ; 59        ;
+;     -- 5 input functions                    ; 5         ;
+;     -- 4 input functions                    ; 17        ;
+;     -- <=3 input functions                  ; 61        ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 301       ;
 ;                                             ;           ;
@@ -219,8 +220,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 301       ;
-; Total fan-out                               ; 1962      ;
-; Average fan-out                             ; 3.26      ;
+; Total fan-out                               ; 1983      ;
+; Average fan-out                             ; 3.27      ;
 +---------------------------------------------+-----------+
 
 
@@ -229,7 +230,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                       ; Entity Name     ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |fifo                                        ; 144 (0)             ; 301 (0)                   ; 0                 ; 0          ; 78   ; 0            ; |fifo                                                                                                     ; fifo            ; work         ;
+; |fifo                                        ; 150 (0)             ; 301 (0)                   ; 0                 ; 0          ; 78   ; 0            ; |fifo                                                                                                     ; fifo            ; work         ;
 ;    |Register_file:U3_Register_file|          ; 8 (0)               ; 256 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |fifo|Register_file:U3_Register_file                                                                      ; Register_file   ; work         ;
 ;       |register32_8:U0_register32_8|         ; 0 (0)               ; 256 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |fifo|Register_file:U3_Register_file|register32_8:U0_register32_8                                         ; register32_8    ; work         ;
 ;          |register32_r_en:U0_reg|            ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |fifo|Register_file:U3_Register_file|register32_8:U0_register32_8|register32_r_en:U0_reg                  ; register32_r_en ; work         ;
@@ -247,42 +248,42 @@ refer to the applicable agreement for further details.
 ;    |_dff_r_3:U6_head_dff|                    ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|_dff_r_3:U6_head_dff                                                                                ; _dff_r_3        ; work         ;
 ;    |_dff_r_3:U7_tail_dff|                    ; 0 (0)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|_dff_r_3:U7_tail_dff                                                                                ; _dff_r_3        ; work         ;
 ;    |_dff_r_4:U5_data_count_dff|              ; 0 (0)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|_dff_r_4:U5_data_count_dff                                                                          ; _dff_r_4        ; work         ;
-;    |fifo_cal_addr:U1_fifo_cal_addr|          ; 21 (21)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|fifo_cal_addr:U1_fifo_cal_addr                                                                      ; fifo_cal_addr   ; work         ;
-;    |fifo_ns:U0_fifo_ns|                      ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|fifo_ns:U0_fifo_ns                                                                                  ; fifo_ns         ; work         ;
+;    |fifo_cal_addr:U1_fifo_cal_addr|          ; 26 (26)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|fifo_cal_addr:U1_fifo_cal_addr                                                                      ; fifo_cal_addr   ; work         ;
+;    |fifo_ns:U0_fifo_ns|                      ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|fifo_ns:U0_fifo_ns                                                                                  ; fifo_ns         ; work         ;
 ;    |fifo_out:U2_fifo_out|                    ; 14 (14)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|fifo_out:U2_fifo_out                                                                                ; fifo_out        ; work         ;
 ;    |mux_32:U8_mux_32|                        ; 96 (96)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fifo|mux_32:U8_mux_32                                                                                    ; mux_32          ; work         ;
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+----------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                      ;
-+-----------------------------------------------------+---------------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal       ; Free of Timing Hazards ;
-+-----------------------------------------------------+---------------------------+------------------------+
-; fifo_out:U2_fifo_out|full                           ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_out:U2_fifo_out|empty                          ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_out:U2_fifo_out|wr_ack                         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_out:U2_fifo_out|wr_err                         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_out:U2_fifo_out|rd_ack                         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_out:U2_fifo_out|rd_err                         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|re                   ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_data_count[0]   ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_data_count[1]   ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_data_count[2]   ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_data_count[3]   ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|we                   ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_head[0]         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_head[1]         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_head[2]         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_ns:U0_fifo_ns|next_state[0]                    ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_ns:U0_fifo_ns|next_state[2]                    ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_ns:U0_fifo_ns|next_state[1]                    ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_tail[0]         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_tail[2]         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; fifo_cal_addr:U1_fifo_cal_addr|next_tail[1]         ; fifo_out:U2_fifo_out|Mux6 ; yes                    ;
-; Number of user-specified and inferred latches = 21  ;                           ;                        ;
-+-----------------------------------------------------+---------------------------+------------------------+
++---------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                 ;
++-----------------------------------------------------+--------------------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal                  ; Free of Timing Hazards ;
++-----------------------------------------------------+--------------------------------------+------------------------+
+; fifo_out:U2_fifo_out|full                           ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_out:U2_fifo_out|empty                          ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_out:U2_fifo_out|wr_ack                         ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_out:U2_fifo_out|wr_err                         ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_out:U2_fifo_out|rd_ack                         ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_out:U2_fifo_out|rd_err                         ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|re                   ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_data_count[0]   ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_data_count[1]   ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_data_count[2]   ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_data_count[3]   ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|we                   ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_head[0]         ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_head[1]         ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_head[2]         ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_ns:U0_fifo_ns|next_state[1]                    ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_ns:U0_fifo_ns|next_state[2]                    ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_ns:U0_fifo_ns|next_state[0]                    ; fifo_out:U2_fifo_out|Mux6            ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_tail[0]         ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_tail[2]         ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; fifo_cal_addr:U1_fifo_cal_addr|next_tail[1]         ; fifo_cal_addr:U1_fifo_cal_addr|Mux12 ; yes                    ;
+; Number of user-specified and inferred latches = 21  ;                                      ;                        ;
++-----------------------------------------------------+--------------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -307,8 +308,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
 ; 9:1                ; 32 bits   ; 192 LEs       ; 160 LEs              ; 32 LEs                 ; Yes        ; |fifo|_dff_r_32:U9_dout_dff|q[0]          ;
-; 7:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; No         ; |fifo|fifo_ns:U0_fifo_ns|Mux1             ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |fifo|fifo_cal_addr:U1_fifo_cal_addr|Mux0 ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; No         ; |fifo|fifo_ns:U0_fifo_ns|Mux2             ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |fifo|fifo_cal_addr:U1_fifo_cal_addr|Mux0 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
 
 
@@ -375,17 +376,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     CLR               ; 13                          ;
 ;     CLR SCLR          ; 32                          ;
 ;     ENA CLR           ; 256                         ;
-; arriav_lcell_comb     ; 144                         ;
-;     normal            ; 144                         ;
-;         2 data inputs ; 4                           ;
+; arriav_lcell_comb     ; 150                         ;
+;     normal            ; 150                         ;
+;         2 data inputs ; 6                           ;
 ;         3 data inputs ; 55                          ;
-;         4 data inputs ; 14                          ;
-;         5 data inputs ; 4                           ;
+;         4 data inputs ; 17                          ;
+;         5 data inputs ; 5                           ;
 ;         6 data inputs ; 67                          ;
 ; boundary_port         ; 78                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.71                        ;
+; Average LUT depth     ; 1.72                        ;
 +-----------------------+-----------------------------+
 
 
@@ -404,179 +405,185 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Nov 01 22:04:34 2023
+    Info: Processing started: Thu Nov 02 13:53:28 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fifo -c fifo
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file _8_to_1_mux.v
-    Info (12023): Found entity 1: _8_to_1_MUX File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v Line: 1
+    Info (12023): Found entity 1: _8_to_1_MUX File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _3_to_8_decoder.v
-    Info (12023): Found entity 1: _3_to_8_decoder File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v Line: 1
+    Info (12023): Found entity 1: _3_to_8_decoder File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file register32_8.v
-    Info (12023): Found entity 1: register32_8 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v Line: 1
+    Info (12023): Found entity 1: register32_8 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v Line: 1
 Info (12021): Found 21 design units, including 21 entities, in source file gates.v
-    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 1
-    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 9
-    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 17
-    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 25
-    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 34
-    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 49
-    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 57
-    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 65
-    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 73
-    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 81
-    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 89
-    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 97
-    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 105
-    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 113
-    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 121
-    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 132
-    Info (12023): Found entity 17: _inv_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 143
-    Info (12023): Found entity 18: _and2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 151
-    Info (12023): Found entity 19: _or2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 159
-    Info (12023): Found entity 20: _xor2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 167
-    Info (12023): Found entity 21: _xnor2_32bits File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 182
+    Info (12023): Found entity 1: _inv File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 1
+    Info (12023): Found entity 2: _nand2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 9
+    Info (12023): Found entity 3: _and2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 17
+    Info (12023): Found entity 4: _or2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 25
+    Info (12023): Found entity 5: _xor2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 34
+    Info (12023): Found entity 6: _and3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 49
+    Info (12023): Found entity 7: _and4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 57
+    Info (12023): Found entity 8: _and5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 65
+    Info (12023): Found entity 9: _or3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 73
+    Info (12023): Found entity 10: _or4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 81
+    Info (12023): Found entity 11: _or5 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 89
+    Info (12023): Found entity 12: _inv_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 97
+    Info (12023): Found entity 13: _and2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 105
+    Info (12023): Found entity 14: _or2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 113
+    Info (12023): Found entity 15: _xor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 121
+    Info (12023): Found entity 16: _xnor2_4bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 132
+    Info (12023): Found entity 17: _inv_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 143
+    Info (12023): Found entity 18: _and2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 151
+    Info (12023): Found entity 19: _or2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 159
+    Info (12023): Found entity 20: _xor2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 167
+    Info (12023): Found entity 21: _xnor2_32bits File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v Line: 182
 Info (12021): Found 1 design units, including 1 entities, in source file write_operation.v
-    Info (12023): Found entity 1: write_operation File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v Line: 1
+    Info (12023): Found entity 1: write_operation File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file register_file.v
-    Info (12023): Found entity 1: Register_file File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v Line: 1
+    Info (12023): Found entity 1: Register_file File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file register32_r_en.v
-    Info (12023): Found entity 1: register32_r_en File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v Line: 1
+    Info (12023): Found entity 1: register32_r_en File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file read_operation.v
-    Info (12023): Found entity 1: read_operation File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v Line: 1
+    Info (12023): Found entity 1: read_operation File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fifo.v
-    Info (12023): Found entity 1: fifo File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 1
+    Info (12023): Found entity 1: fifo File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fifo_ns.v
-    Info (12023): Found entity 1: fifo_ns File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 1
+    Info (12023): Found entity 1: fifo_ns File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_fifo_ns.v
-    Info (12023): Found entity 1: tb_fifo_ns File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo_ns.v Line: 1
+    Info (12023): Found entity 1: tb_fifo_ns File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo_ns.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fifo_cal_addr.v
-    Info (12023): Found entity 1: fifo_cal_addr File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 1
+    Info (12023): Found entity 1: fifo_cal_addr File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_fifo_cal_addr.v
-    Info (12023): Found entity 1: tb_fifo_cal_addr File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo_cal_addr.v Line: 1
+    Info (12023): Found entity 1: tb_fifo_cal_addr File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo_cal_addr.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _dff_r_3.v
-    Info (12023): Found entity 1: _dff_r_3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 1
+    Info (12023): Found entity 1: _dff_r_3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _dff_r_4.v
-    Info (12023): Found entity 1: _dff_r_4 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v Line: 1
+    Info (12023): Found entity 1: _dff_r_4 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _dff_r_32.v
-    Info (12023): Found entity 1: _dff_r_32 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v Line: 1
+    Info (12023): Found entity 1: _dff_r_32 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux_32.v
-    Info (12023): Found entity 1: mux_32 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v Line: 1
+    Info (12023): Found entity 1: mux_32 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fifo_out.v
-    Info (12023): Found entity 1: fifo_out File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 1
+    Info (12023): Found entity 1: fifo_out File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_fifo.v
-    Info (12023): Found entity 1: tb_fifo File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v Line: 3
+    Info (12023): Found entity 1: tb_fifo File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file tb_dff_r_3.v
-    Info (12023): Found entity 1: tb_dff_r_3 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_dff_r_3.v Line: 3
+    Info (12023): Found entity 1: tb_dff_r_3 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_dff_r_3.v Line: 3
 Info (12127): Elaborating entity "fifo" for the top level hierarchy
-Info (12128): Elaborating entity "fifo_ns" for hierarchy "fifo_ns:U0_fifo_ns" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 19
-Warning (10270): Verilog HDL Case Statement warning at fifo_ns.v(16): incomplete case statement has no default case item File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 16
-Warning (10240): Verilog HDL Always Construct warning at fifo_ns.v(14): inferring latch(es) for variable "next_state", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 14
-Info (10041): Inferred latch for "next_state[0]" at fifo_ns.v(14) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 14
-Info (10041): Inferred latch for "next_state[1]" at fifo_ns.v(14) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 14
-Info (10041): Inferred latch for "next_state[2]" at fifo_ns.v(14) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 14
-Info (12128): Elaborating entity "fifo_cal_addr" for hierarchy "fifo_cal_addr:U1_fifo_cal_addr" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 22
-Warning (10270): Verilog HDL Case Statement warning at fifo_cal_addr.v(20): incomplete case statement has no default case item File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 20
-Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "we", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "re", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "next_head", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "next_tail", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "next_data_count", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_data_count[0]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_data_count[1]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_data_count[2]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_data_count[3]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_tail[0]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_tail[1]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_tail[2]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_head[0]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_head[1]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "next_head[2]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "re" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (10041): Inferred latch for "we" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-Info (12128): Elaborating entity "fifo_out" for hierarchy "fifo_out:U2_fifo_out" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 25
-Warning (10270): Verilog HDL Case Statement warning at fifo_out.v(15): incomplete case statement has no default case item File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 15
-Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "full", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "empty", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "wr_ack", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "wr_err", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "rd_ack", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "rd_err", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Info (10041): Inferred latch for "rd_err" at fifo_out.v(13) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Info (10041): Inferred latch for "rd_ack" at fifo_out.v(13) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Info (10041): Inferred latch for "wr_err" at fifo_out.v(13) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Info (10041): Inferred latch for "wr_ack" at fifo_out.v(13) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Info (10041): Inferred latch for "empty" at fifo_out.v(13) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Info (10041): Inferred latch for "full" at fifo_out.v(13) File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
-Info (12128): Elaborating entity "Register_file" for hierarchy "Register_file:U3_Register_file" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 27
-Info (12128): Elaborating entity "register32_8" for hierarchy "Register_file:U3_Register_file|register32_8:U0_register32_8" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v Line: 14
-Info (12128): Elaborating entity "register32_r_en" for hierarchy "Register_file:U3_Register_file|register32_8:U0_register32_8|register32_r_en:U0_reg" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v Line: 8
-Info (12128): Elaborating entity "write_operation" for hierarchy "Register_file:U3_Register_file|write_operation:U1_wirte_operation" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v Line: 17
-Info (12128): Elaborating entity "_3_to_8_decoder" for hierarchy "Register_file:U3_Register_file|write_operation:U1_wirte_operation|_3_to_8_decoder:U0_3_to_8_decoder" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v Line: 9
-Info (12128): Elaborating entity "_and2" for hierarchy "Register_file:U3_Register_file|write_operation:U1_wirte_operation|_and2:U1_and2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v Line: 11
-Info (12128): Elaborating entity "read_operation" for hierarchy "Register_file:U3_Register_file|read_operation:U2_read_operation" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v Line: 23
-Info (12128): Elaborating entity "_8_to_1_MUX" for hierarchy "Register_file:U3_Register_file|read_operation:U2_read_operation|_8_to_1_MUX:U0_8_to_1_MUX" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v Line: 10
-Info (12128): Elaborating entity "_dff_r_3" for hierarchy "_dff_r_3:U4_state_dff" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 30
-Info (12128): Elaborating entity "_dff_r_4" for hierarchy "_dff_r_4:U5_data_count_dff" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 31
-Info (12128): Elaborating entity "mux_32" for hierarchy "mux_32:U8_mux_32" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 34
-Info (12128): Elaborating entity "_dff_r_32" for hierarchy "_dff_r_32:U9_dout_dff" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 35
-Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
-    Info (13026): Duplicate LATCH primitive "fifo_cal_addr:U1_fifo_cal_addr|we" merged with LATCH primitive "fifo_out:U2_fifo_out|wr_ack" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 6
-    Info (13026): Duplicate LATCH primitive "fifo_cal_addr:U1_fifo_cal_addr|re" merged with LATCH primitive "fifo_out:U2_fifo_out|rd_ack" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 6
-Warning (13012): Latch fifo_out:U2_fifo_out|full has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_out:U2_fifo_out|empty has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[1] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_out:U2_fifo_out|wr_ack has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_out:U2_fifo_out|wr_err has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_out:U2_fifo_out|rd_ack has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_out:U2_fifo_out|rd_err has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_data_count[0] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_data_count[1] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_data_count[2] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_data_count[3] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_head[0] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_head[1] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_head[2] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_ns:U0_fifo_ns|next_state[2] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 14
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_ns:U0_fifo_ns|next_state[1] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 14
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_tail[0] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_tail[2] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
-Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_tail[1] has unsafe behavior File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Info (12128): Elaborating entity "fifo_ns" for hierarchy "fifo_ns:U0_fifo_ns" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 19
+Warning (10270): Verilog HDL Case Statement warning at fifo_ns.v(21): incomplete case statement has no default case item File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 21
+Warning (10240): Verilog HDL Always Construct warning at fifo_ns.v(14): inferring latch(es) for variable "next_state", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 14
+Info (10041): Inferred latch for "next_state[0]" at fifo_ns.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Info (10041): Inferred latch for "next_state[1]" at fifo_ns.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Info (10041): Inferred latch for "next_state[2]" at fifo_ns.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Info (12128): Elaborating entity "fifo_cal_addr" for hierarchy "fifo_cal_addr:U1_fifo_cal_addr" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 22
+Warning (10230): Verilog HDL assignment warning at fifo_cal_addr.v(43): truncated value with size 32 to match size of target (4) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 43
+Warning (10270): Verilog HDL Case Statement warning at fifo_cal_addr.v(20): incomplete case statement has no default case item File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 20
+Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "we", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "re", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "next_head", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "next_tail", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Warning (10240): Verilog HDL Always Construct warning at fifo_cal_addr.v(18): inferring latch(es) for variable "next_data_count", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_data_count[0]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_data_count[1]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_data_count[2]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_data_count[3]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_tail[0]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_tail[1]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_tail[2]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_head[0]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_head[1]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "next_head[2]" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "re" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (10041): Inferred latch for "we" at fifo_cal_addr.v(18) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+Info (12128): Elaborating entity "fifo_out" for hierarchy "fifo_out:U2_fifo_out" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 25
+Warning (10270): Verilog HDL Case Statement warning at fifo_out.v(15): incomplete case statement has no default case item File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 15
+Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "full", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "empty", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "wr_ack", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "wr_err", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "rd_ack", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Warning (10240): Verilog HDL Always Construct warning at fifo_out.v(13): inferring latch(es) for variable "rd_err", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Info (10041): Inferred latch for "rd_err" at fifo_out.v(13) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Info (10041): Inferred latch for "rd_ack" at fifo_out.v(13) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Info (10041): Inferred latch for "wr_err" at fifo_out.v(13) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Info (10041): Inferred latch for "wr_ack" at fifo_out.v(13) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Info (10041): Inferred latch for "empty" at fifo_out.v(13) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Info (10041): Inferred latch for "full" at fifo_out.v(13) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 13
+Info (12128): Elaborating entity "Register_file" for hierarchy "Register_file:U3_Register_file" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 27
+Info (12128): Elaborating entity "register32_8" for hierarchy "Register_file:U3_Register_file|register32_8:U0_register32_8" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v Line: 14
+Info (12128): Elaborating entity "register32_r_en" for hierarchy "Register_file:U3_Register_file|register32_8:U0_register32_8|register32_r_en:U0_reg" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v Line: 8
+Info (12128): Elaborating entity "write_operation" for hierarchy "Register_file:U3_Register_file|write_operation:U1_wirte_operation" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v Line: 17
+Info (12128): Elaborating entity "_3_to_8_decoder" for hierarchy "Register_file:U3_Register_file|write_operation:U1_wirte_operation|_3_to_8_decoder:U0_3_to_8_decoder" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v Line: 9
+Info (12128): Elaborating entity "_and2" for hierarchy "Register_file:U3_Register_file|write_operation:U1_wirte_operation|_and2:U1_and2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v Line: 11
+Info (12128): Elaborating entity "read_operation" for hierarchy "Register_file:U3_Register_file|read_operation:U2_read_operation" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v Line: 23
+Info (12128): Elaborating entity "_8_to_1_MUX" for hierarchy "Register_file:U3_Register_file|read_operation:U2_read_operation|_8_to_1_MUX:U0_8_to_1_MUX" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v Line: 10
+Info (12128): Elaborating entity "_dff_r_3" for hierarchy "_dff_r_3:U4_state_dff" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 30
+Info (12128): Elaborating entity "_dff_r_4" for hierarchy "_dff_r_4:U5_data_count_dff" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 31
+Info (12128): Elaborating entity "mux_32" for hierarchy "mux_32:U8_mux_32" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 34
+Info (12128): Elaborating entity "_dff_r_32" for hierarchy "_dff_r_32:U9_dout_dff" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v Line: 35
+Warning (13012): Latch fifo_out:U2_fifo_out|full has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_out:U2_fifo_out|empty has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[1] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_out:U2_fifo_out|wr_ack has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_out:U2_fifo_out|wr_err has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_out:U2_fifo_out|rd_ack has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_out:U2_fifo_out|rd_err has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v Line: 4
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|re has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 6
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[1] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_data_count[0] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_data_count[1] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_data_count[2] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_data_count[3] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|we has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 6
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_head[0] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[1] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_head[1] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[1] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_head[2] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[1] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_ns:U0_fifo_ns|next_state[1] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+    Warning (13013): Ports ENA and PRE on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_ns:U0_fifo_ns|next_state[2] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+    Warning (13013): Ports ENA and PRE on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_ns:U0_fifo_ns|next_state[0] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+    Warning (13013): Ports ENA and PRE on the latch are fed by the same signal _dff_r_3:U4_state_dff|q[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v Line: 10
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_tail[0] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_tail[2] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
+Warning (13012): Latch fifo_cal_addr:U1_fifo_cal_addr|next_tail[1] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fifo_ns:U0_fifo_ns|next_state[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v Line: 18
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/output_files/fifo.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/output_files/fifo.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 491 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 497 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 36 input pins
     Info (21059): Implemented 42 output pins
-    Info (21061): Implemented 413 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 52 warnings
-    Info: Peak virtual memory: 4893 megabytes
-    Info: Processing ended: Wed Nov 01 22:04:42 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:05
+    Info (21061): Implemented 419 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 61 warnings
+    Info: Peak virtual memory: 4848 megabytes
+    Info: Processing ended: Thu Nov 02 13:53:46 2023
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/output_files/fifo.map.smsg.
+The suppressed messages can be found in C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/output_files/fifo.map.smsg.
 
 

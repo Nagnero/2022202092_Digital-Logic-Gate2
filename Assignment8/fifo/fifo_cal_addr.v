@@ -40,7 +40,7 @@ module fifo_cal_addr(state, head, tail, data_count, we, re, next_head, next_tail
 					3'b111: next_tail = 3'b000;
 					default: next_tail = 3'bx;
 				endcase
-				next_data_count = data_count + 4'b0001; // increase count
+				next_data_count = data_count + 1; // increase count
 			end
 			READ: begin
 				we = 1'b0;

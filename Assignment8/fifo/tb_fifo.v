@@ -3,16 +3,12 @@
 module tb_fifo;
 	reg clk, reset_n, rd_en, wr_en;
 	reg [31:0] d_in;
+	
 	wire [31:0] d_out;
 	wire full, empty, wr_ack, wr_err, rd_ack, rd_err;
 	wire [3:0] data_count;
 
-	reg [2:0] state;
-	wire [2:0] next_state;
-
 	fifo DUT(clk, reset_n, rd_en, wr_en, d_in, d_out, full, empty, wr_ack, wr_err, rd_ack, rd_err, data_count);
-	fifo_ns DUT1(wr_en, rd_en, state, data_count, next_state);
-
 	
 	always begin
 		#5; clk = ~clk;
@@ -25,6 +21,27 @@ module tb_fifo;
 		#12;	reset_n = 1;
 		#10;	rd_en = 1;
 		#10;	rd_en = 0; wr_en = 1; d_in = 32'h0000_0011;
+		#10;	d_in = 32'h0000_0022;
+		#10;	d_in = 32'h0000_0033;
+		#10;	d_in = 32'h0000_0044;
+		#10;	d_in = 32'h0000_0055;
+		#10;	d_in = 32'h0000_0066;
+		#10;	d_in = 32'h0000_0077;
+		#10;	d_in = 32'h0000_0088;
+		#10;	d_in = 32'h0000_0099;
+		#10;	d_in = 32'h0000_00aa;
+		#10;	d_in = 32'h0000_00bb;
+		#20;
+		#10;	wr_en = 0;
+		#20;	rd_en = 1;
+		#20;	rd_en = 0; wr_en = 1;
+		#10;	d_in = 32'h0000_00cc;
+		#10;	rd_en = 1; wr_en = 0;
+		#20;	rd_en = 0;
+		#10;	rd_en = 1;
+		#80;
+
+		
 		#10;	$stop;
 	end
 

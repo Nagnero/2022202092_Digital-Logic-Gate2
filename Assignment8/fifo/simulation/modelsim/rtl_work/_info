@@ -7,84 +7,84 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/simulation/modelsim
+Z0 dC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/simulation/modelsim
 v_3_to_8_decoder
-Z1 !s110 1698843888
+Z1 !s110 1698900913
 !i10b 1
 !s100 Z9MEeMBzleE`j``QNX[RS3
-I]=4ZPSa`^oO?VA8Q[E2JZ1
+IIU44h6<l79679mALf<47@0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1698832463
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v
+Z3 w1698887574
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1698843888.000000
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v|
+Z5 !s108 1698900913.000000
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_3_to_8_decoder.v|
 !i113 1
 Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work +incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo
 Z8 tCvgOpt 0
 n@_3_to_8_decoder
 v_8_to_1_MUX
 R1
 !i10b 1
 !s100 HDQo2>7ahdM0CU8iB0HN]2
-IJ:];]Q4cmG^E[2YQh>cPI2
+I`LP:B6DK8`WbKCFREC^lm2
 R2
 R0
 R3
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v
 L0 1
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v|
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_8_to_1_MUX.v|
 !i113 1
 R6
 R7
 R8
 n@_8_to_1_@m@u@x
 v_and2
-R1
+Z9 !s110 1698900914
 !i10b 1
 !s100 2jUcfV=0AD[C4<W65L<DL0
-IL?MlClnClAT?dIM]o34MV0
+IGNcULRHAWe27[QCa9<3cV0
 R2
 R0
-Z9 w1698832464
-Z10 8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v
-Z11 FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v
+R3
+Z10 8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v
+Z11 FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v
 L0 17
 R4
 r1
 !s85 0
 31
-R5
-Z12 !s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v|
-Z13 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v|
+Z12 !s108 1698900914.000000
+Z13 !s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/gates.v|
 !i113 1
 R6
 R7
 R8
 n@_and2
 v_and2_32bits
-R1
+R9
 !i10b 1
 !s100 LoHfI74mo9dV6Nn5W8ITP0
-I4Rhn5>X_mkGTVY8IBoG_d3
+I89Y<1nUMP;6XeSHomd5iL1
 R2
 R0
-R9
+R3
 R10
 R11
 L0 151
@@ -92,22 +92,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_and2_32bits
 v_and2_4bits
-R1
+R9
 !i10b 1
 !s100 Qan_iA>4jNFGMcR:aHX0]1
-I_BRc12a83VOI>=LAS;=?W0
+IG;P4X9keWiki91V=mdDZ=3
 R2
 R0
-R9
+R3
 R10
 R11
 L0 105
@@ -115,22 +115,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_and2_4bits
 v_and3
-R1
+R9
 !i10b 1
 !s100 mFH2GoEQV643iIbz@<FFm0
-I:H0]gH7n59aYC2UE0Q^mF2
+IbTiPjGTC]^zYGPfn_oOg`0
 R2
 R0
-R9
+R3
 R10
 R11
 L0 49
@@ -138,22 +138,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_and3
 v_and4
-R1
+R9
 !i10b 1
 !s100 k@mBe?zd15mnQ:22QLA?h1
-IP61<<]C]TnE08U1C=:3fZ1
+Iii]LgzO9G?`e`70mkUOgW1
 R2
 R0
-R9
+R3
 R10
 R11
 L0 57
@@ -161,22 +161,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_and4
 v_and5
-R1
+R9
 !i10b 1
 !s100 ?FeTj0>Im[3I?efij?He[1
-IEfO@cTC]B4?c9J5MQgTQZ2
+IMTk]SUGLchjbBi58iUK6W2
 R2
 R0
-R9
+R3
 R10
 R11
 L0 65
@@ -184,91 +184,91 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_and5
 v_dff_r_3
-Z14 !s110 1698843889
+Z15 !s110 1698900915
 !i10b 1
 !s100 ;S9ggMhoj6UE]==ee]KO91
-IiJ76:0_n<M]3@S]^Jie9_1
+IBHTb:S5<bf`^gb7DVXART1
 R2
 R0
-w1698843871
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v
+R3
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v
 L0 1
 R4
 r1
 !s85 0
 31
-Z15 !s108 1698843889.000000
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v|
+Z16 !s108 1698900915.000000
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_3.v|
 !i113 1
 R6
 R7
 R8
 n@_dff_r_3
 v_dff_r_32
-R14
+R15
 !i10b 1
 !s100 <Fi1S:3A?]S;]1B8WVgZ`2
-I@5^RRYQ7dTz1:C<4YJBWU0
+IJBXXJzlDEHCaNF9L9DRzQ1
 R2
 R0
-w1698840588
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v
+R3
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v|
+R16
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_32.v|
 !i113 1
 R6
 R7
 R8
 n@_dff_r_32
 v_dff_r_4
-R14
+R15
 !i10b 1
 !s100 7;A>Z0GoF0JW8YfH:L^[i1
-IzlH:6<<^VBY8:`TW@PZMM2
+Imb;ORHbzLX==nQUd@XloA3
 R2
 R0
-w1698840584
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v
+R3
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v|
+R16
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/_dff_r_4.v|
 !i113 1
 R6
 R7
 R8
 n@_dff_r_4
 v_inv
-R1
+R9
 !i10b 1
 !s100 g3TWNE3ao1BzI<flEzdOR2
-IIZIdQ0RP>`_FhRVm_k;UQ0
+I;`afD3@RlYY<W]Z@n10J23
 R2
 R0
-R9
+R3
 R10
 R11
 L0 1
@@ -276,22 +276,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_inv
 v_inv_32bits
-R1
+R9
 !i10b 1
 !s100 :oLlo>d0`>dQ7R_K5Bb<01
-IbX<RzHck>M[Nh`^6LVg?i2
+I^RJ2f2]`2IkM3TzUbI8Hc0
 R2
 R0
-R9
+R3
 R10
 R11
 L0 143
@@ -299,22 +299,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_inv_32bits
 v_inv_4bits
-R1
+R9
 !i10b 1
 !s100 ?FES1Pfmi23i^LVo`laYi0
-INQWoZJTXZji>6RYeiIho00
+I4z2jAog;]Y=ShG]YZ_6kV0
 R2
 R0
-R9
+R3
 R10
 R11
 L0 97
@@ -322,22 +322,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_inv_4bits
 v_nand2
-R1
+R9
 !i10b 1
 !s100 ><76BWK[oL^Z`kYRd4ma00
-I2a[2JTn=3g<@TQz0Z[b`b1
+I0cYoAXzUmJMhKIj0I58M[0
 R2
 R0
-R9
+R3
 R10
 R11
 L0 9
@@ -345,22 +345,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_nand2
 v_or2
-R1
+R9
 !i10b 1
 !s100 6:FE_Xagb^C2:];HkVCPJ1
-I0^CagK06;JPj>Ro@Y>0_F1
+Id`V9_`gd3jn?RK=[>FC;@2
 R2
 R0
-R9
+R3
 R10
 R11
 L0 25
@@ -368,22 +368,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_or2
 v_or2_32bits
-R1
+R9
 !i10b 1
 !s100 _mEK_foY>kgNJ>AbZ^SaP1
-ImGIdN8jGnINRN:beE0R==1
+IPnNWkVaOc4z][jjT;TTc;1
 R2
 R0
-R9
+R3
 R10
 R11
 L0 159
@@ -391,22 +391,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_or2_32bits
 v_or2_4bits
-R1
+R9
 !i10b 1
 !s100 4[7fTI98ie?aZIcc_XHMl3
-INc]7LVdU:D8hQ<akQKl<F2
+Id^f>^eWC_Q[aMlHEFon>[2
 R2
 R0
-R9
+R3
 R10
 R11
 L0 113
@@ -414,22 +414,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_or2_4bits
 v_or3
-R1
+R9
 !i10b 1
 !s100 _6W5@aO6PUC[z1VFCcAYc0
-IVTLbFM>_AGYIT@E1eCHhF3
+I^S5=KN<Tm?J<KfHQ[c[Dz3
 R2
 R0
-R9
+R3
 R10
 R11
 L0 73
@@ -437,22 +437,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_or3
 v_or4
-R1
+R9
 !i10b 1
 !s100 ZKCLQ_BbR5az?5GJ4g6B81
-IAAR4_>fKb`ET1:0l8A2`W2
+IEH73Jmc^P6QY@>;7G6aIm1
 R2
 R0
-R9
+R3
 R10
 R11
 L0 81
@@ -460,22 +460,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_or4
 v_or5
-R1
+R9
 !i10b 1
 !s100 ozfW_gi0KaP0;`WbThLfc3
-IPaafLB?oj_CJmo`m7Lhlh3
+I8]6Jn]_HN@PKKMAWd_j?j0
 R2
 R0
-R9
+R3
 R10
 R11
 L0 89
@@ -483,22 +483,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_or5
 v_xnor2_32bits
-R1
+R9
 !i10b 1
 !s100 Ook8CMjUdl8C[ULUdUfee1
-I1b3ocFXbmTe_7aR1D<^3a3
+IJX0m9OQB<KT^oCh;7F=L<0
 R2
 R0
-R9
+R3
 R10
 R11
 L0 182
@@ -506,22 +506,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_xnor2_32bits
 v_xnor2_4bits
-R1
+R9
 !i10b 1
 !s100 BdPWLzjA:1GJ9EI_OR?G=3
-IHU<7ZXo;;12AD?eRCW1Y31
+IUTz71Y3KnG4SQjn3LDJAE0
 R2
 R0
-R9
+R3
 R10
 R11
 L0 132
@@ -529,22 +529,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_xnor2_4bits
 v_xor2
-R1
+R9
 !i10b 1
 !s100 jLI]3;BDbO>g9k9k4nYY23
-ImbiRgd[kKkSLlb4KCjTzL3
+I;VM[1U[1]]e=bCBH>i:e?2
 R2
 R0
-R9
+R3
 R10
 R11
 L0 34
@@ -552,22 +552,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_xor2
 v_xor2_32bits
-R1
+R9
 !i10b 1
 !s100 FVUX=WDG:Z@36T_V]LH0i2
-I_FY:USg6LHXjfO0PPMin_0
+IE`EGCQNk`jnaffa^4kdMD2
 R2
 R0
-R9
+R3
 R10
 R11
 L0 167
@@ -575,22 +575,22 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_xor2_32bits
 v_xor2_4bits
-R1
+R9
 !i10b 1
 !s100 I:j4bP^bW=W0:TnZOB>480
-IU;olGOj[ee408liYA_h@B0
+In`SE`O4LoB6Doo=?k^d`60
 R2
 R0
-R9
+R3
 R10
 R11
 L0 121
@@ -598,253 +598,253 @@ R4
 r1
 !s85 0
 31
-R5
 R12
 R13
+R14
 !i113 1
 R6
 R7
 R8
 n@_xor2_4bits
 vfifo
-R14
+R9
 !i10b 1
-!s100 oggfkG1e6<9B3TgFBJkPY2
-IOnEPm[X2khI>?oj0MOZ2T3
+!s100 n38lWOWngAa93?T6OI0Wl0
+Ih1TAc[`IIQH6R2o6Can]h0
 R2
 R0
-w1698841273
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v
+w1698888097
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v|
+R12
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo.v|
 !i113 1
 R6
 R7
 R8
 vfifo_cal_addr
-R14
+R15
 !i10b 1
-!s100 ;]o[iA245Xlc`jIfT_=K93
-IiEfPPGMWNA<6<IC3ULBV91
+!s100 HW9GfNh2nbk<0Wg];LiTM2
+IYXdGY14;>hoSMIRR@dU;_0
 R2
 R0
-w1698837926
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v
+w1698887957
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v|
+R16
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_cal_addr.v|
 !i113 1
 R6
 R7
 R8
 vfifo_ns
-R14
+R15
 !i10b 1
-!s100 bCiK4RhTiOa:DgaF;Mb<63
-IZZi@0ECBIHz8<W_6iE>Xi0
+!s100 [UN;ECX=fF=4048T4SG1B3
+IFc8^HHzin^EDZnNN<9^=Z3
 R2
 R0
-w1698842857
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v
+w1698900139
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v|
+R16
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_ns.v|
 !i113 1
 R6
 R7
 R8
 vfifo_out
-R14
+R15
 !i10b 1
 !s100 o>meHXYIWgcA^SS?[nDGe1
-IY>Eo`6X0FZn5Ed^aQL7Qm0
+I?BLk<ijea7kaQn9@QDml81
 R2
 R0
-w1698840564
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v
+R3
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v|
+R16
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/fifo_out.v|
 !i113 1
 R6
 R7
 R8
 vmux_32
-R14
+R15
 !i10b 1
 !s100 PYHYme5KMAJd>`2iVC96e1
-IaU3_`YoW?hfU0nBZAdV7>2
+IZ1EAEnMi6B^17PX:W<MBE2
 R2
 R0
-w1698838941
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v
+R3
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v|
+R16
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/mux_32.v|
 !i113 1
 R6
 R7
 R8
 vread_operation
-R14
+R9
 !i10b 1
 !s100 53Sd7YRmA:C;Fm8HleG2Y0
-IT_CfI6M848d>LlG^<VNjD3
+I3L@@fQRAEDU^WV25;H^fl0
 R2
 R0
-w1698840651
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v
+R3
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v|
+R12
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/read_operation.v|
 !i113 1
 R6
 R7
 R8
 vregister32_8
-R1
+R9
 !i10b 1
 !s100 `O<Noo0eC>NB3H@g>d6<]2
-I5glSH>7^IWfi@jS1U`9Co2
+ITg?^RAV6=VBkz_^gWkPm93
 R2
 R0
-R9
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v
+R3
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v|
+R12
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_8.v|
 !i113 1
 R6
 R7
 R8
 vregister32_r_en
-R14
+R9
 !i10b 1
 !s100 733E;?VQ4A5<HLE71AX>Z1
-Igm52Oj0IkACm5i`P04K@`1
+IaEIVzg<470l:MX94lkR5c1
 R2
 R0
-R9
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v
+w1697416976
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v
 L0 1
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v|
+R12
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/register32_r_en.v|
 !i113 1
 R6
 R7
 R8
 vRegister_file
-R14
+R9
 !i10b 1
 !s100 MJ>n=G^PPCOeKHzoDl>X=3
-ICQ6JlCjHiV<:l]^;Bl79D3
+IWZiL50aDLOmU35?6[?P5g1
 R2
 R0
-R9
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v
+w1697441614
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v|
+R12
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/Register_file.v|
 !i113 1
 R6
 R7
 R8
 n@register_file
 vtb_fifo
-R14
+R15
 !i10b 1
-!s100 >hfIiV_GInM3095E[WXCl3
-I`kF^H=i5zKOU3679>S8`_0
+!s100 gnQ32oMf`_Qk6We0gSCBz2
+I?[eR_^6LfEm8UZNjSYSZj2
 R2
 R0
-w1698843513
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v
+w1698900806
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v
 L0 3
 R4
 r1
 !s85 0
 31
-R15
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v|
+R16
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/tb_fifo.v|
 !i113 1
 R6
 R7
 R8
 vwrite_operation
-R1
+R9
 !i10b 1
 !s100 BOVNhVzoeRegnIanG[7I12
-IW=3i?HofiJPZkKF5<gXFC2
+IEU0j<cMm^fcNGQY6Cc:Va1
 R2
 R0
-R9
-8C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v
-FC:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v
+w1697441616
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v|
+R12
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment8/fifo/write_operation.v|
 !i113 1
 R6
 R7

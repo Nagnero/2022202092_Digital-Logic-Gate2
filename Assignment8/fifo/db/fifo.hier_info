@@ -80,6 +80,7 @@ data_count[3] << data_count[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |fifo|fifo_ns:U0_fifo_ns
+wr_en => always0.IN0
 wr_en => next_state.OUTPUTSELECT
 wr_en => next_state.DATAA
 wr_en => Mux0.IN3
@@ -88,25 +89,29 @@ wr_en => Mux0.IN5
 wr_en => Mux0.IN6
 wr_en => Mux0.IN7
 wr_en => always0.IN0
-wr_en => Mux1.IN0
-wr_en => Mux1.IN1
-wr_en => Mux1.IN2
-wr_en => Mux1.IN3
-wr_en => Mux1.IN4
+wr_en => Mux2.IN0
+wr_en => Mux2.IN1
+wr_en => Mux2.IN2
+wr_en => Mux2.IN3
+wr_en => Mux2.IN4
 wr_en => next_state.DATAA
 rd_en => always0.IN1
+rd_en => always0.IN1
 state[0] => Mux0.IN10
-state[0] => Mux1.IN10
 state[0] => Mux2.IN10
+state[0] => Mux1.IN10
 state[0] => Mux3.IN10
+state[0] => Equal0.IN2
 state[1] => Mux0.IN9
-state[1] => Mux1.IN9
 state[1] => Mux2.IN9
+state[1] => Mux1.IN9
 state[1] => Mux3.IN9
+state[1] => Equal0.IN1
 state[2] => Mux0.IN8
-state[2] => Mux1.IN8
 state[2] => Mux2.IN8
+state[2] => Mux1.IN8
 state[2] => Mux3.IN8
+state[2] => Equal0.IN0
 data_count[0] => LessThan0.IN8
 data_count[0] => LessThan1.IN8
 data_count[1] => LessThan0.IN7

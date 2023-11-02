@@ -18,7 +18,7 @@ module fifo(clk, reset_n, rd_en, wr_en, d_in, d_out, full, empty, wr_ack, wr_err
 	
 	fifo_ns U0_fifo_ns(.wr_en(wr_en), .rd_en(rd_en), .state(state), .data_count(data_count), .next_state(next_state));
 	
-	fifo_cal_addr U1_fifo_cal_addr(.state(state), .head(head), .tail(tail), .data_count(data_count),
+	fifo_cal_addr U1_fifo_cal_addr(.state(next_state), .head(head), .tail(tail), .data_count(data_count),
 		.we(we), .re(re), .next_head(next_head), .next_tail(next_tail), .next_data_count(next_data_count));
 		
 	fifo_out U2_fifo_out(.state(state), .data_count(data_count), 
