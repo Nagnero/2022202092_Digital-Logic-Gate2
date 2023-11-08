@@ -88,8 +88,13 @@ set_global_assignment -name VERILOG_FILE tb_dff_r_3.v
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_dff_r_3 -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_dff_r_3
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_dff_r_3 -section_id tb_dff_r_3
+set_global_assignment -name VERILOG_FILE tb_fifo_out.v
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_fifo_out -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_fifo_out
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_fifo_out -section_id tb_fifo_out
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_fifo_ns.v -section_id tb_fifo_ns
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_fifo_cal_addr.v -section_id tb_fifo_cal_addr
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_fifo.v -section_id tb_fifo
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_dff_r_3.v -section_id tb_dff_r_3
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_fifo_out.v -section_id tb_fifo_out

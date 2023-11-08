@@ -1,0 +1,181 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup '_dff_r_3:U4_state_dff|q[0]'
+Slack : -6.724
+TNS   : -46.354
+
+Type  : Slow 1100mV 85C Model Setup 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : -5.901
+TNS   : -61.853
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -3.592
+TNS   : -965.457
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -2.471
+TNS   : -15.901
+
+Type  : Slow 1100mV 85C Model Hold 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : 0.598
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold '_dff_r_3:U4_state_dff|q[0]'
+Slack : 1.333
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery '_dff_r_3:U4_state_dff|q[0]'
+Slack : -6.077
+TNS   : -17.604
+
+Type  : Slow 1100mV 85C Model Removal '_dff_r_3:U4_state_dff|q[0]'
+Slack : 1.159
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -160.303
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width '_dff_r_3:U4_state_dff|q[0]'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup '_dff_r_3:U4_state_dff|q[0]'
+Slack : -6.779
+TNS   : -47.008
+
+Type  : Slow 1100mV 0C Model Setup 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : -5.908
+TNS   : -62.036
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.377
+TNS   : -905.503
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.539
+TNS   : -16.428
+
+Type  : Slow 1100mV 0C Model Hold 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : 0.518
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold '_dff_r_3:U4_state_dff|q[0]'
+Slack : 1.301
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery '_dff_r_3:U4_state_dff|q[0]'
+Slack : -6.154
+TNS   : -17.653
+
+Type  : Slow 1100mV 0C Model Removal '_dff_r_3:U4_state_dff|q[0]'
+Slack : 1.138
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -172.034
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width '_dff_r_3:U4_state_dff|q[0]'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup '_dff_r_3:U4_state_dff|q[0]'
+Slack : -3.510
+TNS   : -23.859
+
+Type  : Fast 1100mV 85C Model Setup 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : -3.158
+TNS   : -32.397
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.840
+TNS   : -547.084
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.160
+TNS   : -7.141
+
+Type  : Fast 1100mV 85C Model Hold 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : 0.507
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold '_dff_r_3:U4_state_dff|q[0]'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery '_dff_r_3:U4_state_dff|q[0]'
+Slack : -3.124
+TNS   : -9.148
+
+Type  : Fast 1100mV 85C Model Removal '_dff_r_3:U4_state_dff|q[0]'
+Slack : 0.772
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.086
+TNS   : -23.670
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width '_dff_r_3:U4_state_dff|q[0]'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup '_dff_r_3:U4_state_dff|q[0]'
+Slack : -3.322
+TNS   : -22.746
+
+Type  : Fast 1100mV 0C Model Setup 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : -2.967
+TNS   : -30.297
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.235
+TNS   : -440.285
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.159
+TNS   : -7.279
+
+Type  : Fast 1100mV 0C Model Hold 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold '_dff_r_3:U4_state_dff|q[0]'
+Slack : 0.806
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery '_dff_r_3:U4_state_dff|q[0]'
+Slack : -2.958
+TNS   : -8.631
+
+Type  : Fast 1100mV 0C Model Removal '_dff_r_3:U4_state_dff|q[0]'
+Slack : 0.689
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.084
+TNS   : -23.336
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'fifo_ns:U0_fifo_ns|next_state[0]'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width '_dff_r_3:U4_state_dff|q[0]'
+Slack : 0.451
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,3 +1,5 @@
+`timescale 1ns/100ps
+
 module tb_fifo_ns;
 	reg wr_en, rd_en;
 	reg [2:0] state;

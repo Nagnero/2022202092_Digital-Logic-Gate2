@@ -1,3 +1,5 @@
+`timescale 1ns/100ps
+
 module tb_fifo_cal_addr;
 	reg [2:0] state;
 	reg [2:0] head;
