@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "n_state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "n_state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "op_start",
+					"strict" : false
+				},
+				{
+					"name" : "state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "op_clear",
+					"strict" : false
+				},
+				{
+					"name" : "state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cnt[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cnt[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cnt[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cnt[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cnt[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cnt[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

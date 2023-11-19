@@ -1,0 +1,21 @@
+|multiplier_ns
+op_start => Mux1.IN3
+op_clear => n_state.OUTPUTSELECT
+op_clear => Mux0.IN3
+op_clear => Mux1.IN1
+op_clear => Mux1.IN2
+op_done => ~NO_FANOUT~
+state[0] => Mux0.IN5
+state[0] => Mux1.IN5
+state[1] => Mux0.IN4
+state[1] => Mux1.IN4
+cnt[0] => Equal0.IN5
+cnt[1] => Equal0.IN4
+cnt[2] => Equal0.IN3
+cnt[3] => Equal0.IN2
+cnt[4] => Equal0.IN1
+cnt[5] => Equal0.IN0
+n_state[0] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+n_state[1] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

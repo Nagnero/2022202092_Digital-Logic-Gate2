@@ -1,0 +1,10 @@
+module tb_multiplier_ns;
+	reg op_start, op_clear, op_done;
+	reg [1:0] state;
+	reg [5:0] cnt;
+	
+	wire [1:0] n_state;
+	
+	parameter INIT = 2'b00;
+	parameter OPERATE = 2'b01;
+	parameter DONE = 2'b11;
