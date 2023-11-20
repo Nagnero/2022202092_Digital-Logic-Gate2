@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Sun Nov 19 14:52:29 2023
+Analysis & Synthesis Status : Successful - Mon Nov 20 16:07:14 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : multiplier
-Top-level Entity Name : multiplier_ns
+Top-level Entity Name : multiplier
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 0
-Total pins : 13
+Total registers : 200
+Total pins : 261
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

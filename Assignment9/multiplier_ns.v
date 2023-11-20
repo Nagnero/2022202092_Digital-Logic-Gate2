@@ -10,9 +10,10 @@ module multiplier_ns(op_start, op_clear, op_done, state, cnt, n_state);
 	
 	always @(op_start or op_clear or state or cnt)
 	begin
+		if
 		case(state)
 			INIT: begin
-				if (state == INIT && op_start == 1'b1) 
+				if (op_start == 1'b1) 
 					n_state = OPERATE;
 				else 
 					n_state = INIT;

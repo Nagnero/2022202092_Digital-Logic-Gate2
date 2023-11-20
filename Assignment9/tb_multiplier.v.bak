@@ -1,0 +1,9 @@
+module tb_multiplier;
+	reg clk, reset_n, op_start, op_clear;
+	reg [63:0] multiplier, multiplicand;
+	wire op_done;
+	wire [127:0] result;
+	
+	multiplier DUT(clk, reset_n, multiplier, multiplicand, op_start, op_clear, op_done, result);
+	
+endmodule

@@ -1,0 +1,2 @@
+module multiplier_cal(state, cnt, multiplier,recoded,result,op_done,n_cnt, n_result,next_recoded);
+	

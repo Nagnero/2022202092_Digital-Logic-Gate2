@@ -1,0 +1,11 @@
+module tb_multiplier_cal;
+	input [1:0] state;
+	input [5:0] cnt; // count cycle
+	input [63:0] multiplicand, multiplier, temp; // temp is multiplier
+	input [127:0] result;
+	output reg op_done;
+	output reg [5:0] n_cnt;
+	output reg [127:0] n_result;
+	output reg [63:0] n_temp; // next multiplier
+
+endmodule

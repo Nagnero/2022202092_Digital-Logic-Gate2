@@ -1,5 +1,5 @@
 Flow report for multiplier
-Sun Nov 19 14:52:29 2023
+Mon Nov 20 16:07:14 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Nov 19 14:52:29 2023       ;
+; Flow Status                     ; Successful - Mon Nov 20 16:07:14 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; multiplier                                  ;
-; Top-level Entity Name           ; multiplier_ns                               ;
+; Top-level Entity Name           ; multiplier                                  ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSXFC6D6F31C6                              ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 13                                          ;
+; Total registers                 ; 200                                         ;
+; Total pins                      ; 261                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -67,37 +67,44 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/19/2023 14:52:17 ;
+; Start date & time ; 11/20/2023 16:06:51 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; multiplier          ;
 +-------------------+---------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                 ;
-+--------------------------------------+----------------------------------------+---------------+---------------+------------------+
-; Assignment Name                      ; Value                                  ; Default Value ; Entity Name   ; Section Id       ;
-+--------------------------------------+----------------------------------------+---------------+---------------+------------------+
-; COMPILER_SIGNATURE_ID                ; 194052598491342.170037313623332        ; --            ; --            ; --               ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --            ; tb_multiplier_ns ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_multiplier_ns                       ; --            ; --            ; eda_simulation   ;
-; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --            ; eda_simulation   ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --            ; --               ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --            ; eda_simulation   ;
-; EDA_TEST_BENCH_FILE                  ; tb_multiplier_ns.v                     ; --            ; --            ; tb_multiplier_ns ;
-; EDA_TEST_BENCH_MODULE_NAME           ; tb_multiplier_ns                       ; --            ; --            ; tb_multiplier_ns ;
-; EDA_TEST_BENCH_NAME                  ; tb_multiplier_ns                       ; --            ; --            ; eda_simulation   ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --            ; eda_simulation   ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --            ; --               ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --            ; --               ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; multiplier_ns ; Top              ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; multiplier_ns ; Top              ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; multiplier_ns ; Top              ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --            ; --               ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --            ; --               ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --            ; --               ;
-; TOP_LEVEL_ENTITY                     ; multiplier_ns                          ; multiplier    ; --            ; --               ;
-+--------------------------------------+----------------------------------------+---------------+---------------+------------------+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                ;
++--------------------------------------+----------------------------------------+---------------+-------------+-------------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id        ;
++--------------------------------------+----------------------------------------+---------------+-------------+-------------------+
+; COMPILER_SIGNATURE_ID                ; 194052598491342.170046401019532        ; --            ; --          ; --                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_multiplier     ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_multiplier_cal ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_multiplier_ns  ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_multiplier                          ; --            ; --          ; eda_simulation    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation    ;
+; EDA_TEST_BENCH_FILE                  ; tb_multiplier.v                        ; --            ; --          ; tb_multiplier     ;
+; EDA_TEST_BENCH_FILE                  ; tb_multiplier_cal.v                    ; --            ; --          ; tb_multiplier_cal ;
+; EDA_TEST_BENCH_FILE                  ; tb_multiplier_ns.v                     ; --            ; --          ; tb_multiplier_ns  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_multiplier                          ; --            ; --          ; tb_multiplier     ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_multiplier_cal                      ; --            ; --          ; tb_multiplier_cal ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_multiplier_ns                       ; --            ; --          ; tb_multiplier_ns  ;
+; EDA_TEST_BENCH_NAME                  ; tb_multiplier_ns                       ; --            ; --          ; eda_simulation    ;
+; EDA_TEST_BENCH_NAME                  ; tb_multiplier_cal                      ; --            ; --          ; eda_simulation    ;
+; EDA_TEST_BENCH_NAME                  ; tb_multiplier                          ; --            ; --          ; eda_simulation    ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation    ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --                ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; --          ; Top               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; --          ; Top               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; --          ; Top               ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --                ;
++--------------------------------------+----------------------------------------+---------------+-------------+-------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -105,8 +112,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4813 MB             ; 00:00:08                           ;
-; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:08                           ;
+; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 4862 MB             ; 00:00:15                           ;
+; Total                ; 00:00:23     ; --                      ; --                  ; 00:00:15                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
