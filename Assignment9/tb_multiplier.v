@@ -9,9 +9,18 @@ module tb_multiplier;
 	always #5 clk = ~clk;
 	
 	initial begin
-		#0;	clk = 0; reset_n = 0; op_start = 0; op_clear = 0; multiplier = 64'b1001; multiplicand = 64'b0111;
+		#0;	clk = 0; reset_n = 0; op_start = 0; op_clear = 0; multiplier = 5; multiplicand = 7;
 		#10;	reset_n = 1; op_start= 1;
-		#2000;	op_clear = 1;
+		#990;	op_clear = 1;
+		
+		#10;	multiplier = -5; multiplicand = 7; op_clear = 0;
+		#990;	op_clear = 1;
+		
+		#10;	multiplier = 5; multiplicand = -7; op_clear = 0;
+		#990;	op_clear = 1;
+		
+		#10;	multiplier = -5; multiplicand = -7; op_clear = 0;
+		#990;	op_clear = 1;
 		#30;	$stop;
 	end
 	

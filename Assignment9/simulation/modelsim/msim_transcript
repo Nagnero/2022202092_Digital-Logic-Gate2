@@ -12,47 +12,47 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/ha.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:24 on Nov 20,2023
+# Start time: 11:27:56 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/ha.v 
 # -- Compiling module ha
 # 
 # Top level modules:
 # 	ha
-# End time: 16:07:24 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:56 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/rca6.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:24 on Nov 20,2023
+# Start time: 11:27:56 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/rca6.v 
 # -- Compiling module rca6
 # 
 # Top level modules:
 # 	rca6
-# End time: 16:07:24 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:56 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/fa.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:24 on Nov 20,2023
+# Start time: 11:27:56 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/fa.v 
 # -- Compiling module fa
 # 
 # Top level modules:
 # 	fa
-# End time: 16:07:24 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:56 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/clb4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:24 on Nov 20,2023
+# Start time: 11:27:56 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/clb4.v 
 # -- Compiling module clb4
 # 
 # Top level modules:
 # 	clb4
-# End time: 16:07:24 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:56 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/gates.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:24 on Nov 20,2023
+# Start time: 11:27:56 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/gates.v 
 # -- Compiling module _inv
 # -- Compiling module _nand2
@@ -91,123 +91,123 @@
 # 	_or2_32bits
 # 	_xor2_32bits
 # 	_xnor2_32bits
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:01
+# End time: 11:27:56 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/fa_v2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:25 on Nov 20,2023
+# Start time: 11:27:56 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/fa_v2.v 
 # -- Compiling module fa_v2
 # 
 # Top level modules:
 # 	fa_v2
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:56 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/cla4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:25 on Nov 20,2023
+# Start time: 11:27:56 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/cla4.v 
 # -- Compiling module cla4
 # 
 # Top level modules:
 # 	cla4
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:56 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/_dff_r_2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:25 on Nov 20,2023
+# Start time: 11:27:56 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/_dff_r_2.v 
 # -- Compiling module _dff_r_2
 # 
 # Top level modules:
 # 	_dff_r_2
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/multiplier.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:25 on Nov 20,2023
+# Start time: 11:27:57 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/multiplier.v 
 # -- Compiling module multiplier
 # 
 # Top level modules:
 # 	multiplier
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/multiplier_ns.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:25 on Nov 20,2023
+# Start time: 11:27:57 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/multiplier_ns.v 
 # -- Compiling module multiplier_ns
 # 
 # Top level modules:
 # 	multiplier_ns
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/_dff_r_128.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:25 on Nov 20,2023
+# Start time: 11:27:57 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/_dff_r_128.v 
 # -- Compiling module _dff_r_128
 # 
 # Top level modules:
 # 	_dff_r_128
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/multiplier_cal.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:25 on Nov 20,2023
+# Start time: 11:27:57 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/multiplier_cal.v 
 # -- Compiling module multiplier_cal
 # 
 # Top level modules:
 # 	multiplier_cal
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/cla64.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:25 on Nov 20,2023
+# Start time: 11:27:57 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/cla64.v 
 # -- Compiling module cla64
 # 
 # Top level modules:
 # 	cla64
-# End time: 16:07:25 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/_dff_r_64.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:26 on Nov 20,2023
+# Start time: 11:27:57 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/_dff_r_64.v 
 # -- Compiling module _dff_r_64
 # 
 # Top level modules:
 # 	_dff_r_64
-# End time: 16:07:26 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/_dff_r_6.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:26 on Nov 20,2023
+# Start time: 11:27:57 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/_dff_r_6.v 
 # -- Compiling module _dff_r_6
 # 
 # Top level modules:
 # 	_dff_r_6
-# End time: 16:07:26 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9 {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/tb_multiplier.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:07:26 on Nov 20,2023
+# Start time: 11:27:57 on Nov 21,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9" C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/tb_multiplier.v 
 # -- Compiling module tb_multiplier
 # 
 # Top level modules:
 # 	tb_multiplier
-# End time: 16:07:26 on Nov 20,2023, Elapsed time: 0:00:00
+# End time: 11:27:57 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_multiplier
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_multiplier 
-# Start time: 16:07:26 on Nov 20,2023
+# Start time: 11:27:58 on Nov 21,2023
 # Loading work.tb_multiplier
 # Loading work.multiplier
 # Loading work.multiplier_ns
@@ -240,8 +240,8 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $stop    : C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/tb_multiplier.v(15)
-#    Time: 2040 ps  Iteration: 0  Instance: /tb_multiplier
-# Break in Module tb_multiplier at C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/tb_multiplier.v line 15
-# End time: 16:12:21 on Nov 20,2023, Elapsed time: 0:04:55
+# ** Note: $stop    : C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/tb_multiplier.v(24)
+#    Time: 4030 ps  Iteration: 0  Instance: /tb_multiplier
+# Break in Module tb_multiplier at C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment9/tb_multiplier.v line 24
+# End time: 11:28:24 on Nov 21,2023, Elapsed time: 0:00:26
 # Errors: 0, Warnings: 0
