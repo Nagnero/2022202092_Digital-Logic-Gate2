@@ -528,11 +528,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "op_clear",
+					"name" : "op_start",
 					"strict" : false
 				},
 				{
-					"name" : "op_start",
+					"name" : "op_clear",
 					"strict" : false
 				},
 				{

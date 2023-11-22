@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup '_dff_r_2:U1_dff_ns|q[1]'
+Slack : -11.179
+TNS   : -1201.943
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -3.385
+TNS   : -322.352
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -2.255
+TNS   : -207.306
+
+Type  : Slow 1100mV 85C Model Hold '_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.630
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -104.675
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width '_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup '_dff_r_2:U1_dff_ns|q[1]'
+Slack : -11.181
+TNS   : -1208.974
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.045
+TNS   : -293.158
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.376
+TNS   : -222.242
+
+Type  : Slow 1100mV 0C Model Hold '_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.540
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -113.931
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width '_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup '_dff_r_2:U1_dff_ns|q[1]'
+Slack : -6.207
+TNS   : -579.726
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.386
+TNS   : -190.563
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.185
+TNS   : -103.385
+
+Type  : Fast 1100mV 85C Model Hold '_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.080
+TNS   : -15.540
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width '_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup '_dff_r_2:U1_dff_ns|q[1]'
+Slack : -5.674
+TNS   : -541.451
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.785
+TNS   : -138.973
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.247
+TNS   : -114.446
+
+Type  : Fast 1100mV 0C Model Hold '_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.080
+TNS   : -15.529
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width '_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.239
+TNS   : 0.000
+
+------------------------------------------------------------

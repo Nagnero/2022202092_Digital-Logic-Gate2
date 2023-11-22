@@ -10,7 +10,7 @@ module multiplier(clk, reset_n, multiplier, multiplicand, op_start, op_clear, op
 	wire [127:0] n_result;
 	
 	// next state logic
-	multiplier_ns U0_multiplier_ns(op_start, op_clear, op_done, state, cnt, n_state);
+	multiplier_ns U0_multiplier_ns(op_start, op_clear, state, cnt, n_state);
 	_dff_r_2 U1_dff_ns(clk, reset_n, n_state, state);
 	
 	// calculate data logic

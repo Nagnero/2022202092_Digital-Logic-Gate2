@@ -1,5 +1,5 @@
-module multiplier_ns(op_start, op_clear, op_done, state, cnt, n_state);
-	input op_start, op_clear, op_done;
+module multiplier_ns(op_start, op_clear, state, cnt, n_state);
+	input op_start, op_clear;
 	input [1:0] state;
 	input [5:0] cnt; // count for cycle
 	output reg [1:0] n_state;
@@ -12,9 +12,11 @@ module multiplier_ns(op_start, op_clear, op_done, state, cnt, n_state);
 	begin
 		case(state)
 			INIT: begin
-				if (op_start == 1'b1) 
+				if (op_clear == 1)
+					n_state = INIT;
+				else if (op_start == 1'b1) 
 					n_state = OPERATE;
-				else 
+				else
 					n_state = INIT;
 			end
 			

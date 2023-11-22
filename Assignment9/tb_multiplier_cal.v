@@ -19,9 +19,10 @@ module tb_multiplier_cal;
 		#0;	state = INIT; cnt = 0; temp = 0; multiplicand = 64'b0111;
 				temp = 64'b1001; result = 0;
 		#10;	state = OPERATE;
-		#10;	cnt = 1; temp = 64'h8000_0000_0000_0004; result = 64'hffff_ffff_ffff_fffc_8000_0000_0000_0000; 
-		#10;	cnt = 2; temp = 64'h4000_0000_0000_0002; result = 64'hffff_ffff_ffff_fffe_4000_0000_0000_0000;
-		#10;	cnt = 3; 
+		#10;	cnt = 1; temp = 64'h8000_0000_0000_0004; result = 128'hffff_ffff_ffff_fffc_8000_0000_0000_0000; 
+		#10;	cnt = 2; temp = 64'h4000_0000_0000_0002; result = 128'hffff_ffff_ffff_fffe_4000_0000_0000_0000;
+		#10;	cnt = 3; temp = 64'h2000_0000_0000_0001; result = 128'hffff_ffff_ffff_fffb_a000_0000_0000_0000;
+		#10;	cnt = 4;
 		#10;	$stop;
 	end
 	
