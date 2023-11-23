@@ -1,0 +1,11 @@
+|bus_arbit
+clk => m1_grant~reg0.CLK
+clk => m0_grant~reg0.CLK
+reset_n => m1_grant~reg0.ACLR
+reset_n => m0_grant~reg0.PRESET
+m0_req => ~NO_FANOUT~
+m1_req => ~NO_FANOUT~
+m0_grant <= m0_grant~reg0.DB_MAX_OUTPUT_PORT_TYPE
+m1_grant <= m1_grant~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,14 @@
+module bus(clk, reset_n, m0_req, m0_wr, m0_address, m0_out, m1_req, m1_wr, m1_address, m1_out, s0_dout, s1_dout,
+			m0_grant, m1_grant, m_din, s0_sel, s1_sel, s_address, s_wr, s_din);
+	input clk, reset_n, m0_req, m0_wr, m1_req, m1_wr;
+	input [7:0] m0_address, m1_address;
+	input [31:0] m0_dout, m1_dout, s0_dout, s1_dout;
+	output m0_grant, m1_grant;
+	output [31:0] m_din;
+	output s0_sel, s1_sel, s_wr;
+	output [7:0] s_address;
+	output [31:0] s_din;
+	
+
+
+endmodule

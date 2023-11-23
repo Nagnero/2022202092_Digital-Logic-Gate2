@@ -1,0 +1,8 @@
+`timescale 1ns/100ps
+
+module tb_ram;
+	reg clk;
+	reg cen, wen;
+	reg [4:0] addr;
+	reg [31:0] din;
+	wire [31:0] dout;
