@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Thu Nov 23 17:54:11 2023
+Analysis & Synthesis Status : Successful - Thu Nov 23 21:43:26 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : bus
-Top-level Entity Name : bus_arbit
+Top-level Entity Name : bus
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 2
-Total pins : 6
+Total registers : 4
+Total pins : 227
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

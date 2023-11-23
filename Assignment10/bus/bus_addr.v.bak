@@ -1,0 +1,15 @@
+module bus_addr(s_address, s0_sel, s1_sel);
+	input [31:0] s_address;
+	output reg s0_sel, s1_sel;
+	
+	/*always @(s_address) begin
+		if((address >= 0x00) && (address < 0x20))
+			{s0_sel, s1_sel} = 2'b10;
+		else if((address >= 0x20) && (address < 0x40))
+		{s0_sel, s1_sel} = 2’b01;
+		…
+		else
+		{s0_sel, s1_sel} = 2’b00;
+	end*/
+
+endmodule

@@ -4,7 +4,7 @@ module _dff_r_64(clk, reset_n, cnt, multiplier, n_temp, temp);
 	input [5:0] cnt;
 	output reg [63:0] temp;
 	
-	// 2 bit flip flop
+	// 64 bit flip flop
 	always@(posedge clk or negedge reset_n)
 	begin
 		if(reset_n == 0) 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for bus
-Thu Nov 23 17:54:11 2023
+Thu Nov 23 21:43:26 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -15,9 +15,12 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
   9. Inverted Register Statistics
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Port Connectivity Checks: "mux3_32bit:U6_mux_m_din"
+ 12. Port Connectivity Checks: "bus_addr:U4_bus_addr"
+ 13. Post-Synthesis Netlist Statistics for Top Partition
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
 
 
 
@@ -43,14 +46,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Nov 23 17:54:11 2023       ;
+; Analysis & Synthesis Status     ; Successful - Thu Nov 23 21:43:26 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; bus                                         ;
-; Top-level Entity Name           ; bus_arbit                                   ;
+; Top-level Entity Name           ; bus                                         ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 2                                           ;
-; Total pins                      ; 6                                           ;
+; Total registers                 ; 4                                           ;
+; Total pins                      ; 227                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -69,7 +72,7 @@ refer to the applicable agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
-; Top-level entity name                                                           ; bus_arbit          ; bus                ;
+; Top-level entity name                                                           ; bus                ; bus                ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -155,60 +158,75 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 20          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processors 2-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                          ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                            ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------+---------+
-; bus_arbit.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                            ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                              ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
+; _dff_r_2.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/_dff_r_2.v   ;         ;
+; mux3_32bit.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux3_32bit.v ;         ;
+; mux2_32bit.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_32bit.v ;         ;
+; mux2_8bit.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_8bit.v  ;         ;
+; mux2.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2.v       ;         ;
+; bus.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v        ;         ;
+; bus_arbit.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v  ;         ;
+; bus_addr.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_addr.v   ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary             ;
-+---------------------------------------------+-----------+
-; Resource                                    ; Usage     ;
-+---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 1         ;
-;                                             ;           ;
-; Combinational ALUT usage for logic          ; 0         ;
-;     -- 7 input functions                    ; 0         ;
-;     -- 6 input functions                    ; 0         ;
-;     -- 5 input functions                    ; 0         ;
-;     -- 4 input functions                    ; 0         ;
-;     -- <=3 input functions                  ; 0         ;
-;                                             ;           ;
-; Dedicated logic registers                   ; 2         ;
-;                                             ;           ;
-; I/O pins                                    ; 6         ;
-;                                             ;           ;
-; Total DSP Blocks                            ; 0         ;
-;                                             ;           ;
-; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 2         ;
-; Total fan-out                               ; 12        ;
-; Average fan-out                             ; 0.86      ;
-+---------------------------------------------+-----------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                   ;
++---------------------------------------------+---------------------------------+
+; Resource                                    ; Usage                           ;
++---------------------------------------------+---------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 40                              ;
+;                                             ;                                 ;
+; Combinational ALUT usage for logic          ; 77                              ;
+;     -- 7 input functions                    ; 1                               ;
+;     -- 6 input functions                    ; 0                               ;
+;     -- 5 input functions                    ; 0                               ;
+;     -- 4 input functions                    ; 32                              ;
+;     -- <=3 input functions                  ; 44                              ;
+;                                             ;                                 ;
+; Dedicated logic registers                   ; 4                               ;
+;                                             ;                                 ;
+; I/O pins                                    ; 227                             ;
+;                                             ;                                 ;
+; Total DSP Blocks                            ; 0                               ;
+;                                             ;                                 ;
+; Maximum fan-out node                        ; bus_arbit:U0_bus_arbit|m1_grant ;
+; Maximum fan-out                             ; 43                              ;
+; Total fan-out                               ; 580                             ;
+; Average fan-out                             ; 1.08                            ;
++---------------------------------------------+---------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |bus_arbit                 ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 6    ; 0            ; |bus_arbit          ; bus_arbit   ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                               ;
++------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------+-------------+--------------+
+; Compilation Hierarchy Node   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name          ; Entity Name ; Library Name ;
++------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------+-------------+--------------+
+; |bus                         ; 77 (0)              ; 4 (0)                     ; 0                 ; 0          ; 227  ; 0            ; |bus                         ; bus         ; work         ;
+;    |_dff_r_2:U5_dff2|        ; 1 (1)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |bus|_dff_r_2:U5_dff2        ; _dff_r_2    ; work         ;
+;    |bus_addr:U4_bus_addr|    ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |bus|bus_addr:U4_bus_addr    ; bus_addr    ; work         ;
+;    |bus_arbit:U0_bus_arbit|  ; 1 (1)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |bus|bus_arbit:U0_bus_arbit  ; bus_arbit   ; work         ;
+;    |mux2:U1_mux_s_wr|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |bus|mux2:U1_mux_s_wr        ; mux2        ; work         ;
+;    |mux2_32bit:U3_mux_s_din| ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |bus|mux2_32bit:U3_mux_s_din ; mux2_32bit  ; work         ;
+;    |mux2_8bit:U2_mux_s_addr| ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |bus|mux2_8bit:U2_mux_s_addr ; mux2_8bit   ; work         ;
+;    |mux3_32bit:U6_mux_m_din| ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |bus|mux3_32bit:U6_mux_m_din ; mux3_32bit  ; work         ;
++------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -217,10 +235,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 2     ;
+; Total registers                              ; 4     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 2     ;
+; Number of registers using Asynchronous Clear ; 4     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
@@ -232,9 +250,36 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; m0_grant~reg0                          ; 1       ;
+; bus_arbit:U0_bus_arbit|m0_grant        ; 1       ;
 ; Total number of inverted registers = 1 ;         ;
 +----------------------------------------+---------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |bus|mux3_32bit:U6_mux_m_din|y[1] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "mux3_32bit:U6_mux_m_din" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; d0   ; Input ; Info     ; Stuck at GND              ;
++------+-------+----------+---------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bus_addr:U4_bus_addr"                                                                                                                                   ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                                                                                                             ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; s_address ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "s_address[31..8]" will be connected to GND. ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -242,15 +287,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 2                           ;
-;     CLR               ; 2                           ;
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         1 data inputs ; 1                           ;
-; boundary_port         ; 6                           ;
+; arriav_ff             ; 4                           ;
+;     CLR               ; 4                           ;
+; arriav_lcell_comb     ; 79                          ;
+;     extend            ; 1                           ;
+;         7 data inputs ; 1                           ;
+;     normal            ; 78                          ;
+;         1 data inputs ; 3                           ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 42                          ;
+;         4 data inputs ; 32                          ;
+; boundary_port         ; 227                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.40                        ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.05                        ;
 +-----------------------+-----------------------------+
 
 
@@ -269,42 +319,48 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov 23 17:53:57 2023
+    Info: Processing started: Thu Nov 23 21:43:18 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bus -c bus
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file _dff_r_2.v
+    Info (12023): Found entity 1: _dff_r_2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/_dff_r_2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux3_32bit.v
-    Info (12023): Found entity 1: mux3_32bit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux3_32bit.v Line: 1
+    Info (12023): Found entity 1: mux3_32bit File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux3_32bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2_32bit.v
-    Info (12023): Found entity 1: mux2_32bit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_32bit.v Line: 1
+    Info (12023): Found entity 1: mux2_32bit File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_32bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2_8bit.v
-    Info (12023): Found entity 1: mux2_8bit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_8bit.v Line: 1
+    Info (12023): Found entity 1: mux2_8bit File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_8bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2.v
-    Info (12023): Found entity 1: mux2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2.v Line: 1
+    Info (12023): Found entity 1: mux2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus.v
-    Info (12023): Found entity 1: bus File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 1
+    Info (12023): Found entity 1: bus File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus_arbit.v
-    Info (12023): Found entity 1: bus_arbit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file tb_bus_arbit.v
-    Info (12023): Found entity 1: tb_bus_arbit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/tb_bus_arbit.v Line: 3
-Critical Warning (10846): Verilog HDL Instantiation warning at bus.v(17): instance has no name File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 17
-Critical Warning (10846): Verilog HDL Instantiation warning at bus.v(18): instance has no name File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 18
-Info (12127): Elaborating entity "bus_arbit" for the top level hierarchy
-Warning (10059): Verilog HDL Case Statement warning at bus_arbit.v(12): case item expression never matches the case expression because it contains an 'x' or 'z' value File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v Line: 12
+    Info (12023): Found entity 1: bus_arbit File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file bus_addr.v
+    Info (12023): Found entity 1: bus_addr File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_addr.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_bus.v
+    Info (12023): Found entity 1: tb_bus File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/tb_bus.v Line: 3
+Info (12127): Elaborating entity "bus" for the top level hierarchy
+Info (12128): Elaborating entity "bus_arbit" for hierarchy "bus_arbit:U0_bus_arbit" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 16
+Info (12128): Elaborating entity "mux2" for hierarchy "mux2:U1_mux_s_wr" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 17
+Info (12128): Elaborating entity "mux2_8bit" for hierarchy "mux2_8bit:U2_mux_s_addr" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 18
+Info (12128): Elaborating entity "mux2_32bit" for hierarchy "mux2_32bit:U3_mux_s_din" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 19
+Info (12128): Elaborating entity "bus_addr" for hierarchy "bus_addr:U4_bus_addr" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 22
+Info (12128): Elaborating entity "_dff_r_2" for hierarchy "_dff_r_2:U5_dff2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 24
+Info (12128): Elaborating entity "mux3_32bit" for hierarchy "mux3_32bit:U6_mux_m_din" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 25
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "m0_req" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v Line: 2
-    Warning (15610): No output dependent on input pin "m1_req" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v Line: 2
-Info (21057): Implemented 8 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 2 output pins
-    Info (21061): Implemented 2 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4822 megabytes
-    Info: Processing ended: Thu Nov 23 17:54:11 2023
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:08
+Info (21057): Implemented 307 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 150 input pins
+    Info (21059): Implemented 77 output pins
+    Info (21061): Implemented 80 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4879 megabytes
+    Info: Processing ended: Thu Nov 23 21:43:26 2023
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:03
 
 
