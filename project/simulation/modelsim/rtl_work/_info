@@ -1,0 +1,211 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/simulation/modelsim
+v_dff_r_2
+Z1 !s110 1701068614
+!i10b 1
+!s100 TGC@L9P5=PFcS3Il`iRmo2
+IDJl80zZLo32EDnf86>O1D1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700798585
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_2.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_2.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701068614.000000
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_2.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project
+Z7 tCvgOpt 0
+n@_dff_r_2
+vBUS
+Z8 !s110 1701068615
+!i10b 1
+!s100 de_H44gDaJI0:H:IW8`J41
+IW@WdKR[CiM0C@jjoaC:T@2
+R2
+R0
+w1701066960
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/BUS.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/BUS.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1701068615.000000
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/BUS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/BUS.v|
+!i113 1
+R5
+R6
+R7
+n@b@u@s
+vbus_addr
+R8
+!i10b 1
+!s100 Vlk`e2d<o@Z`V>2OcK2c?0
+IL<zZSG9gEHCk<HWeO:m1z0
+R2
+R0
+w1701067157
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_addr.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_addr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_addr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_addr.v|
+!i113 1
+R5
+R6
+R7
+vbus_arbit
+R8
+!i10b 1
+!s100 A:NTFOgh0JJ:6e;=@`z_S2
+I1URWQ@ICc[i<nG9VkVz`70
+R2
+R0
+w1700803505
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_arbit.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_arbit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_arbit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_arbit.v|
+!i113 1
+R5
+R6
+R7
+vmux2
+R8
+!i10b 1
+!s100 EXAe9f8RB2aXiQKIDjZ3R0
+IfenkONa>2a5B@?i7FVc?n0
+R2
+R0
+w1700729487
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2.v|
+!i113 1
+R5
+R6
+R7
+vmux2_16bit
+R1
+!i10b 1
+!s100 D2VdF[j7@?g;RTK69Vc>T1
+ILORb[?nSg884`P?z;lM6Y0
+R2
+R0
+w1700803795
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_16bit.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_16bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_16bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_16bit.v|
+!i113 1
+R5
+R6
+R7
+vmux2_64bit
+R1
+!i10b 1
+!s100 eY=YKnRJ56UzT_lCIN[J01
+IiKB35lc=hnUnTn[JYUTV13
+R2
+R0
+w1700811664
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_64bit.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_64bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_64bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_64bit.v|
+!i113 1
+R5
+R6
+R7
+vmux3_64bit
+R1
+!i10b 1
+!s100 NPE9VUI6Om25;jL9?9d;B3
+Iz9mogk]eo7ajNAUGhI__m1
+R2
+R0
+w1701067061
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64bit.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64bit.v|
+!i113 1
+R5
+R6
+R7
+vtb_BUS
+!s110 1701068616
+!i10b 1
+!s100 P7e0A<NmhMTa;X[Hke]:n3
+Ic3iQaGo:_VEMVX;?Ho`?P1
+R2
+R0
+w1701068515
+8C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_BUS.v
+FC:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_BUS.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1701068616.000000
+!s107 C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_BUS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project|C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_BUS.v|
+!i113 1
+R5
+R6
+R7
+ntb_@b@u@s

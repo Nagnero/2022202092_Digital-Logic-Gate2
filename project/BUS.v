@@ -15,7 +15,7 @@ module BUS(clk, reset_n, m_req, m_wr, m_addr, m_dout, s0_dout, s1_dout,
 	
 	mux2 U1_mux_wr(0, m_wr, m_grant, s_wr);
 	mux2_16bit U2_mux_addr(0, m_addr, m_grant, s_addr);
-	mux2_64bit U3_mux_din(0, m_dout, m_grant, s_din);
+	mux2_64bit U3_mux_din(64'h0, m_dout, m_grant, s_din);
 	
 	// set s select signal via bus_addr
 	bus_addr U1_addr(s_addr, s0_sel, s1_sel);

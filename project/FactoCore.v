@@ -5,7 +5,11 @@ module FactoCore(clk, reset_n, s_sel, s_wr, s_addr, s_din, s_dout, interrupt);
 	output [63:0] s_dout;
 	output interrupt;
 	
-	opstart, opclear, opdone, intrEn, operand, result_h, result_l
+	reg [63:0] opstart, opclear, opdone, intrEn, operand, result_h, result_l;
+	
+	wire [2:0] state, n_state;
+
+	facto
 	
 
 endmodule
