@@ -22,6 +22,15 @@ vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Dig
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/cla64.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/cla4.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_en_64.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_64bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_16bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/BUS.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_arbit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Top.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_addr.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ram.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/FactoCore.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_decodder.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_en_64_l.v}

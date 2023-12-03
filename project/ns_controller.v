@@ -29,7 +29,7 @@ module ns_controller(opstart, opdone, opclear, operand, m_opdone, multiplier, st
 			WAIT: begin
 				if (m_opdone != 1) n_state = WAIT;
 				else begin
-					if (multiplier == 64'h2) n_state = DONE;
+					if (multiplier == 64'h1) n_state = DONE;
 					else n_state = M_CLEAR;
 				end
 			end

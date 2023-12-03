@@ -14,11 +14,11 @@ module FactoCore(clk, reset_n, s_sel, s_wr, s_addr, s_din, s_dout, interrupt);
 	// decode address and get each flip flop enable signal
 	Facto_decodder U0_decodder(s_addr[7:0], s_sel, s_wr, dff_en);
 	
-	_dff_r_en_64 dff_opstart(clk, reset_n, 1'd1, s_din, opstart);
-	_dff_r_en_64 dff_opclear(clk, reset_n, 1'd1, s_din, opclear);
+	_dff_r_en_64 dff_opstart(clk, reset_n, dff_en[0], s_din, opstart);
+	_dff_r_en_64 dff_opclear(clk, reset_n, dff_en[1], s_din, opclear);
 	_dff_r_en_64 dff_opdone(clk, reset_n, 1'd1, n_opdone, opdone);
-	_dff_r_en_64 dff_intrEn(clk, reset_n, 1'd1, s_din, intrEn);
-	_dff_r_en_64 dff_operand(clk, reset_n, 1'd1, s_din, operand);
+	_dff_r_en_64 dff_intrEn(clk, reset_n, dff_en[3], s_din, intrEn);
+	_dff_r_en_64 dff_operand(clk, reset_n, dff_en[4], s_din, operand);
 	_dff_r_en_64 dff_result_h(clk, reset_n, 1'd1, n_result_h, result_h);
 	_dff_r_en_64_l dff_result_l(clk, reset_n, 1'd1, n_result_l, result_l);
 	

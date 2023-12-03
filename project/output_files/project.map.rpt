@@ -1,5 +1,5 @@
 Analysis & Synthesis report for project
-Sun Dec 03 22:39:54 2023
+Sun Dec 03 23:56:36 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -30,19 +30,17 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  22. Port Connectivity Checks: "FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|multiplier_cal:U2_multiplier_cal|cla64:U0_add"
  23. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64_l:dff_result_l"
  24. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_result_h"
- 25. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_operand"
- 26. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_intrEn"
- 27. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_opdone"
- 28. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_opclear"
- 29. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_opstart"
- 30. Port Connectivity Checks: "ram:U1_ram"
- 31. Port Connectivity Checks: "BUS:U0_BUS|mux3_64bit:U3_mux_m_din"
- 32. Port Connectivity Checks: "BUS:U0_BUS|mux2_64bit:U3_mux_din"
- 33. Port Connectivity Checks: "BUS:U0_BUS|mux2_16bit:U2_mux_addr"
- 34. Port Connectivity Checks: "BUS:U0_BUS|mux2:U1_mux_wr"
- 35. Post-Synthesis Netlist Statistics for Top Partition
- 36. Elapsed Time Per Partition
- 37. Analysis & Synthesis Messages
+ 25. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_intrEn"
+ 26. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_opdone"
+ 27. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_opclear"
+ 28. Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_opstart"
+ 29. Port Connectivity Checks: "BUS:U0_BUS|mux3_64bit:U3_mux_m_din"
+ 30. Port Connectivity Checks: "BUS:U0_BUS|mux2_64bit:U3_mux_din"
+ 31. Port Connectivity Checks: "BUS:U0_BUS|mux2_16bit:U2_mux_addr"
+ 32. Port Connectivity Checks: "BUS:U0_BUS|mux2:U1_mux_wr"
+ 33. Post-Synthesis Netlist Statistics for Top Partition
+ 34. Elapsed Time Per Partition
+ 35. Analysis & Synthesis Messages
 
 
 
@@ -68,13 +66,13 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Dec 03 22:39:54 2023       ;
+; Analysis & Synthesis Status     ; Successful - Sun Dec 03 23:56:36 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; project                                     ;
 ; Top-level Entity Name           ; Top                                         ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 16979                                       ;
+; Total registers                 ; 16982                                       ;
 ; Total pins                      ; 150                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -241,24 +239,24 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 11613     ;
+; Estimate of Logic utilization (ALMs needed) ; 11616     ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 7407      ;
+; Combinational ALUT usage for logic          ; 7412      ;
 ;     -- 7 input functions                    ; 12        ;
-;     -- 6 input functions                    ; 5777      ;
-;     -- 5 input functions                    ; 189       ;
-;     -- 4 input functions                    ; 115       ;
-;     -- <=3 input functions                  ; 1314      ;
+;     -- 6 input functions                    ; 5780      ;
+;     -- 5 input functions                    ; 191       ;
+;     -- 4 input functions                    ; 114       ;
+;     -- <=3 input functions                  ; 1315      ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 16979     ;
+; Dedicated logic registers                   ; 16982     ;
 ;                                             ;           ;
 ; I/O pins                                    ; 150       ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 16979     ;
-; Total fan-out                               ; 107099    ;
+; Maximum fan-out                             ; 16982     ;
+; Total fan-out                               ; 107198    ;
 ; Average fan-out                             ; 4.34      ;
 +---------------------------------------------+-----------+
 
@@ -268,14 +266,14 @@ refer to the applicable agreement for further details.
 +------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
 ; Compilation Hierarchy Node                     ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                          ; Entity Name      ; Library Name ;
 +------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
-; |Top                                           ; 7407 (0)            ; 16979 (0)                 ; 0                 ; 0          ; 150  ; 0            ; |Top                                                                                                                                                                                         ; Top              ; work         ;
+; |Top                                           ; 7412 (0)            ; 16982 (0)                 ; 0                 ; 0          ; 150  ; 0            ; |Top                                                                                                                                                                                         ; Top              ; work         ;
 ;    |BUS:U0_BUS|                                ; 85 (0)              ; 3 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|BUS:U0_BUS                                                                                                                                                                              ; BUS              ; work         ;
 ;       |_dff_r_2:U2_dff2|                       ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|BUS:U0_BUS|_dff_r_2:U2_dff2                                                                                                                                                             ; _dff_r_2         ; work         ;
 ;       |bus_addr:U1_addr|                       ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|BUS:U0_BUS|bus_addr:U1_addr                                                                                                                                                             ; bus_addr         ; work         ;
 ;       |bus_arbit:U0_arbiter|                   ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|BUS:U0_BUS|bus_arbit:U0_arbiter                                                                                                                                                         ; bus_arbit        ; work         ;
 ;       |mux2_16bit:U2_mux_addr|                 ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|BUS:U0_BUS|mux2_16bit:U2_mux_addr                                                                                                                                                       ; mux2_16bit       ; work         ;
 ;       |mux3_64bit:U3_mux_m_din|                ; 71 (71)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|BUS:U0_BUS|mux3_64bit:U3_mux_m_din                                                                                                                                                      ; mux3_64bit       ; work         ;
-;    |FactoCore:U2_FactoCore|                    ; 1557 (1)            ; 528 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore                                                                                                                                                                  ; FactoCore        ; work         ;
+;    |FactoCore:U2_FactoCore|                    ; 1562 (1)            ; 531 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore                                                                                                                                                                  ; FactoCore        ; work         ;
 ;       |Facto_Controller:U1_controller|         ; 1536 (673)          ; 334 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller                                                                                                                                   ; Facto_Controller ; work         ;
 ;          |_dff_r:dff_m_opclear|                ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r:dff_m_opclear                                                                                                              ; _dff_r           ; work         ;
 ;          |_dff_r:dff_m_opdone|                 ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r:dff_m_opdone                                                                                                               ; _dff_r           ; work         ;
@@ -613,10 +611,12 @@ refer to the applicable agreement for further details.
 ;                            |_or2:U4_or2|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|multiplier_cal:U2_multiplier_cal|cla64:U1_minus|cla4:U9_cla4|fa_v2:U3_fa_v2|_xor2:U1_xor2|_or2:U4_or2    ; _or2             ; work         ;
 ;             |multiplier_ns:U0_multiplier_ns|   ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|multiplier_ns:U0_multiplier_ns                                                                           ; multiplier_ns    ; work         ;
 ;          |ns_controller:U0_ns_logic|           ; 37 (37)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|ns_controller:U0_ns_logic                                                                                                         ; ns_controller    ; work         ;
-;       |Facto_decodder:U0_decodder|             ; 14 (14)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|Facto_decodder:U0_decodder                                                                                                                                       ; Facto_decodder   ; work         ;
-;       |_dff_r_en_64:dff_intrEn|                ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64:dff_intrEn                                                                                                                                          ; _dff_r_en_64     ; work         ;
+;       |Facto_decodder:U0_decodder|             ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|Facto_decodder:U0_decodder                                                                                                                                       ; Facto_decodder   ; work         ;
+;       |_dff_r_en_64:dff_intrEn|                ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64:dff_intrEn                                                                                                                                          ; _dff_r_en_64     ; work         ;
+;       |_dff_r_en_64:dff_opclear|               ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64:dff_opclear                                                                                                                                         ; _dff_r_en_64     ; work         ;
 ;       |_dff_r_en_64:dff_opdone|                ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64:dff_opdone                                                                                                                                          ; _dff_r_en_64     ; work         ;
-;       |_dff_r_en_64:dff_operand|               ; 0 (0)               ; 63 (63)                   ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64:dff_operand                                                                                                                                         ; _dff_r_en_64     ; work         ;
+;       |_dff_r_en_64:dff_operand|               ; 0 (0)               ; 64 (64)                   ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64:dff_operand                                                                                                                                         ; _dff_r_en_64     ; work         ;
+;       |_dff_r_en_64:dff_opstart|               ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64:dff_opstart                                                                                                                                         ; _dff_r_en_64     ; work         ;
 ;       |_dff_r_en_64:dff_result_h|              ; 0 (0)               ; 64 (64)                   ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64:dff_result_h                                                                                                                                        ; _dff_r_en_64     ; work         ;
 ;       |_dff_r_en_64_l:dff_result_l|            ; 1 (1)               ; 64 (64)                   ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|_dff_r_en_64_l:dff_result_l                                                                                                                                      ; _dff_r_en_64_l   ; work         ;
 ;       |mux3_64_dout:mux_dout|                  ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Top|FactoCore:U2_FactoCore|mux3_64_dout:mux_dout                                                                                                                                            ; mux3_64_dout     ; work         ;
@@ -735,17 +735,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Table restricted to first 100 entries. Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                        ;
-+---------------------------------------------------------+-----------------------------------------------------------------+
-; Register name                                           ; Reason for Removal                                              ;
-+---------------------------------------------------------+-----------------------------------------------------------------+
-; FactoCore:U2_FactoCore|_dff_r_en_64:dff_opdone|q[2..63] ; Stuck at GND due to stuck port data_in                          ;
-; FactoCore:U2_FactoCore|_dff_r_en_64:dff_opclear|q[0]    ; Merged with FactoCore:U2_FactoCore|_dff_r_en_64:dff_intrEn|q[0] ;
-; FactoCore:U2_FactoCore|_dff_r_en_64:dff_operand|q[0]    ; Merged with FactoCore:U2_FactoCore|_dff_r_en_64:dff_intrEn|q[0] ;
-; FactoCore:U2_FactoCore|_dff_r_en_64:dff_opstart|q[0]    ; Merged with FactoCore:U2_FactoCore|_dff_r_en_64:dff_intrEn|q[0] ;
-; Total Number of Removed Registers = 65                  ;                                                                 ;
-+---------------------------------------------------------+-----------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                               ;
++---------------------------------------------------------+----------------------------------------+
+; Register name                                           ; Reason for Removal                     ;
++---------------------------------------------------------+----------------------------------------+
+; FactoCore:U2_FactoCore|_dff_r_en_64:dff_opdone|q[2..63] ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 62                  ;                                        ;
++---------------------------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -753,12 +750,12 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 16979 ;
+; Total registers                              ; 16982 ;
 ; Number of registers using Synchronous Clear  ; 16513 ;
 ; Number of registers using Synchronous Load   ; 66    ;
-; Number of registers using Asynchronous Clear ; 531   ;
+; Number of registers using Asynchronous Clear ; 534   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 16384 ;
+; Number of registers using Clock Enable       ; 16448 ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -779,9 +776,9 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------+
 ; 4:1                ; 64 bits   ; 128 LEs       ; 0 LEs                ; 128 LEs                ; Yes        ; |Top|ram:U1_ram|s_dout[46]                                                                                                 ;
-; 3:1                ; 128 bits  ; 256 LEs       ; 128 LEs              ; 128 LEs                ; No         ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|Mux146                                                          ;
-; 3:1                ; 63 bits   ; 126 LEs       ; 126 LEs              ; 0 LEs                  ; No         ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|multiplier_cal:U2_multiplier_cal|Mux96 ;
-; 6:1                ; 62 bits   ; 248 LEs       ; 248 LEs              ; 0 LEs                  ; No         ; |Top|BUS:U0_BUS|mux3_64bit:U3_mux_m_din|y[41]                                                                              ;
+; 3:1                ; 128 bits  ; 256 LEs       ; 128 LEs              ; 128 LEs                ; No         ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|Mux251                                                          ;
+; 3:1                ; 63 bits   ; 126 LEs       ; 126 LEs              ; 0 LEs                  ; No         ; |Top|FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|multiplier_cal:U2_multiplier_cal|Mux78 ;
+; 6:1                ; 62 bits   ; 248 LEs       ; 248 LEs              ; 0 LEs                  ; No         ; |Top|BUS:U0_BUS|mux3_64bit:U3_mux_m_din|y[42]                                                                              ;
 ; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Top|BUS:U0_BUS|mux3_64bit:U3_mux_m_din|y[0]                                                                               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------+
 
@@ -925,21 +922,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+----------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------+
-; Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_operand" ;
-+------+-------+----------+---------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                           ;
-+------+-------+----------+---------------------------------------------------+
-; en   ; Input ; Info     ; Stuck at VCC                                      ;
-+------+-------+----------+---------------------------------------------------+
-
-
 +--------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "FactoCore:U2_FactoCore|_dff_r_en_64:dff_intrEn"                                         ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port     ; Type   ; Severity ; Details                                                                             ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
-; en       ; Input  ; Info     ; Stuck at VCC                                                                        ;
 ; q[63..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 
@@ -958,7 +945,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port     ; Type   ; Severity ; Details                                                                             ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
-; en       ; Input  ; Info     ; Stuck at VCC                                                                        ;
 ; q[63..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 
@@ -968,18 +954,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port     ; Type   ; Severity ; Details                                                                             ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
-; en       ; Input  ; Info     ; Stuck at VCC                                                                        ;
 ; q[63..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +----------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ram:U1_ram"                                                                                                                                                                        ;
-+--------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type  ; Severity ; Details                                                                                                                                                                           ;
-+--------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; s_addr ; Input ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+--------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------+
@@ -1023,29 +999,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 16979                       ;
-;     CLR               ; 401                         ;
-;     CLR SCLR          ; 64                          ;
+; arriav_ff             ; 16982                       ;
+;     CLR               ; 404                         ;
 ;     CLR SCLR SLD      ; 1                           ;
 ;     CLR SLD           ; 65                          ;
+;     ENA CLR SCLR      ; 64                          ;
 ;     ENA SCLR          ; 16384                       ;
 ;     SCLR              ; 64                          ;
-; arriav_lcell_comb     ; 7407                        ;
+; arriav_lcell_comb     ; 7412                        ;
 ;     arith             ; 64                          ;
 ;         1 data inputs ; 64                          ;
 ;     extend            ; 12                          ;
 ;         7 data inputs ; 12                          ;
-;     normal            ; 7331                        ;
+;     normal            ; 7336                        ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 659                         ;
+;         2 data inputs ; 660                         ;
 ;         3 data inputs ; 589                         ;
-;         4 data inputs ; 115                         ;
-;         5 data inputs ; 189                         ;
-;         6 data inputs ; 5777                        ;
+;         4 data inputs ; 114                         ;
+;         5 data inputs ; 191                         ;
+;         6 data inputs ; 5780                        ;
 ; boundary_port         ; 150                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 20.00                       ;
-; Average LUT depth     ; 4.43                        ;
+; Average LUT depth     ; 4.42                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1054,7 +1030,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:22     ;
+; Top            ; 00:00:20     ;
 +----------------+--------------+
 
 
@@ -1064,7 +1040,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Dec 03 22:39:05 2023
+    Info: Processing started: Sun Dec 03 23:55:50 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off project -c project
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1156,12 +1132,12 @@ Info (12021): Found 1 design units, including 1 entities, in source file mux3_64
     Info (12023): Found entity 1: mux3_64_dout File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64_dout.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _dff_r.v
     Info (12023): Found entity 1: _dff_r File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file tb_factocore.v
-    Info (12023): Found entity 1: tb_FactoCore File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_FactoCore.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file tb_facto_controller.v
     Info (12023): Found entity 1: tb_Facto_Controller File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_Facto_Controller.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file _dff_r_64_.v
     Info (12023): Found entity 1: _dff_r_64_ File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_64_.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_factocore.v
+    Info (12023): Found entity 1: tb_FactoCore File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_FactoCore.v Line: 3
 Info (12127): Elaborating entity "Top" for the top level hierarchy
 Info (12128): Elaborating entity "BUS" for hierarchy "BUS:U0_BUS" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Top.v Line: 13
 Info (12128): Elaborating entity "bus_arbit" for hierarchy "BUS:U0_BUS|bus_arbit:U0_arbiter" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/BUS.v Line: 14
@@ -1178,6 +1154,8 @@ Info (12128): Elaborating entity "Facto_decodder" for hierarchy "FactoCore:U2_Fa
 Info (12128): Elaborating entity "_dff_r_en_64" for hierarchy "FactoCore:U2_FactoCore|_dff_r_en_64:dff_opstart" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/FactoCore.v Line: 17
 Info (12128): Elaborating entity "_dff_r_en_64_l" for hierarchy "FactoCore:U2_FactoCore|_dff_r_en_64_l:dff_result_l" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/FactoCore.v Line: 23
 Info (12128): Elaborating entity "Facto_Controller" for hierarchy "FactoCore:U2_FactoCore|Facto_Controller:U1_controller" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/FactoCore.v Line: 25
+Warning (10230): Verilog HDL assignment warning at Facto_Controller.v(44): truncated value with size 64 to match size of target (1) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 44
+Warning (10230): Verilog HDL assignment warning at Facto_Controller.v(45): truncated value with size 64 to match size of target (1) File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 45
 Warning (10240): Verilog HDL Always Construct warning at Facto_Controller.v(39): inferring latch(es) for variable "n_m_opstart", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 39
 Warning (10240): Verilog HDL Always Construct warning at Facto_Controller.v(39): inferring latch(es) for variable "n_m_opclear", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 39
 Warning (10240): Verilog HDL Always Construct warning at Facto_Controller.v(39): inferring latch(es) for variable "n_opdone", which holds its previous value in one or more paths through the always construct File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 39
@@ -1750,7 +1728,6 @@ Info (12128): Elaborating entity "_dff_r_128" for hierarchy "FactoCore:U2_FactoC
 Info (12128): Elaborating entity "mux3_64_dout" for hierarchy "FactoCore:U2_FactoCore|mux3_64_dout:mux_dout" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/FactoCore.v Line: 27
 Info (276014): Found 1 instances of uninferred RAM logic
     Info (276007): RAM logic "ram:U1_ram|mem" is uninferred due to asynchronous read logic File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ram.v Line: 7
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13012): Latch FactoCore:U2_FactoCore|Facto_Controller:U1_controller|n_opdone[0] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 39
     Warning (13013): Ports D and ENA on the latch are fed by the same signal FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_3_state.v Line: 10
 Warning (13012): Latch FactoCore:U2_FactoCore|Facto_Controller:U1_controller|n_result_l[0] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 39
@@ -2276,7 +2253,7 @@ Warning (13012): Latch FactoCore:U2_FactoCore|Facto_Controller:U1_controller|mul
 Warning (13012): Latch FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|multiplier_cal:U2_multiplier_cal|op_done has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier_cal.v Line: 6
     Warning (13013): Ports D and ENA on the latch are fed by the same signal FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_2.v Line: 10
 Warning (13012): Latch FactoCore:U2_FactoCore|Facto_Controller:U1_controller|n_multiplier[0] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 39
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_3_state.v Line: 10
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_3_state.v Line: 10
 Warning (13012): Latch FactoCore:U2_FactoCore|Facto_Controller:U1_controller|n_multiplier[63] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 39
     Warning (13013): Ports D and ENA on the latch are fed by the same signal FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[2] File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_3_state.v Line: 10
 Warning (13012): Latch FactoCore:U2_FactoCore|Facto_Controller:U1_controller|n_multiplier[62] has unsafe behavior File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v Line: 39
@@ -2540,14 +2517,14 @@ Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "m_addr[8]" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Top.v Line: 3
-Info (21057): Implemented 24468 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 24473 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 84 input pins
     Info (21059): Implemented 66 output pins
-    Info (21061): Implemented 24318 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 807 warnings
-    Info: Peak virtual memory: 5001 megabytes
-    Info: Processing ended: Sun Dec 03 22:39:54 2023
-    Info: Elapsed time: 00:00:49
+    Info (21061): Implemented 24323 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 808 warnings
+    Info: Peak virtual memory: 5018 megabytes
+    Info: Processing ended: Sun Dec 03 23:56:36 2023
+    Info: Elapsed time: 00:00:46
     Info: Total CPU time (on all processors): 00:00:21
 
 

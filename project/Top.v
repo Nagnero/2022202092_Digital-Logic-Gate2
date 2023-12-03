@@ -12,7 +12,7 @@ module Top(clk, reset_n, m_req, m_wr, m_addr, m_dout, m_grant, m_din, interrupt)
 	
 	BUS U0_BUS(clk, reset_n, m_req, m_wr, m_addr, m_dout, s0_dout, s1_dout, m_grant, m_din, s0_sel, s1_sel, s_addr, s_wr, s_din);
 	
-	ram U1_ram(clk, s0_sel, s_wr, s_addr, s_din, s0_dout);
+	ram U1_ram(clk, s0_sel, s_wr, s_addr[7:0], s_din, s0_dout);
 	
 	FactoCore U2_FactoCore(clk, reset_n, s1_sel, s_wr, s_addr, s_din, s1_dout, interrupt);
 	

@@ -38,16 +38,16 @@ module Facto_Controller(clk, reset_n, opstart, opclear, opdone, operand, result_
 	always @(*) begin
 		case(state)
 			INIT: begin
-				n_opdone = 0;
-				n_result_h = 0;
-				n_result_l = 1;
-				n_m_opstart = 0;
-				n_m_opclear = 1;
+				n_opdone = 64'b0;
+				n_result_h = 64'b0;
+				n_result_l = 64'b1;
+				n_m_opstart = 64'b0;
+				n_m_opclear = 64'b1;
 			end
 			CLEAR: begin
 				n_opdone = 64'h0000_0000_0000_0000;
-				n_result_h = 0;
-				n_result_l = 1;
+				n_result_h = 64'b0;
+				n_result_l = 64'b1;
 				n_m_opstart = 0;
 				n_m_opclear = 1;
 			end
