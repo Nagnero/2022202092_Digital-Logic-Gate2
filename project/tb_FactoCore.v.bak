@@ -1,0 +1,46 @@
+`timescale 1ns/100ps
+
+module tb_FactoCore;
+    reg clk, reset_n, s_sel, s_wr;
+    reg [15:0] s_addr;
+    reg [63:0] s_din;
+    wire [63:0] s_dout;
+    wire interrupt;
+
+    FactoCore DUT(
+        .clk(clk),
+        .reset_n(reset_n),
+        .s_sel(s_sel),
+        .s_wr(s_wr),
+        .s_addr(s_addr),
+        .s_din(s_din),
+        .s_dout(s_dout),
+        .interrupt(interrupt)
+    );
+
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+
+        reset_n = 0;
+        s_sel = 0;
+        s_wr = 0;
+        s_addr = 16'h0000;
+        s_din = 64'h0000000000000000;
+        
+        // Reset
+        #10 reset_n = 1;
+
+        // Test cases
+        // Modify inputs and timing based on your test scenario
+        #20 s_addr = 16'h1000; // Example: Change address
+        #20 s_din = 64'hA5A5A5A5A5A5A5A5; // Example: Change input data
+        #20 s_wr = 1; // Example: Write operation
+        #50 s_addr = 16'h2000; // Example: Another address
+        #50 s_wr = 0; // Example: Read operation
+        
+        // Add more test scenarios as needed...
+
+        #100 $stop;
+    end
+endmodule

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSXFC6D6F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY BUS
+set_global_assignment -name TOP_LEVEL_ENTITY Top
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:12:14  NOVEMBER 23, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -51,7 +51,31 @@ set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_FactoCore -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_BUS -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_BUS
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_BUS -section_id tb_BUS
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_FactoCore -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_FactoCore
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_FactoCore -section_id tb_FactoCore
+set_global_assignment -name VERILOG_FILE _dff_r_3_state.v
 set_global_assignment -name VERILOG_FILE _dff_r_2.v
+set_global_assignment -name VERILOG_FILE ha.v
+set_global_assignment -name VERILOG_FILE fa.v
+set_global_assignment -name VERILOG_FILE _dff_r_64.v
+set_global_assignment -name VERILOG_FILE _dff_r_6.v
+set_global_assignment -name VERILOG_FILE _dff_r_128.v
+set_global_assignment -name VERILOG_FILE rca6.v
+set_global_assignment -name VERILOG_FILE multiplier_ns.v
+set_global_assignment -name VERILOG_FILE multiplier_cal.v
+set_global_assignment -name VERILOG_FILE multiplier.v
+set_global_assignment -name VERILOG_FILE gates.v
+set_global_assignment -name VERILOG_FILE fa_v2.v
+set_global_assignment -name VERILOG_FILE clb4.v
+set_global_assignment -name VERILOG_FILE cla64.v
+set_global_assignment -name VERILOG_FILE cla4.v
+set_global_assignment -name VERILOG_FILE _dff_r_en_64.v
 set_global_assignment -name VERILOG_FILE mux3_64bit.v
 set_global_assignment -name VERILOG_FILE mux2_64bit.v
 set_global_assignment -name VERILOG_FILE mux2_16bit.v
@@ -63,13 +87,22 @@ set_global_assignment -name VERILOG_FILE bus_addr.v
 set_global_assignment -name VERILOG_FILE ram.v
 set_global_assignment -name VERILOG_FILE FactoCore.v
 set_global_assignment -name VERILOG_FILE tb_BUS.v
+set_global_assignment -name VERILOG_FILE Facto_decodder.v
+set_global_assignment -name VERILOG_FILE _dff_r_en_64_l.v
+set_global_assignment -name VERILOG_FILE Facto_Controller.v
+set_global_assignment -name VERILOG_FILE ns_controller.v
+set_global_assignment -name VERILOG_FILE mux3_64_dout.v
+set_global_assignment -name VERILOG_FILE _dff_r.v
+set_global_assignment -name VERILOG_FILE tb_FactoCore.v
+set_global_assignment -name VERILOG_FILE tb_Facto_Controller.v
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_Facto_Controller -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_Facto_Controller
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_Facto_Controller -section_id tb_Facto_Controller
+set_global_assignment -name VERILOG_FILE _dff_r_64_.v
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_BUS.v -section_id tb_BUS
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_FactoCore.v -section_id tb_FactoCore
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_Facto_Controller.v -section_id tb_Facto_Controller
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_BUS -section_id eda_simulation
-set_global_assignment -name EDA_TEST_BENCH_NAME tb_BUS -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_BUS
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_BUS -section_id tb_BUS
-set_global_assignment -name EDA_TEST_BENCH_FILE tb_BUS.v -section_id tb_BUS
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

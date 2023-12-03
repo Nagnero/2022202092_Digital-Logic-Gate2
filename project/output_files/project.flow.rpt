@@ -1,5 +1,5 @@
 Flow report for project
-Mon Nov 27 16:02:11 2023
+Sun Dec 03 22:48:42 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,25 +40,25 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Nov 27 16:02:11 2023       ;
+; Flow Status                     ; Successful - Sun Dec 03 22:48:42 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; project                                     ;
-; Top-level Entity Name           ; BUS                                         ;
+; Top-level Entity Name           ; Top                                         ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSXFC6D6F31C6                              ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 3                                           ;
-; Total pins                      ; 360                                         ;
+; Logic utilization (in ALMs)     ; 9,350 / 41,910 ( 22 % )                     ;
+; Total registers                 ; 16979                                       ;
+; Total pins                      ; 150 / 499 ( 30 % )                          ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
+; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
+; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                               ;
+; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                               ;
+; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                               ;
+; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                               ;
+; Total PLLs                      ; 0 / 15 ( 0 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
 
@@ -67,37 +67,45 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/27/2023 16:01:59 ;
+; Start date & time ; 12/03/2023 22:39:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; project             ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                             ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 194052598491342.170106851823104        ; --            ; --          ; --             ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_BUS         ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_BUS                                 ; --            ; --          ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_FILE                  ; tb_BUS.v                               ; --            ; --          ; tb_BUS         ;
-; EDA_TEST_BENCH_MODULE_NAME           ; tb_BUS                                 ; --            ; --          ; tb_BUS         ;
-; EDA_TEST_BENCH_NAME                  ; tb_BUS                                 ; --            ; --          ; eda_simulation ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; BUS         ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; BUS         ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; BUS         ; Top            ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                     ; BUS                                    ; project       ; --          ; --             ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                  ;
++--------------------------------------+----------------------------------------+---------------+-------------+---------------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id          ;
++--------------------------------------+----------------------------------------+---------------+-------------+---------------------+
+; COMPILER_SIGNATURE_ID                ; 194052598491342.170161074619996        ; --            ; --          ; --                  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_BUS              ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_FactoCore        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_Facto_Controller ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_FactoCore                           ; --            ; --          ; eda_simulation      ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation      ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --                  ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_FILE                  ; tb_BUS.v                               ; --            ; --          ; tb_BUS              ;
+; EDA_TEST_BENCH_FILE                  ; tb_FactoCore.v                         ; --            ; --          ; tb_FactoCore        ;
+; EDA_TEST_BENCH_FILE                  ; tb_Facto_Controller.v                  ; --            ; --          ; tb_Facto_Controller ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_BUS                                 ; --            ; --          ; tb_BUS              ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_FactoCore                           ; --            ; --          ; tb_FactoCore        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_Facto_Controller                    ; --            ; --          ; tb_Facto_Controller ;
+; EDA_TEST_BENCH_NAME                  ; tb_BUS                                 ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; tb_FactoCore                           ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; tb_Facto_Controller                    ; --            ; --          ; eda_simulation      ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation      ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --                  ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --                  ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; Top         ; Top                 ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; Top         ; Top                 ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; Top         ; Top                 ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --                  ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                  ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --                  ;
+; TOP_LEVEL_ENTITY                     ; Top                                    ; project       ; --          ; --                  ;
++--------------------------------------+----------------------------------------+---------------+-------------+---------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -105,8 +113,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4828 MB             ; 00:00:09                           ;
-; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:09                           ;
+; Analysis & Synthesis ; 00:00:46     ; 1.0                     ; 5001 MB             ; 00:00:21                           ;
+; Fitter               ; 00:07:23     ; 1.4                     ; 6795 MB             ; 00:08:12                           ;
+; Assembler            ; 00:00:14     ; 1.0                     ; 4995 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:52     ; 2.7                     ; 5475 MB             ; 00:00:59                           ;
+; EDA Netlist Writer   ; 00:00:06     ; 1.0                     ; 5017 MB             ; 00:00:05                           ;
+; Total                ; 00:09:21     ; --                      ; --                  ; 00:09:42                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -116,6 +128,10 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; SunLap           ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; SunLap           ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; SunLap           ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; SunLap           ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SunLap           ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -123,6 +139,10 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off project -c project
+quartus_fit --read_settings_files=off --write_settings_files=off project -c project
+quartus_asm --read_settings_files=off --write_settings_files=off project -c project
+quartus_sta project -c project
+quartus_eda --read_settings_files=off --write_settings_files=off project -c project
 
 
 

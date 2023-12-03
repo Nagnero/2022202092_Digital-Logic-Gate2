@@ -1,0 +1,9 @@
+module tb_Facto_Controller;
+	reg clk, reset_n, opstart, opclear;
+	reg [1:0] opdone;
+	reg [63:0] operand, result_h, result_l;
+	wire [63:0] n_opdone, n_result_h, n_result_l;
+	
+	Facto_Controller DUT(clk, reset_n, opstart, opclear, opdone, operand, result_h, result_l, n_opdone, n_result_h, n_result_l);
+	
+endmodule

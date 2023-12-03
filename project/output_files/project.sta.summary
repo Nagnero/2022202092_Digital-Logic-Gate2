@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : -10.822
+TNS   : -1537.104
+
+Type  : Slow 1100mV 85C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : -10.551
+TNS   : -988.539
+
+Type  : Slow 1100mV 85C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : -10.278
+TNS   : -1222.275
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -6.604
+TNS   : -73339.663
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -3.319
+TNS   : -584.106
+
+Type  : Slow 1100mV 85C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : -2.463
+TNS   : -48.461
+
+Type  : Slow 1100mV 85C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : -2.354
+TNS   : -12.087
+
+Type  : Slow 1100mV 85C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : 1.338
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -9059.694
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : -0.035
+TNS   : -0.037
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.122
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : -10.646
+TNS   : -1537.471
+
+Type  : Slow 1100mV 0C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : -10.434
+TNS   : -979.760
+
+Type  : Slow 1100mV 0C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : -10.202
+TNS   : -1228.099
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -6.411
+TNS   : -69443.331
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -3.405
+TNS   : -604.378
+
+Type  : Slow 1100mV 0C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : -2.391
+TNS   : -46.532
+
+Type  : Slow 1100mV 0C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : -2.258
+TNS   : -13.949
+
+Type  : Slow 1100mV 0C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : 1.380
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -9771.956
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : 0.049
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.117
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : 0.118
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : -6.707
+TNS   : -759.161
+
+Type  : Fast 1100mV 85C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : -5.498
+TNS   : -498.413
+
+Type  : Fast 1100mV 85C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : -5.218
+TNS   : -585.315
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -3.822
+TNS   : -39252.965
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.872
+TNS   : -307.918
+
+Type  : Fast 1100mV 85C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : -1.520
+TNS   : -28.350
+
+Type  : Fast 1100mV 85C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : -1.436
+TNS   : -6.378
+
+Type  : Fast 1100mV 85C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : 0.605
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.088
+TNS   : -1314.864
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : 0.209
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : -5.931
+TNS   : -702.810
+
+Type  : Fast 1100mV 0C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : -5.012
+TNS   : -460.133
+
+Type  : Fast 1100mV 0C Model Setup 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : -4.812
+TNS   : -548.104
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -3.316
+TNS   : -33267.121
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.854
+TNS   : -320.519
+
+Type  : Fast 1100mV 0C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : -1.349
+TNS   : -23.513
+
+Type  : Fast 1100mV 0C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : -1.286
+TNS   : -5.822
+
+Type  : Fast 1100mV 0C Model Hold 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : 0.664
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.087
+TNS   : -1326.630
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|_dff_r_3_state:dff_state|q[0]'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[1]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FactoCore:U2_FactoCore|Facto_Controller:U1_controller|multiplier:U2_multiplier|_dff_r_2:U1_dff_ns|q[0]'
+Slack : 0.261
+TNS   : 0.000
+
+------------------------------------------------------------

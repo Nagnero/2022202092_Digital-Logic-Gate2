@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Mon Nov 27 16:02:11 2023
+Analysis & Synthesis Status : Successful - Sun Dec 03 22:39:54 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : project
-Top-level Entity Name : BUS
+Top-level Entity Name : Top
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 3
-Total pins : 360
+Total registers : 16979
+Total pins : 150
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

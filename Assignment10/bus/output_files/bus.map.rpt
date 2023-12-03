@@ -1,5 +1,5 @@
 Analysis & Synthesis report for bus
-Thu Nov 23 21:43:26 2023
+Tue Nov 28 20:46:20 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -46,7 +46,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Nov 23 21:43:26 2023       ;
+; Analysis & Synthesis Status     ; Successful - Tue Nov 28 20:46:20 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; bus                                         ;
 ; Top-level Entity Name           ; bus                                         ;
@@ -158,32 +158,32 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 20          ;
-; Maximum allowed            ; 12          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 12          ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-12        ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                            ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                              ; Library ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
-; _dff_r_2.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/_dff_r_2.v   ;         ;
-; mux3_32bit.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux3_32bit.v ;         ;
-; mux2_32bit.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_32bit.v ;         ;
-; mux2_8bit.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_8bit.v  ;         ;
-; mux2.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2.v       ;         ;
-; bus.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v        ;         ;
-; bus_arbit.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v  ;         ;
-; bus_addr.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_addr.v   ;         ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                           ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                             ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------+---------+
+; _dff_r_2.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/_dff_r_2.v   ;         ;
+; mux3_32bit.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux3_32bit.v ;         ;
+; mux2_32bit.v                     ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_32bit.v ;         ;
+; mux2_8bit.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_8bit.v  ;         ;
+; mux2.v                           ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2.v       ;         ;
+; bus.v                            ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v        ;         ;
+; bus_arbit.v                      ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v  ;         ;
+; bus_addr.v                       ; yes             ; User Verilog HDL File  ; C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_addr.v   ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------------------------------+
@@ -309,7 +309,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -319,36 +319,36 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov 23 21:43:18 2023
+    Info: Processing started: Tue Nov 28 20:46:02 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bus -c bus
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file _dff_r_2.v
-    Info (12023): Found entity 1: _dff_r_2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/_dff_r_2.v Line: 1
+    Info (12023): Found entity 1: _dff_r_2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/_dff_r_2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux3_32bit.v
-    Info (12023): Found entity 1: mux3_32bit File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux3_32bit.v Line: 1
+    Info (12023): Found entity 1: mux3_32bit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux3_32bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2_32bit.v
-    Info (12023): Found entity 1: mux2_32bit File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_32bit.v Line: 1
+    Info (12023): Found entity 1: mux2_32bit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_32bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2_8bit.v
-    Info (12023): Found entity 1: mux2_8bit File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_8bit.v Line: 1
+    Info (12023): Found entity 1: mux2_8bit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2_8bit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2.v
-    Info (12023): Found entity 1: mux2 File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2.v Line: 1
+    Info (12023): Found entity 1: mux2 File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/mux2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus.v
-    Info (12023): Found entity 1: bus File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 1
+    Info (12023): Found entity 1: bus File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus_arbit.v
-    Info (12023): Found entity 1: bus_arbit File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v Line: 1
+    Info (12023): Found entity 1: bus_arbit File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_arbit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus_addr.v
-    Info (12023): Found entity 1: bus_addr File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_addr.v Line: 1
+    Info (12023): Found entity 1: bus_addr File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus_addr.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_bus.v
-    Info (12023): Found entity 1: tb_bus File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/tb_bus.v Line: 3
+    Info (12023): Found entity 1: tb_bus File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/tb_bus.v Line: 3
 Info (12127): Elaborating entity "bus" for the top level hierarchy
-Info (12128): Elaborating entity "bus_arbit" for hierarchy "bus_arbit:U0_bus_arbit" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 16
-Info (12128): Elaborating entity "mux2" for hierarchy "mux2:U1_mux_s_wr" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 17
-Info (12128): Elaborating entity "mux2_8bit" for hierarchy "mux2_8bit:U2_mux_s_addr" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 18
-Info (12128): Elaborating entity "mux2_32bit" for hierarchy "mux2_32bit:U3_mux_s_din" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 19
-Info (12128): Elaborating entity "bus_addr" for hierarchy "bus_addr:U4_bus_addr" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 22
-Info (12128): Elaborating entity "_dff_r_2" for hierarchy "_dff_r_2:U5_dff2" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 24
-Info (12128): Elaborating entity "mux3_32bit" for hierarchy "mux3_32bit:U6_mux_m_din" File: C:/Users/david/Desktop/codes/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 25
+Info (12128): Elaborating entity "bus_arbit" for hierarchy "bus_arbit:U0_bus_arbit" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 16
+Info (12128): Elaborating entity "mux2" for hierarchy "mux2:U1_mux_s_wr" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 17
+Info (12128): Elaborating entity "mux2_8bit" for hierarchy "mux2_8bit:U2_mux_s_addr" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 18
+Info (12128): Elaborating entity "mux2_32bit" for hierarchy "mux2_32bit:U3_mux_s_din" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 19
+Info (12128): Elaborating entity "bus_addr" for hierarchy "bus_addr:U4_bus_addr" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 22
+Info (12128): Elaborating entity "_dff_r_2" for hierarchy "_dff_r_2:U5_dff2" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 24
+Info (12128): Elaborating entity "mux3_32bit" for hierarchy "mux3_32bit:U6_mux_m_din" File: C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/Assignment10/bus/bus.v Line: 25
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -358,9 +358,9 @@ Info (21057): Implemented 307 device resources after synthesis - the final resou
     Info (21059): Implemented 77 output pins
     Info (21061): Implemented 80 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4879 megabytes
-    Info: Processing ended: Thu Nov 23 21:43:26 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4828 megabytes
+    Info: Processing ended: Tue Nov 28 20:46:20 2023
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:09
 
 

@@ -13,7 +13,7 @@ module tb_ram;
 	
 	initial begin
 	#0;	clk = 1; cen = 0;	wen = 0; addr = 0; din =0;
-	#10;	din = 32'h0000_ffff;
+	#9;	din = 32'h0000_ffff;
 	#10;	cen = 1; wen = 1;
 	#10;	din = 32'hffff_0000; addr = 1;
 	#10;	addr = 2;
