@@ -5,9 +5,9 @@ module mux3_64bit(d0, d1, d2, s, y);
 
 	always @(d0 or d1 or d2 or s) begin
 		if (s == 2'b01)
-			y = d1;
-		else if (s == 2'b10)
 			y = d2;
+		else if (s == 2'b10)
+			y = d1;
 		else // set zero
 			y = d0;
 	end

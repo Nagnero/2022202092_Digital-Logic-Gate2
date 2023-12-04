@@ -1,0 +1,328 @@
+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_FactoCore.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_FactoCore.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_FactoCore
+
+Top level modules:
+	tb_FactoCore
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Top.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Top
+
+Top level modules:
+	Top
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_en_64.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_en_64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_en_64
+
+Top level modules:
+	_dff_r_en_64
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ns_controller.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ns_controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ns_controller
+
+Top level modules:
+	ns_controller
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/cla4.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/cla4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cla4
+
+Top level modules:
+	cla4
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_addr.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_addr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bus_addr
+
+Top level modules:
+	bus_addr
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/rca7.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/rca7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rca7
+
+Top level modules:
+	rca7
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_decodder.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_decodder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Facto_decodder
+
+Top level modules:
+	Facto_decodder
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_en_64_l.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_en_64_l.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_en_64_l
+
+Top level modules:
+	_dff_r_en_64_l
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/fa.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/fa.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fa
+
+Top level modules:
+	fa
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_2.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_2
+
+Top level modules:
+	_dff_r_2
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ha.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ha.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+
+Top level modules:
+	ha
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_16bit.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_16bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2_16bit
+
+Top level modules:
+	mux2_16bit
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux7.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux7
+
+Top level modules:
+	mux7
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/BUS.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/BUS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BUS
+
+Top level modules:
+	BUS
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_arbit.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/bus_arbit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bus_arbit
+
+Top level modules:
+	bus_arbit
+
+} {} {}} C:/Users/david/Downloads/tb_FactorialCoreTop.v {1 {vlog -work work -stats=none C:/Users/david/Downloads/tb_FactorialCoreTop.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_FactorialCoreTop
+
+Top level modules:
+	tb_FactorialCoreTop
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_multiplier.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_multiplier
+
+Top level modules:
+	tb_multiplier
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/gates.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/gates.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _inv
+-- Compiling module _nand2
+-- Compiling module _and2
+-- Compiling module _or2
+-- Compiling module _xor2
+-- Compiling module _and3
+-- Compiling module _and4
+-- Compiling module _and5
+-- Compiling module _or3
+-- Compiling module _or4
+-- Compiling module _or5
+-- Compiling module _inv_4bits
+-- Compiling module _and2_4bits
+-- Compiling module _or2_4bits
+-- Compiling module _xor2_4bits
+-- Compiling module _xnor2_4bits
+-- Compiling module _inv_32bits
+-- Compiling module _and2_32bits
+-- Compiling module _or2_32bits
+-- Compiling module _xor2_32bits
+-- Compiling module _xnor2_32bits
+
+Top level modules:
+	_nand2
+	_and3
+	_and4
+	_and5
+	_or3
+	_or4
+	_or5
+	_and2_4bits
+	_or2_4bits
+	_inv_32bits
+	_and2_32bits
+	_or2_32bits
+	_xor2_32bits
+	_xnor2_32bits
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_64bit.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux2_64bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2_64bit
+
+Top level modules:
+	mux2_64bit
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64bit.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux3_64bit
+
+Top level modules:
+	mux3_64bit
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_6.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_6.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_6
+
+Top level modules:
+	_dff_r_6
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/clb4.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/clb4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clb4
+
+Top level modules:
+	clb4
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_Facto_Controller.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_Facto_Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_Facto_Controller
+
+Top level modules:
+	tb_Facto_Controller
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_7.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_7
+
+Top level modules:
+	_dff_r_7
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/fa_v2.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/fa_v2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fa_v2
+
+Top level modules:
+	fa_v2
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/FactoCore.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/FactoCore.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FactoCore
+
+Top level modules:
+	FactoCore
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier_cal.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier_cal.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier_cal
+
+Top level modules:
+	multiplier_cal
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_BUS.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_BUS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_BUS
+
+Top level modules:
+	tb_BUS
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier_ns.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier_ns.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier_ns
+
+Top level modules:
+	multiplier_ns
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Facto_Controller
+
+Top level modules:
+	Facto_Controller
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ram.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_128_result.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_128_result.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_128_result
+
+Top level modules:
+	_dff_r_128_result
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_64_.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_64_.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_64_
+
+Top level modules:
+	_dff_r_64_
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r
+
+Top level modules:
+	_dff_r
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_64.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_64
+
+Top level modules:
+	_dff_r_64
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_cla4.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_cla4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_cla4
+
+Top level modules:
+	tb_cla4
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_128.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_128.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_128
+
+Top level modules:
+	_dff_r_128
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_3_state.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_3_state.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module _dff_r_3_state
+
+Top level modules:
+	_dff_r_3_state
+
+} {} {}} C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/cla64.v {1 {vlog -work work -stats=none C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/cla64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cla64
+
+Top level modules:
+	cla64
+
+} {} {}}

@@ -33,7 +33,7 @@ module Facto_Controller(clk, reset_n, opstart, opclear, opdone, operand, result_
 	_dff_r dff_m_opdone(clk, reset_n, n_m_opdone, m_opdone);
 	
 	// multiplier
-	multiplier U2_multiplier(clk, reset_n, multiplier, multiplicand, m_opstart, m_opclear, n_m_opdone, m_result);
+	multiplier U2_multiplier(clk, reset_n, multiplicand, multiplier, m_opstart, m_opclear, n_m_opdone, m_result);
 	
 	always @(*) begin
 		case(state)
@@ -43,9 +43,11 @@ module Facto_Controller(clk, reset_n, opstart, opclear, opdone, operand, result_
 				n_result_l = 64'b1;
 				n_m_opstart = 64'b0;
 				n_m_opclear = 64'b1;
+				n_multiplier = 0;
+				n_multiplicand = 0;
 			end
 			CLEAR: begin
-				n_opdone = 64'h0000_0000_0000_0000;
+				n_opdone = 64'h0;
 				n_result_h = 64'b0;
 				n_result_l = 64'b1;
 				n_m_opstart = 0;
@@ -59,11 +61,10 @@ module Facto_Controller(clk, reset_n, opstart, opclear, opdone, operand, result_
 				n_m_opclear = 0;
 			end
 			WAIT: begin
-				
-			end
-			M_CLEAR: begin
 				n_result_h = m_result[127:64];
 				n_result_l = m_result[63:0];
+			end
+			M_CLEAR: begin
 				n_multiplier = multiplier - 1;
 				n_multiplicand = m_result[63:0] ? m_result[63:0] : m_result[127:64];
 				n_m_opstart = 0;

@@ -1,14 +1,15 @@
 module multiplier_ns(op_start, op_clear, state, cnt, n_state);
 	input op_start, op_clear;
 	input [1:0] state;
-	input [5:0] cnt; // count for cycle
+	input [6:0] cnt; // count for cycle
 	output reg [1:0] n_state;
 	
 	parameter INIT = 2'b00;
+	parameter FIRST = 2'b10;
 	parameter OPERATE = 2'b01;
 	parameter DONE = 2'b11;
 	
-	always @(op_start or op_clear or state or cnt)
+	always @(*)
 	begin
 		case(state)
 			INIT: begin
@@ -23,7 +24,7 @@ module multiplier_ns(op_start, op_clear, state, cnt, n_state);
 			OPERATE: begin
 				if (op_clear == 1'b1) 
 					n_state = INIT;
-				else if (cnt == 6'b111111)
+				else if (cnt == 7'b011_1110)
 					n_state = DONE;
 				else
 					n_state = OPERATE;

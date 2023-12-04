@@ -24,7 +24,7 @@ module FactoCore(clk, reset_n, s_sel, s_wr, s_addr, s_din, s_dout, interrupt);
 	
 	Facto_Controller U1_controller(clk, reset_n, opstart[0], opclear[0], opdone[1:0], operand, result_h, result_l, n_opdone, n_result_h, n_result_l);
 	
-	mux3_64_dout mux_dout(opdone, result_h, result_l, dff_en, s_dout);
+	mux7 mux_dout(64'b0, 64'b0, opdone, 64'b0, 64'b0, result_h, result_l, dff_en, s_dout);
 	
 	assign interrupt = opdone[0] & intrEn[0];
 

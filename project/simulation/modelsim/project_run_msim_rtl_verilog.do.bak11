@@ -5,14 +5,13 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/rca7.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_3_state.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_2.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ha.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/fa.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_64.v}
-vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_6.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_128.v}
-vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/rca6.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier_ns.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier_cal.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/multiplier.v}
@@ -36,9 +35,10 @@ vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Dig
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_en_64_l.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/Facto_Controller.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/ns_controller.v}
-vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux3_64_dout.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_64_.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_7.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux7.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_FactoCore.v}
 
