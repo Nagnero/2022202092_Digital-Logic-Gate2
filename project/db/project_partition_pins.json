@@ -268,6 +268,34 @@
 					"strict" : false
 				},
 				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "m_req",
+					"strict" : false
+				},
+				{
+					"name" : "m_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "m_addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "m_addr[12]",
+					"strict" : false
+				},
+				{
+					"name" : "m_addr[13]",
+					"strict" : false
+				},
+				{
+					"name" : "m_addr[14]",
+					"strict" : false
+				},
+				{
 					"name" : "m_addr[9]",
 					"strict" : false
 				},
@@ -284,26 +312,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "m_req",
-					"strict" : false
-				},
-				{
-					"name" : "m_addr[12]",
-					"strict" : false
-				},
-				{
-					"name" : "m_addr[13]",
-					"strict" : false
-				},
-				{
-					"name" : "m_addr[14]",
-					"strict" : false
-				},
-				{
-					"name" : "m_addr[4]",
-					"strict" : false
-				},
-				{
 					"name" : "m_addr[6]",
 					"strict" : false
 				},
@@ -312,19 +320,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "m_addr[7]",
-					"strict" : false
-				},
-				{
-					"name" : "m_addr[5]",
+					"name" : "m_addr[4]",
 					"strict" : false
 				},
 				{
 					"name" : "clk",
-					"strict" : false
-				},
-				{
-					"name" : "reset_n",
 					"strict" : false
 				},
 				{

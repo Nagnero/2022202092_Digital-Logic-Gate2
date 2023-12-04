@@ -515,10 +515,10 @@ s_din[63] <= mux2_64bit:U3_mux_din.port3
 
 
 |Top|BUS:U0_BUS|bus_arbit:U0_arbiter
-clk => m_grant~reg0.CLK
-reset_n => m_grant~reg0.ACLR
-m_req => m_grant~reg0.DATAIN
-m_grant <= m_grant~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => ~NO_FANOUT~
+reset_n => m_grant.OUTPUTSELECT
+m_req => m_grant.DATAA
+m_grant <= m_grant.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Top|BUS:U0_BUS|mux2:U1_mux_wr

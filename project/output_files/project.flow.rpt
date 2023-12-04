@@ -1,5 +1,5 @@
 Flow report for project
-Mon Dec 04 21:01:35 2023
+Tue Dec 05 00:03:32 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Dec 04 21:01:35 2023       ;
+; Flow Status                     ; Successful - Tue Dec 05 00:03:31 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; project                                     ;
 ; Top-level Entity Name           ; Top                                         ;
@@ -48,7 +48,7 @@ refer to the applicable agreement for further details.
 ; Device                          ; 5CSXFC6D6F31C6                              ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 16983                                       ;
+; Total registers                 ; 16982                                       ;
 ; Total pins                      ; 150                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/04/2023 21:00:45 ;
+; Start date & time ; 12/05/2023 00:02:54 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; project             ;
 +-------------------+---------------------+
@@ -78,10 +78,11 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+---------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id          ;
 +--------------------------------------+----------------------------------------+---------------+-------------+---------------------+
-; COMPILER_SIGNATURE_ID                ; 91767705869.170169124422604            ; --            ; --          ; --                  ;
+; COMPILER_SIGNATURE_ID                ; 237901788777950.170170217420768        ; --            ; --          ; --                  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_multiplier       ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_BUS              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_FactoCore        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_Top              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_Facto_Controller ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_cla4             ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_FactoCore                           ; --            ; --          ; eda_simulation      ;
@@ -91,11 +92,13 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_FILE                  ; tb_multiplier.v                        ; --            ; --          ; tb_multiplier       ;
 ; EDA_TEST_BENCH_FILE                  ; tb_BUS.v                               ; --            ; --          ; tb_BUS              ;
 ; EDA_TEST_BENCH_FILE                  ; tb_FactoCore.v                         ; --            ; --          ; tb_FactoCore        ;
+; EDA_TEST_BENCH_FILE                  ; tb_Top.v                               ; --            ; --          ; tb_Top              ;
 ; EDA_TEST_BENCH_FILE                  ; tb_Facto_Controller.v                  ; --            ; --          ; tb_Facto_Controller ;
 ; EDA_TEST_BENCH_FILE                  ; tb_cla4.v                              ; --            ; --          ; tb_cla4             ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_multiplier                          ; --            ; --          ; tb_multiplier       ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_BUS                                 ; --            ; --          ; tb_BUS              ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_FactoCore                           ; --            ; --          ; tb_FactoCore        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_Top                                 ; --            ; --          ; tb_Top              ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_Facto_Controller                    ; --            ; --          ; tb_Facto_Controller ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_cla4                                ; --            ; --          ; tb_cla4             ;
 ; EDA_TEST_BENCH_NAME                  ; tb_BUS                                 ; --            ; --          ; eda_simulation      ;
@@ -103,6 +106,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_NAME                  ; tb_Facto_Controller                    ; --            ; --          ; eda_simulation      ;
 ; EDA_TEST_BENCH_NAME                  ; tb_cla4                                ; --            ; --          ; eda_simulation      ;
 ; EDA_TEST_BENCH_NAME                  ; tb_multiplier                          ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; tb_Top                                 ; --            ; --          ; eda_simulation      ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation      ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --                  ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --                  ;
@@ -121,8 +125,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:50     ; 1.0                     ; 5019 MB             ; 00:00:46                           ;
-; Total                ; 00:00:50     ; --                      ; --                  ; 00:00:46                           ;
+; Analysis & Synthesis ; 00:00:37     ; 1.0                     ; 5087 MB             ; 00:00:08                           ;
+; Total                ; 00:00:37     ; --                      ; --                  ; 00:00:08                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -131,7 +135,7 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; SunLap           ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-N7P01HF  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

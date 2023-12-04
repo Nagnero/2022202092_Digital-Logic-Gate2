@@ -3,7 +3,7 @@ module bus_addr(s_addr, m_req, s0_sel, s1_sel);
 	input [15:0] s_addr;
 	output reg s0_sel, s1_sel;
 	
-	always @(s_addr) begin
+	always @(*) begin
 		if (m_req == 0) 
 			{s0_sel, s1_sel} = 2'b00; // no output
 		else begin
