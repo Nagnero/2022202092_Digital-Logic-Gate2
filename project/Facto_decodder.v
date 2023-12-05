@@ -12,7 +12,7 @@ module Facto_decodder(s_addr, s_sel, s_wr, dff_en);
 	parameter RESULT_H = 7'b0100_000;
 	parameter RESULT_L = 7'b1000_000;
 	
-	always @(s_addr or s_sel or s_wr) begin
+	always @(*) begin
 		if (s_sel == 0) dff_en = 0;
 		else begin
 			if (s_addr >= 8'h00 && s_addr < 8'h08) dff_en = START;

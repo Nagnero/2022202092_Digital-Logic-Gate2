@@ -18,6 +18,7 @@ module tb_FactoCore;
 		#10;	s_addr = 16'h7018; s_din = 1;
 		#10;	s_addr = 16'h7000; s_din = 1;
 		while(interrupt == 0) #10;
+		#10;	s_addr = 16'h7028; s_wr = 0;
 		#10;	s_addr = 16'h7030; s_wr = 0;
 		
 		#10	s_wr = 1; s_addr = 16'h7008; s_din = 1;
@@ -26,7 +27,8 @@ module tb_FactoCore;
 		#10;	s_addr = 16'h7018; s_din = 1;
 		#10	s_addr = 16'h7000; s_din = 1;
 		while(interrupt == 0) #10;
-		#0;	s_addr = 16'h7030; s_wr = 0;
+		#10;	s_addr = 16'h7028; s_wr = 0;
+		#10;	s_addr = 16'h7030; s_wr = 0;
 		
 		#10;	s_wr = 1; s_addr = 16'h7008; s_din = 1;
 		#10;	s_din = 0;
@@ -34,7 +36,8 @@ module tb_FactoCore;
 		#10;	s_addr = 16'h7018; s_din = 1;
 		#10;	s_addr = 16'h7000; s_din = 1;
 		while(interrupt == 0) #10;
-		#0;	s_addr = 16'h7030; s_wr = 0;
+		#10;	s_addr = 16'h7028; s_wr = 0;
+		#10;	s_addr = 16'h7030; s_wr = 0;
 		
 		#10;	s_wr = 1; s_addr = 16'h7008; s_din = 1;
 		#10;	s_din = 0;
@@ -42,7 +45,8 @@ module tb_FactoCore;
 		#10;	s_addr = 16'h7018; s_din = 1;
 		#10;	s_addr = 16'h7000; s_din = 1;
 		while(interrupt == 0) #10;
-		#0;	s_addr = 16'h7030; s_wr = 0;
+		#10;	s_addr = 16'h7028; s_wr = 0;
+		#10;	s_addr = 16'h7030; s_wr = 0;
 		
 		#10;	s_wr = 1; s_addr = 16'h7008; s_din = 1;
 		#10;	s_din = 0;
@@ -50,7 +54,8 @@ module tb_FactoCore;
 		#10;	s_addr = 16'h7018; s_din = 1;
 		#10;	s_addr = 16'h7000; s_din = 1;
 		while(interrupt == 0) #10;
-		#0;	s_addr = 16'h7030; s_wr = 0;
+		#10;	s_addr = 16'h7028; s_wr = 0;
+		#10;	s_addr = 16'h7030; s_wr = 0;
 		
 		#10;	s_wr = 1; s_addr = 16'h7008; s_din = 1;
 		#10;	s_din = 0;
@@ -58,7 +63,26 @@ module tb_FactoCore;
 		#10;	s_addr = 16'h7018; s_din = 1;
 		#10;	s_addr = 16'h7000; s_din = 1;
 		while(interrupt == 0) #10;
-		#0;	s_addr = 16'h7030; s_wr = 0;
+		#10;	s_addr = 16'h7028; s_wr = 0;
+		#10;	s_addr = 16'h7030; s_wr = 0;
+		
+		#10	s_wr = 1; s_addr = 16'h7008; s_din = 1;
+		#10;	s_din = 0;
+		#20;	s_addr = 16'h7020; s_din = 1;
+		#10;	s_addr = 16'h7018; s_din = 1;
+		#10	s_addr = 16'h7000; s_din = 1;
+		while(interrupt == 0) #10;
+		#10;	s_addr = 16'h7028; s_wr = 0;
+		#10;	s_addr = 16'h7030; s_wr = 0;
+		
+		#10	s_wr = 1; s_addr = 16'h7008; s_din = 1;
+		#10;	s_din = 0;
+		#20;	s_addr = 16'h7020; s_din = 0;
+		#10;	s_addr = 16'h7018; s_din = 1;
+		#10	s_addr = 16'h7000; s_din = 1;
+		while(interrupt == 0) #10;
+		#10;	s_addr = 16'h7028; s_wr = 0;
+		#10;	s_addr = 16'h7030; s_wr = 0;
 		
 		#50;	$stop;
 	end

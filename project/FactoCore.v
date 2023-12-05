@@ -5,16 +5,18 @@ module FactoCore(clk, reset_n, s_sel, s_wr, s_addr, s_din, s_dout, interrupt);
 	output [63:0] s_dout;
 	output interrupt;
 	
-	wire m_opstart, m_opclear, m_opdone;
-	wire [63:0] opstart, opclear, opdone, intrEn, operand, result_h, result_l;
+	wire [63:0] opstart, opclear, opdone, intrEn, operand, result_h, result_l, opstart_din;
 	wire [63:0] n_opdone, n_result_h, n_result_l;
-	wire [127:0] result;
 	wire [6:0] dff_en;
+	wire opstart_en;
 	
 	// decode address and get each flip flop enable signal
 	Facto_decodder U0_decodder(s_addr[7:0], s_sel, s_wr, dff_en);
 	
-	_dff_r_en_64 dff_opstart(clk, reset_n, dff_en[0], s_din, opstart);
+	mux2 mux_start_en(dff_en[0], 1'b1, opclear[0], opstart_en);
+	mux2_64bit mux_start_din(s_din, 64'b0, opclear[0], opstart_din);
+	
+	_dff_r_en_64 dff_opstart(clk, reset_n, opstart_en, opstart_din, opstart);
 	_dff_r_en_64 dff_opclear(clk, reset_n, dff_en[1], s_din, opclear);
 	_dff_r_en_64 dff_opdone(clk, reset_n, 1'd1, n_opdone, opdone);
 	_dff_r_en_64 dff_intrEn(clk, reset_n, dff_en[3], s_din, intrEn);

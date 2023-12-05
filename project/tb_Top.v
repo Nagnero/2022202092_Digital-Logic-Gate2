@@ -73,7 +73,16 @@ module tb_Top;
 		
 		#10	m_wr = 1; m_addr = 16'h7008; m_dout = 1;	// reset data
 		#10;	m_dout = 0;
-		#20;	m_addr = 16'h7020; m_dout = 72;
+		#20;	m_addr = 16'h7020; m_dout = 200;
+		#10;	m_addr = 16'h7018; m_dout = 1;
+		#10	m_addr = 16'h7000; m_dout = 1;
+		while(interrupt == 0) #10;
+		#10;	m_addr = 16'h7028; m_wr = 0;
+		#10;	m_addr = 16'h7030; m_wr = 0;
+		
+		#10	m_wr = 1; m_addr = 16'h7008; m_dout = 1;	// reset data
+		#10;	m_dout = 0;
+		#20;	m_addr = 16'h7020; m_dout = 299;
 		#10;	m_addr = 16'h7018; m_dout = 1;
 		#10	m_addr = 16'h7000; m_dout = 1;
 		while(interrupt == 0) #10;
