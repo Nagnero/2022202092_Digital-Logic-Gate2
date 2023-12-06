@@ -40,9 +40,9 @@ vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Dig
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/_dff_r_7.v}
 vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/mux7.v}
 
-vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_BUS.v}
+vlog -vlog01compat -work work +incdir+C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project {C:/Users/david/Desktop/code/2022202092_Digital-Logic-Gate2/project/tb_Top.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_BUS
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_Top
 
 add wave *
 view structure

@@ -21,7 +21,6 @@ module tb_BUS;
 		#7;	reset_n = 1; m_addr = 16'h0001; 
 		
 		#10;	m_addr = 16'hfff0; m_req = 1;
-		#50;
 		
 		#10;	m_addr = 16'h0000; m_dout = 0; m_req = 0; m_wr = 0;
 		#10;	m_wr = 1;
@@ -31,6 +30,14 @@ module tb_BUS;
 		#10;	m_addr = 16'h0020; m_wr = 1; m_dout = 64'h0000_0000_0000_3333;
 		#10;	m_addr = 16'h0010; m_wr = 0;
 		#10;	m_addr = 16'h0020; m_wr = 0;
+		
+		#10;	m_addr = 16'h7000; m_dout = 0; m_req = 0; m_wr = 0;
+		#10;	m_req = 1; m_wr = 1; m_dout = 1;
+		#10;	m_wr = 0;
+		#10;	m_addr = 16'h7008; m_wr = 1; m_dout = 64'h0000_0000_0000_2222;
+		#10;	m_addr = 16'h7010; m_wr = 1; m_dout = 64'h0000_0000_0000_3333;
+		#10;	m_addr = 16'h7018; m_wr = 0;
+		#10;	m_addr = 16'h7020; m_wr = 0;
       
 		#10;	$stop;
    end
